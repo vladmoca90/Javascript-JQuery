@@ -5,7 +5,7 @@
     });
     $("#box-list").addClass("list-unstyled").css({
         "text-align": "center",
-        "font-size": "15px",
+        "font-size": "16px",
         "font-family": "Verdana"
     });
     $("#box-list>li").css({
