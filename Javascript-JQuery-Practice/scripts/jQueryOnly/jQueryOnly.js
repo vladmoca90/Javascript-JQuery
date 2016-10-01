@@ -1,3 +1,3 @@
 ﻿$(document).ready(function () {
-    $("ul").addClass("list-unstyled");
+    $("#box").width(350).height(400).addClass("center-block");
 });
