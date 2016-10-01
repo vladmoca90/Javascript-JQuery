@@ -6,4 +6,7 @@
         "font-size": "15px",
         "font-family": "Verdana"
     });
+    $("#box-list>li").css({
+        "padding-top": "5px"
+    });
 });
