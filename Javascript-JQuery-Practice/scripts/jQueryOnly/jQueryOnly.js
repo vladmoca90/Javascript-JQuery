@@ -7,6 +7,6 @@
         "font-family": "Verdana"
     });
     $("#box-list>li").css({
-        "padding-top": "5px"
+        "padding-top": "10px"
     });
 });
