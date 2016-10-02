@@ -10,7 +10,10 @@
         "font-family": "Verdana"
     });
     $("#box-list").children("li.first").css("font-weight", "bold");
-    $("#box-list").children("li.second").css("font-style", "italic");
+    $("#box-list").children("li.second").css({
+        "font-style": "italic",
+        "color": "#FF0000"
+    });
     $("#box-list>li").css({
         "padding-top": "10px"
     });
