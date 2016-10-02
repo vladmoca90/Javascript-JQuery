@@ -23,7 +23,7 @@ h1 {
       float: left; }
     #conversation .container .alexTime,
     #conversation .container .vladTime {
-      margin-top: 3.5%;
+      margin: 3.5% 0% 0% 2.5%;
       font-weight: bold;
       color: lightslategrey; }
     #conversation .container .delete-button {
