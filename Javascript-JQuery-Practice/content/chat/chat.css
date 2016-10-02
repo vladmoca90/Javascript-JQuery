@@ -26,4 +26,7 @@
     padding: 5px; }
   #conversation .text {
     width: 70%; }
+  #conversation .picture,
+  #conversation .time {
+    width: 10%; }
 
