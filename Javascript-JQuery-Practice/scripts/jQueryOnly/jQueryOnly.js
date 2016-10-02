@@ -8,7 +8,9 @@
         "text-align": "center",
         "font-size": "16px",
         "font-family": "Verdana"
-    }).children("li.first").css("font-weight", "bold");
+    });
+    $("#box-list").children("li.first").css("font-weight", "bold");
+    $("#box-list").children("li.second").css("font-style", "italic");
     $("#box-list>li").css({
         "padding-top": "10px"
     });
