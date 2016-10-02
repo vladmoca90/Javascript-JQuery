@@ -14,6 +14,9 @@
         "font-style": "italic",
         "color": "#FF0000"
     });
+    $("#box-list").children("li").not("li.second").click(function () {
+        $(this).css("color", "blue");
+    });
     $("#box-list>li").css({
         "padding-top": "10px"
     });
