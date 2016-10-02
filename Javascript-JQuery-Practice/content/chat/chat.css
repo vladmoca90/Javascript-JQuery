@@ -20,6 +20,9 @@ h1 {
     #conversation .container .vladText,
     #conversation .container .vladTime {
       float: left; }
+    #conversation .container .delete-button {
+      font-size: 22px;
+      color: red; }
   #conversation .alexText,
   #conversation .vladText {
     background-color: lightgray;
