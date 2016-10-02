@@ -33,10 +33,14 @@ h1 {
             color: red;
         }
     }
+    .alexText {
+        background: #F0F4F8;
+    }
+    .vladText {
+        background: #C7EDFC;
+    }
     .alexText,
     .vladText {
-        background-color: lightgray;
-        border: 1px solid black;
         padding: 5px;
     }
     .text {
