@@ -8,6 +8,8 @@
         "text-align": "center",
         "font-size": "16px",
         "font-family": "Verdana"
+    }).children("li").eq(5).css({
+        "font-weight": "bold"
     });
     $("#box-list>li").css({
         "padding-top": "10px"
