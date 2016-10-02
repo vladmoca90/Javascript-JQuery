@@ -34,7 +34,8 @@ h1 {
     background: #C7EDFC; }
   #conversation .alexText,
   #conversation .vladText {
-    padding: 5px; }
+    padding: 10px;
+    border-radius: 5px; }
   #conversation .text {
     width: 70%; }
   #conversation .picture,
