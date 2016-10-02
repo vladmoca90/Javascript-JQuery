@@ -12,4 +12,11 @@
     width: 100%;
     float: left;
     clear: both; }
+    #conversation .container .alex > .picture,
+    #conversation .container .alexText,
+    #conversation .container .alexTime,
+    #conversation .container .vlad > .picture,
+    #conversation .container .vladText,
+    #conversation .container .vladTime {
+      float: left; }
 
