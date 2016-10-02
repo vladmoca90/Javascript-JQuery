@@ -22,6 +22,11 @@ h1 {
         .vladTime {
             float: left; 
         }
+        .alexTime,
+        .vladTime {
+            font-weight: bold;
+            color: lightslategrey;
+        }
         .delete-button {
             font-size: 22px;
             color: red;
