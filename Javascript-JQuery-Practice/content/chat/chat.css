@@ -28,7 +28,8 @@ h1 {
       color: lightslategrey; }
     #conversation .container .delete-button {
       font-size: 24px;
-      color: red; }
+      color: red;
+      margin-left: 2%; }
   #conversation .alexText {
     background: #F0F4F8; }
   #conversation .vladText {
