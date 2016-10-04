@@ -36,17 +36,17 @@ h1 {
             margin-left: 2%;
         }
     }
-    .alexText {
-        background: #F0F4F8;
-    }
-    .vladText {
-        background: #C7EDFC;
-    }
     .alexText,
     .vladText {
         margin-top: 13px;
         padding: 10px;
         border-radius: 5px;
+    }
+    .alexText {
+        background: #F0F4F8;
+    }
+    .vladText {
+        background: #C7EDFC;
     }
     .text {
         width: 70%;

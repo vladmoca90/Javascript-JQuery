@@ -31,15 +31,15 @@ h1 {
       font-size: 24px;
       color: red;
       margin-left: 2%; }
-  #conversation .alexText {
-    background: #F0F4F8; }
-  #conversation .vladText {
-    background: #C7EDFC; }
   #conversation .alexText,
   #conversation .vladText {
     margin-top: 13px;
     padding: 10px;
     border-radius: 5px; }
+  #conversation .alexText {
+    background: #F0F4F8; }
+  #conversation .vladText {
+    background: #C7EDFC; }
   #conversation .text {
     width: 70%; }
   #conversation .picture,
