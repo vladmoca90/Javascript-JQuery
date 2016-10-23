@@ -1,7 +1,7 @@
 ﻿#form-validation {
   width: 100%;
   max-width: 500px;
-  margin: auto; }
+  margin: 3% auto; }
   #form-validation input[type="text"],
   #form-validation input[type="password"],
   #form-validation input[type="email"] {
