@@ -4,10 +4,14 @@
   width: 100%; }
 
 #form-validation {
-  max-width: 400px;
-  margin: 3% auto; }
+  max-width: 450px;
+  margin: 3% auto;
+  border: 1px solid #CCCCCC;
+  padding: 10px; }
   #form-validation div {
-    line-height: 34px; }
+    line-height: 34px;
+    margin-left: 0px;
+    margin-right: 0px; }
   #form-validation input[type="text"],
   #form-validation input[type="password"],
   #form-validation input[type="email"] {
