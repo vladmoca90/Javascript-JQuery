@@ -31,7 +31,7 @@
 
 .location-container,
 .buttons-container {
-  margin-left: 5%;
+  margin-left: 5% !important;
   float: left; }
 
 .location-container {
