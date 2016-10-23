@@ -4,7 +4,9 @@
     width: $maxWidth;
     max-width: 600px;
     margin: auto;
-    input[type="text"] {
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
         width: 75%;
     }
 }
