@@ -1,2 +1,7 @@
-﻿body {
+﻿$maxWidth: 100%;
+
+#form-validation {
+    width: $maxWidth;
+    max-width: 600px;
+    margin:auto;
 }
