@@ -1,4 +1,5 @@
 ﻿#form-validation,
+.location-container,
 .buttons-container {
   width: 100%; }
 
@@ -24,8 +25,14 @@
   #form-validation label {
     float: left; }
 
+.location-container,
 .buttons-container {
-  max-width: 130px;
   margin-left: 5%;
   float: left; }
+
+.location-container {
+  max-width: 180px; }
+
+.buttons-container {
+  max-width: 130px; }
 
