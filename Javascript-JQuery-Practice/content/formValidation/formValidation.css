@@ -6,4 +6,7 @@
   #form-validation input[type="password"],
   #form-validation input[type="email"] {
     width: 75%; }
+  #form-validation label,
+  #form-validation input {
+    float: left; }
 

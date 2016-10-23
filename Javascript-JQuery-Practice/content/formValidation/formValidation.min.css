@@ -1,1 +1,1 @@
-﻿#form-validation{width:100%;max-width:600px;margin:auto;}#form-validation input[type="text"],#form-validation input[type="password"],#form-validation input[type="email"]{width:75%;}
+﻿#form-validation{width:100%;max-width:600px;margin:auto;}#form-validation input[type="text"],#form-validation input[type="password"],#form-validation input[type="email"]{width:75%;}#form-validation label,#form-validation input{float:left;}

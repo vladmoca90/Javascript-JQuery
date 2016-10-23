@@ -9,4 +9,8 @@
     input[type="email"] {
         width: 75%;
     }
+    label,
+    input {
+        float: left;
+    }
 }
