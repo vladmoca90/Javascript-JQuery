@@ -48,3 +48,7 @@
 .buttons-container {
     max-width: 130px;
 }
+button[type="submit"],
+button[type="reset"] {
+    margin: auto;
+}
