@@ -8,9 +8,9 @@
     input[type="password"],
     input[type="email"] {
         width: 65%;
+        float: right;
     }
-    label,
-    input {
+    label {
         float: left;
     }
 }
