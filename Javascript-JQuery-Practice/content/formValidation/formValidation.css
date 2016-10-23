@@ -11,7 +11,7 @@
   #form-validation input[type="date"] {
     width: 37%; }
   #form-validation input[name="age"] {
-    width: 25%; }
+    width: 10%; }
   #form-validation input[type="text"],
   #form-validation input[type="password"],
   #form-validation input[type="email"],
