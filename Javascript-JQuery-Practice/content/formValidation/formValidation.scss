@@ -4,6 +4,9 @@
     width: $maxWidth;
     max-width: 500px;
     margin: 3% auto;
+    div {
+        line-height: 34px;
+    }
     input[type="text"],
     input[type="password"],
     input[type="email"] {
