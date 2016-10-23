@@ -2,5 +2,9 @@
   {
     "outputFile": "content/chat/chat.css",
     "inputFile": "content/chat/chat.scss"
+  },
+  {
+    "outputFile": "content/formValidation/formValidation.css",
+    "inputFile": "content/formValidation/formValidation.scss"
   }
 ]
