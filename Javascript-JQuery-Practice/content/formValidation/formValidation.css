@@ -21,3 +21,8 @@
   #form-validation label {
     float: left; }
 
+.buttons-container {
+  width: 100%;
+  max-width: 220px;
+  float: left; }
+
