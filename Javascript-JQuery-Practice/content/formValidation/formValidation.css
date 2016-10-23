@@ -5,7 +5,7 @@
   #form-validation input[type="text"],
   #form-validation input[type="password"],
   #form-validation input[type="email"] {
-    width: 75%; }
+    width: 65%; }
   #form-validation label,
   #form-validation input {
     float: left; }
