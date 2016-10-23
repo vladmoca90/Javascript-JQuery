@@ -24,5 +24,6 @@
 .buttons-container {
   width: 100%;
   max-width: 130px;
+  margin-left: 5%;
   float: left; }
 
