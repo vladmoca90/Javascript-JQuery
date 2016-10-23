@@ -8,9 +8,10 @@
   #form-validation input[type="password"],
   #form-validation input[type="email"] {
     width: 75%; }
-  #form-validation input[name="age"],
+  #form-validation input[name="age"] {
+    width: 33%; }
   #form-validation input[type="date"] {
-    width: 45%; }
+    width: 25%; }
   #form-validation input[type="text"],
   #form-validation input[type="password"],
   #form-validation input[type="email"],

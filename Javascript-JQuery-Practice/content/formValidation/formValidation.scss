@@ -12,9 +12,11 @@
     input[type="email"] {
         width: 75%;
     }
-    input[name="age"],
+    input[name="age"] {
+        width: 33%;
+    }
     input[type="date"] {
-        width: 45%;
+        width: 25%;
     }
     input[type="text"],
     input[type="password"],
