@@ -3,5 +3,8 @@
 #form-validation {
     width: $maxWidth;
     max-width: 600px;
-    margin:auto;
+    margin: auto;
+    input[type="text"] {
+        width: 75%;
+    }
 }
