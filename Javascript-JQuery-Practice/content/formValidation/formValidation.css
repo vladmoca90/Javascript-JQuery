@@ -7,7 +7,7 @@
   max-width: 450px;
   margin: 3% auto;
   border: 1px solid #CCCCCC;
-  padding: 10px; }
+  padding: 1%; }
   #form-validation div {
     line-height: 34px;
     margin-left: 0px;
@@ -40,7 +40,6 @@
 .buttons-container {
   max-width: 130px; }
 
-button[type="submit"],
-button[type="reset"] {
+button {
   margin: auto; }
 
