@@ -2,7 +2,8 @@
 
 #form-validation,
 .location-container,
-.buttons-container {
+.buttons-container,
+.submit-reset {
     width: $maxWidth;
 }
 #form-validation {
@@ -10,7 +11,7 @@
     margin: 3% auto;
     border: 1px solid #CCCCCC;
     padding: 1%;
-    div {
+    div[class="form-group"] {
         line-height: 34px;
         margin-left: 0px;
         margin-right: 0px;
@@ -48,6 +49,9 @@
 .buttons-container {
     max-width: 130px;
 }
-button {
+.submit-reset {
+    max-width: 150px;
+    clear: both;
+    display: block;
     margin: auto;
 }
