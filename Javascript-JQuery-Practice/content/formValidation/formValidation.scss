@@ -2,12 +2,12 @@
 
 #form-validation {
     width: $maxWidth;
-    max-width: 600px;
+    max-width: 500px;
     margin: auto;
     input[type="text"],
     input[type="password"],
     input[type="email"] {
-        width: 65%;
+        width: 75%;
         float: right;
     }
     label {
