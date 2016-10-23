@@ -9,6 +9,8 @@
   #form-validation input[type="email"] {
     width: 75%;
     float: right; }
+  #form-validation input[name="age"] {
+    width: 45%; }
   #form-validation label {
     float: left; }
 
