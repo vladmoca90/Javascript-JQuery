@@ -11,10 +11,17 @@
     input[type="password"],
     input[type="email"] {
         width: 75%;
-        float: right;
     }
-    input[name="age"] {
+    input[name="age"],
+    input[type="date"] {
         width: 45%;
+    }
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[name="age"],
+    input[type="date"] {
+        float: right;
     }
     label {
         float: left;

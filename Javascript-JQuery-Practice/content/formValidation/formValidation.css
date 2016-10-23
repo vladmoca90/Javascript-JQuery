@@ -7,10 +7,16 @@
   #form-validation input[type="text"],
   #form-validation input[type="password"],
   #form-validation input[type="email"] {
-    width: 75%;
-    float: right; }
-  #form-validation input[name="age"] {
+    width: 75%; }
+  #form-validation input[name="age"],
+  #form-validation input[type="date"] {
     width: 45%; }
+  #form-validation input[type="text"],
+  #form-validation input[type="password"],
+  #form-validation input[type="email"],
+  #form-validation input[name="age"],
+  #form-validation input[type="date"] {
+    float: right; }
   #form-validation label {
     float: left; }
 
