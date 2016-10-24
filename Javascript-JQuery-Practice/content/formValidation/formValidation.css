@@ -5,10 +5,10 @@
   width: 100%; }
 
 #form-validation {
-  max-width: 450px;
+  max-width: 500px;
   margin: 3% auto;
   border: 1px solid #CCCCCC;
-  padding: 1%; }
+  padding: 2%; }
   #form-validation div[class="form-group"] {
     line-height: 34px;
     margin-left: 0px;
