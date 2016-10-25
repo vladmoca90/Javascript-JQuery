@@ -30,7 +30,7 @@
 
 #form-validation label,
 input[name="age"],
-input[type="date"],
+input[name="dateOfBirth"],
 .location-container,
 .buttons-container {
   float: left; }
