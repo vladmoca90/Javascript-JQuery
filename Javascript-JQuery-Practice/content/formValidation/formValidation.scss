@@ -24,6 +24,13 @@
     }
     input[type="text"],
     input[type="password"],
+    input[type="email"],
+    input[name="age"],
+    input[type="date"] {
+        float: right;
+    }
+    input[type="text"],
+    input[type="password"],
     input[type="email"] {
         width: 75%;
     }
@@ -32,13 +39,6 @@
     }
     input[name="age"] {
         width: 10%;
-    }
-    input[type="text"],
-    input[type="password"],
-    input[type="email"],
-    input[name="age"],
-    input[type="date"] {
-        float: right;
     }
 }
 .buttons-container {
