@@ -14,7 +14,8 @@
     line-height: 34px;
     margin-left: 0px;
     margin-right: 0px; }
-  #form-validation input[type="text"],
+  #form-validation input[name="firstName"],
+  #form-validation input[name="lastName"],
   #form-validation input[type="password"],
   #form-validation input[type="email"] {
     float: right; }
