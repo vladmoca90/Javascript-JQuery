@@ -12,6 +12,7 @@
 #form-validation {
   max-width: 500px;
   margin: 3% auto;
+  background: #F6F6F6;
   border: 1px solid #CCCCCC;
   padding: 2%; }
   #form-validation div[class="form-group"] {
