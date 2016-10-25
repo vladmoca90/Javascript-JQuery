@@ -41,6 +41,9 @@ input[name="dateOfBirth"],
 input[name="dateOfBirth"] {
   margin-left: 5%; }
 
+input[name="age"] {
+  margin-left: 18%; }
+
 .location-container {
   max-width: 200px;
   margin-left: 10% !important; }
