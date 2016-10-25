@@ -4,11 +4,6 @@
 .submit-reset {
   width: 100%; }
 
-#form-validation label,
-.location-container,
-.buttons-container {
-  float: left; }
-
 #form-validation {
   max-width: 500px;
   margin: 3% auto;
@@ -21,9 +16,7 @@
     margin-right: 0px; }
   #form-validation input[type="text"],
   #form-validation input[type="password"],
-  #form-validation input[type="email"],
-  #form-validation input[name="age"],
-  #form-validation input[type="date"] {
+  #form-validation input[type="email"] {
     float: right; }
   #form-validation input[type="text"],
   #form-validation input[type="password"],
@@ -33,6 +26,13 @@
     width: 37%; }
   #form-validation input[name="age"] {
     width: 10%; }
+
+#form-validation label,
+input[name="age"],
+input[type="date"],
+.location-container,
+.buttons-container {
+  float: left; }
 
 .buttons-container {
   margin-left: 5% !important; }
