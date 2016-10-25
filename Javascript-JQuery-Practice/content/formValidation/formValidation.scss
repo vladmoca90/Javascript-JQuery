@@ -6,6 +6,11 @@
 .submit-reset {
     width: $maxWidth;
 }
+#form-validation label,
+.location-container,
+.buttons-container {
+    float: left;
+}
 #form-validation {
     max-width: 500px;
     margin: 3% auto;
@@ -34,14 +39,10 @@
     input[type="date"] {
         float: right;
     }
-    label {
-        float: left;
-    }
 }
 .location-container,
 .buttons-container {
     margin-left: 5% !important;
-    float: left;
 }
 .location-container {
     max-width: 200px;
