@@ -32,7 +32,7 @@ function mail() {
     }
 }
 
-function password() {
+function passwrd() {
     var p1 = document.getElementsByName("pass")[0].value;
     var p2 = document.getElementsByName("pass")[0].value;
 
