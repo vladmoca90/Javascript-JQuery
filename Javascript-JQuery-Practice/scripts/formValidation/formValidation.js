@@ -31,3 +31,19 @@ function mail() {
         document.getElementsByTagName("span")[1].innerHTML = "";
     }
 }
+
+function password() {
+    var p1 = document.getElementsByName("pass")[0].value;
+    var p2 = document.getElementsByName("pass")[0].value;
+
+    if (p1.length < 6) {
+        document.getElementsByTagName("span")[2].innerHTML = "Parola prea scurta";
+    } else {
+        document.getElementsByTagName("span")[2].innerHTML = "";
+    }
+    if (p1 != p2) {
+        document.getElementsByTagName("span")[3].innerHTML = "Parola neverificata!";
+    } else {
+        document.getElementsByTagName("span")[3].innerHTML = "";
+    }
+}
