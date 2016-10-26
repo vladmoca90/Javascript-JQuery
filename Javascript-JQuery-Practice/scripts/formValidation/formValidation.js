@@ -1,5 +1,7 @@
 ﻿function firstName() {
+
     var firstN = document.getElementsByName("firstName")[0].value;
+
     if (firstN.length < 3) {
         document.getElementsByTagName("span")[0].innerHTML = "Your first name is too short!";
     }
@@ -9,7 +11,9 @@
 }
 
 function lastName() {
+
     var lastN = document.getElementsByName("lastName")[0].value;
+
     if (lastN.length < 3) {
         document.getElementsByTagName("span")[0].innerHTML = "Your last name is too short!";
     }
@@ -19,7 +23,9 @@ function lastName() {
 }
 
 function mail() {
+
     var emailValid = document.getElementsByName("validEmail")[0].value;
+
     if (
         emailValid.indexOf("@") <= 0 ||
         emailValid.indexOf("@") != emailValid.lastIndexOf("@") ||
@@ -36,6 +42,7 @@ function mail() {
 }
 
 function passwrd() {
+
     var p1 = document.getElementsByName("pass")[0].value;
     var p2 = document.getElementsByName("pass")[0].value;
 
