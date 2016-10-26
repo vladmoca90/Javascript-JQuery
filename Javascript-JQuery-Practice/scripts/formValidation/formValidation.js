@@ -2,7 +2,8 @@
     var firstN = document.getElementsByName("firstName")[0].value;
     if (firstN.length < 3) {
         document.getElementsByTagName("span")[0].innerHTML = "Your first name is too short!";
-    } else {
+    }
+    else {
         document.getElementsByTagName("span")[0].innerHTML = "";
     }
 }
@@ -11,7 +12,8 @@ function lastName() {
     var lastN = document.getElementsByName("lastName")[0].value;
     if (lastN.length < 3) {
         document.getElementsByTagName("span")[0].innerHTML = "Your last name is too short!";
-    } else {
+    }
+    else {
         document.getElementsByTagName("span")[0].innerHTML = "";
     }
 }
@@ -27,7 +29,8 @@ function mail() {
         emailValid.indexOf(" ") >= 0
     ) {
         document.getElementsByTagName("span")[1].innerHTML = "Email is not valid!";
-    } else {
+    }
+    else {
         document.getElementsByTagName("span")[1].innerHTML = "";
     }
 }
@@ -38,12 +41,14 @@ function passwrd() {
 
     if (p1.length < 6) {
         document.getElementsByTagName("span")[2].innerHTML = "Parola prea scurta";
-    } else {
+    }
+    else {
         document.getElementsByTagName("span")[2].innerHTML = "";
     }
     if (p1 != p2) {
         document.getElementsByTagName("span")[3].innerHTML = "Parola neverificata!";
-    } else {
+    }
+    else {
         document.getElementsByTagName("span")[3].innerHTML = "";
     }
 }
