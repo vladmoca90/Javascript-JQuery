@@ -1,6 +1,6 @@
 ﻿$(document).ready(function () {
 
-    $("#box").width(450).height(400).addClass("center-block").css({
+    $("#box").width(400).height(400).addClass("center-block").css({
         "margin-top": "5%",
         "border": "1px solid #000000",
         "background": "gold"
