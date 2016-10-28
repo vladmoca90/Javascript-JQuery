@@ -22,7 +22,7 @@ function lastName() {
     }
 }
 
-function mail() {
+function mailValidation() {
 
     var emailValid = document.getElementsByName("validEmail")[0].value;
 
