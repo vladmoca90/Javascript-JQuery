@@ -41,7 +41,7 @@ function mail() {
     }
 }
 
-function passwrd() {
+function passValidation() {
 
     var p1 = document.getElementsByName("pass")[0].value;
     var p2 = document.getElementsByName("pass")[0].value;
