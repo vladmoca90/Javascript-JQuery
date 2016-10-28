@@ -24,7 +24,7 @@ function lastName() {
 
 function mailValidation() {
 
-    var emailValid = document.getElementsByName("validEmail")[0].value;
+    var emailValid = document.getElementsByName("mail")[0].value;
 
     if (
         emailValid.indexOf("@") <= 0 ||
