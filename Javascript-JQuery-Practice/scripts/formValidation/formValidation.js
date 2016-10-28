@@ -12,7 +12,7 @@
 
 function lastName() {
 
-    var lastN = document.getElementsByName("lastName")[1].value;
+    var lastN = document.getElementsByName("lastName")[0].value;
 
     if (lastN.length < 3) {
         document.getElementsByTagName("span")[1].innerHTML = "Your last name is too short!";
