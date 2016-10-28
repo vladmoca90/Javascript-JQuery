@@ -47,13 +47,13 @@ function passwrd() {
     var p2 = document.getElementsByName("pass")[0].value;
 
     if (p1.length < 6) {
-        document.getElementsByTagName("span")[2].innerHTML = "Parola prea scurta";
+        document.getElementsByTagName("span")[2].innerHTML = "Password too short!";
     }
     else {
         document.getElementsByTagName("span")[2].innerHTML = "";
     }
     if (p1 != p2) {
-        document.getElementsByTagName("span")[3].innerHTML = "Parola neverificata!";
+        document.getElementsByTagName("span")[3].innerHTML = "Password is not checked!";
     }
     else {
         document.getElementsByTagName("span")[3].innerHTML = "";
