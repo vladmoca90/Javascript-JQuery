@@ -12,13 +12,13 @@
 
 function lastName() {
 
-    var lastN = document.getElementsByName("lastName")[0].value;
+    var lastN = document.getElementsByName("lastName")[1].value;
 
     if (lastN.length < 3) {
-        document.getElementsByTagName("span")[0].innerHTML = "Your last name is too short!";
+        document.getElementsByTagName("span")[1].innerHTML = "Your last name is too short!";
     }
     else {
-        document.getElementsByTagName("span")[0].innerHTML = "";
+        document.getElementsByTagName("span")[1].innerHTML = "";
     }
 }
 
@@ -34,10 +34,10 @@ function mail() {
         emailValid.lastIndexOf(".") < (emailValid.length - 5) ||
         emailValid.indexOf(" ") >= 0
     ) {
-        document.getElementsByTagName("span")[1].innerHTML = "Email is not valid!";
+        document.getElementsByTagName("span")[3].innerHTML = "Email is not valid!";
     }
     else {
-        document.getElementsByTagName("span")[1].innerHTML = "";
+        document.getElementsByTagName("span")[3].innerHTML = "";
     }
 }
 
@@ -64,8 +64,8 @@ function ageValidation() {
 
     var age = document.getElementsByName("age")[0].value;
 
-    if (age >= 18) { document.getElementsByTagName("span")[2].innerHTML = "Good! You are over 18."; }
+    if (age >= 18) { document.getElementsByTagName("span")[4].innerHTML = "Good! You are over 18."; }
 
-    else { document.getElementsByTagName("span")[2].innerHTML = "You must be over 18 to complete the form!"; }
+    else { document.getElementsByTagName("span")[4].innerHTML = "You must be over 18 to complete the form!"; }
     ;
 }
