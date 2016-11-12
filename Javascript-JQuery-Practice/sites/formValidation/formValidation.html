@@ -30,37 +30,37 @@
 <body>
 
     <form role="form" class="form-horizontal form-validation">
-        <div class="form-group">
+        <div role="group" class="form-group">
             <label for="firstName">First Name:</label>
             <input role="textbox" class="form-control" type="text" name="firstName" id="firstName" onblur="firstName()" aria-required="true" />
             <span></span>
         </div>
-        <div class="form-group">
+        <div role="group" class="form-group">
             <label for="lastName">Last Name:</label>
             <input role="textbox" class="form-control" type="text" name="lastName" id="lastName" onblur="lastName()" aria-required="true" />
             <span></span>
         </div>
-        <div class="form-group">
+        <div role="group" class="form-group">
             <label for="validEmail">Email:</label>
             <input role="textbox" class="form-control" type="email" name="mail" id="mail" onblur="mailValidation()" aria-required="true" />
             <span></span>
         </div>
-        <div class="form-group">
+        <div role="group" class="form-group">
             <label for="pass">Password:</label>
             <input role="textbox" class="form-control" type="password" name="pass" id="pass" onblur="passValidation()" aria-required="true" />
             <span></span>
             <span></span>
         </div>
-        <div class="form-group">
+        <div role="group" class="form-group">
             <label for="dateOfBirth">Date of birth:</label>
             <input class="form-control" type="date" name="dateOfBirth" id="dateOfBirth" aria-required="false" />
         </div>
-        <div class="form-group">
+        <div role="group" class="form-group">
             <label for="age">Age:</label>
             <input role="textbox" class="form-control" type="text" name="age" id="age" aria-required="false" />
             <span></span>
         </div>
-        <div class="form-group">
+        <div role="group" class="form-group">
             <label for="location">Location:</label>
             <div class="location-container">
                 <select class="form-control">
@@ -74,7 +74,7 @@
                 </select>
             </div>
         </div>
-        <div class="form-group">
+        <div role="group" class="form-group">
             <label for="occupation">Occupation:</label>
             <div class="buttons-container" role="radiogroup">
                 Employed: <input role="radio" type="radio" name="occupation" aria-checked="true" /> <br />
@@ -84,7 +84,7 @@
                 Disabled: <input role="radio" type="radio" name="occupation" aria-checked="false" />
             </div>
         </div>
-        <div class="form-group">
+        <div role="group" class="form-group">
             <label for="languages">Languages:</label>
             <div class="buttons-container">
                 English: <input role="checkbox" type="checkbox" name="languages" aria-checked="false" /> <br />
@@ -94,11 +94,11 @@
                 Italian: <input role="checkbox" type="checkbox" name="languages" aria-checked="false" />
             </div>
         </div>
-        <div class="form-group">
+        <div role="group" class="form-group">
             <label for="personalNote">Personal note:</label>
             <textarea role="textbox" rows="3" cols="50"></textarea>
         </div>
-        <div class="submit-reset">
+        <div role="group" class="submit-reset">
             <button role="button" type="submit">Submit</button>
             <button role="button" type="reset">Reset</button>
         </div>
