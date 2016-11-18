@@ -1,8 +1,8 @@
 ﻿$(document).ready(function () {
     $("table").width(400).addClass("table table-bordered").css("margin", "auto");
-    $("td").css({
+    $("th, td").css({
         "text-align": "center",
-        "font-size": "16px",
+        "font-size": "15px",
         "font-family": "Tahoma"
     });
 });
