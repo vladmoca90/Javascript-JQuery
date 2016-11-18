@@ -1,7 +1,7 @@
 ﻿$maxWidth: 100%;
 
 #form-validation,
-.location-container,
+#location-container,
 .buttons-container,
 .submit-reset {
     width: $maxWidth;
@@ -38,7 +38,7 @@
 #form-validation label,
 input[name="age"],
 input[name="dateOfBirth"],
-.location-container,
+#location-container,
 .buttons-container {
     float: left;
 }
@@ -51,7 +51,7 @@ input[name="dateOfBirth"] {
 input[name="age"] {
     margin-left: 18%;
 }
-.location-container {
+#location-container {
     max-width: 200px;
     margin-left: 10% !important;
 }
