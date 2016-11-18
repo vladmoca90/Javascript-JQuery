@@ -8,7 +8,7 @@ h1 {
   margin: auto;
   font-family: Tahoma; }
   #conversation .container {
-    border: 1px solid red;
+    border: 1px solid #FF0000;
     padding: 5px;
     margin-top: 5px;
     width: 100%;
@@ -29,7 +29,7 @@ h1 {
       color: lightslategrey; }
     #conversation .container .delete-button {
       font-size: 24px;
-      color: red;
+      color: #FF0000;
       margin-left: 2%; }
   #conversation .alexText,
   #conversation .vladText {
