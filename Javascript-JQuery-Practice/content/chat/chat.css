@@ -5,7 +5,7 @@ h1 {
 #conversation {
   width: 100%;
   max-width: 650px;
-  margin: auto;
+  margin: 3% auto;
   font-family: Tahoma; }
   #conversation .container {
     border: 1px solid #FF0000;
