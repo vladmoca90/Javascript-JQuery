@@ -129,10 +129,10 @@
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="scripts\chat\chat.js" />
     <Content Include="scripts\formValidation\formValidation.js" />
-    <Content Include="scripts\jQueryOnly\jQueryOnly.js" />
+    <Content Include="scripts\jQueryOnlyYellowSquareLists\jQueryOnlyYellowSquareLists.js" />
     <Content Include="sites\chat\chat.html" />
     <Content Include="sites\formValidation\formValidation.html" />
-    <Content Include="sites\jQueryOnly\jQueryOnly.html" />
+    <Content Include="sites\jQueryOnlyYellowSquareLists\jQueryOnlyYellowSquareLists.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
