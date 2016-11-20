@@ -1,6 +1,9 @@
 ﻿$(document).ready(function () {
 
-    $("table").width(450).addClass("table table-hover").css("margin", "auto");
+    $("table").width(450).addClass("table table-hover").css({
+        "margin": "auto",
+        "border": "1px solid #DDDDDD"
+    });
 
     $("td").css("cursor", "pointer");
 
