@@ -5,6 +5,8 @@
         "border": "1px solid #DDDDDD"
     });
 
+    $("tr>td").css("border-right", "1px solid #DDDDDD").not(".country");
+
     $("td").css("cursor", "pointer");
 
     $("th, td").addClass("text-center").css({
