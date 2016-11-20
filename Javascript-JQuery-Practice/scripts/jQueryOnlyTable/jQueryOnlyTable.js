@@ -12,6 +12,6 @@
         "font-family": "Tahoma",
     });
 
-    $('tr[title="Thomas Nicholas"], tr[title="Alexandru Anton"], tr[title="Julie Sparks"]').addClass("warning");
+    $('tr[title="Thomas Nicholas"], tr[title="Alexandru Anton"], tr[title="Julie Sparks"], tr[title="Katrin Basch"]').addClass("warning");
 
 });
