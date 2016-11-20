@@ -2,7 +2,8 @@
 
     $("table").width(450).addClass("table table-hover").css("margin", "auto");
 
-    $("td").css("cursor", "pointer").eq(12).css("color", "#FF0000");
+    $("td").css("cursor", "pointer")
+     .eq(12).css("color", "#FF0000");
 
     $("th, td").css({
         "text-align": "center",
