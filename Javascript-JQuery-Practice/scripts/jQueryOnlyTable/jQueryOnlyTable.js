@@ -13,10 +13,6 @@
         "font-family": "Tahoma",
     });
 
-    $('tr[title="Thomas Nicholas"]').addClass("warning");
-
-    $('tr[title="Alexandru Anton"]').addClass("warning");
-
-    $('tr[title="Julie Sparks"]').addClass("warning");
+    $('tr[title="Thomas Nicholas"], tr[title="Alexandru Anton"], tr[title="Julie Sparks"]').addClass("warning");
 
 });
