@@ -7,7 +7,6 @@
     });
 
     $("#box-list").addClass("list-unstyled").css({
-        "text-align": "center",
         "font-size": "16px",
         "font-family": "Verdana"
     });
@@ -23,7 +22,7 @@
         $(this).css("color", "blue");
     });
 
-    $("#box-list>li").css({
+    $("#box-list>li").addClass("text-center").css({
         "padding-top": "10px"
     });
 
