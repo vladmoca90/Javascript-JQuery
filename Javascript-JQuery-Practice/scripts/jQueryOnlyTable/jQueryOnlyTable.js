@@ -15,4 +15,8 @@
 
     $('tr[title="Thomas Nicholas"]').addClass("warning");
 
+    $('tr[title="Alexandru Anton"]').addClass("warning");
+
+    $('tr[title="Julie Sparks"]').addClass("warning");
+
 });
