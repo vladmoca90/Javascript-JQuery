@@ -7,8 +7,7 @@
 
     $("td").css("cursor", "pointer");
 
-    $("th, td").css({
-        "text-align": "center",
+    $("th, td").addClass("text-center").css({
         "font-size": "15px",
         "font-family": "Tahoma",
     });
