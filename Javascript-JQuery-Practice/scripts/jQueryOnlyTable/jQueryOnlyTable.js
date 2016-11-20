@@ -15,4 +15,6 @@
 
     $("tr").eq(3).addClass("success");
 
+    $("tr").eq(7).addClass("info");
+
 });
