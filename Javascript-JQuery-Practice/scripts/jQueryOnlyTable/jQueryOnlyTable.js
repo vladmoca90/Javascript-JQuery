@@ -10,4 +10,8 @@
         "font-family": "Tahoma",
     });
 
+    $("tr").eq(1).addClass("warning");
+
+    $("tr").eq(3).addClass("success");
+
 });
