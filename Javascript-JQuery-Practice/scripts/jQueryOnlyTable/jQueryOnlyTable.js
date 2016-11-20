@@ -1,7 +1,7 @@
 ﻿$(document).ready(function () {
 
     $("table").width(450).addClass("table table-hover").css({
-        "margin": "auto",
+        "margin": "2% auto",
         "border": "1px solid #DDDDDD"
     });
 
