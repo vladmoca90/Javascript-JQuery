@@ -13,12 +13,6 @@
         "font-family": "Tahoma",
     });
 
-    $("tr").eq(1).addClass("warning");
-
-    $("tr").eq(3).addClass("success");
-
-    $("tr").eq(5).css("color", "#FF0000");
-
-    $("tr").eq(7).addClass("info");
+    $('tr[title="Thomas Nicholas"]').addClass("warning");
 
 });
