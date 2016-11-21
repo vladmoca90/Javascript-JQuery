@@ -15,3 +15,5 @@ y.lastIndexOf("e") = 34;
 var z = ["Ana Maria", 2, "Vlad", 7, 1015, "75", "New York City"];
 
 z[2] = "Vlad";
+
+z.splice(2, 2, "Mimi") = ["Ana Maria", 2, "Mimi", 1015, "75", "New York City"];
