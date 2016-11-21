@@ -1,2 +1,7 @@
-﻿body {
+﻿$max-width: 100%;
+
+#main {
+    width: $max-width;
+    max-width: 600px;
+    margin: 2% auto;
 }
