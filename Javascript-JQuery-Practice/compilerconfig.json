@@ -6,5 +6,9 @@
   {
     "outputFile": "content/formValidation/formValidation.css",
     "inputFile": "content/formValidation/formValidation.scss"
+  },
+  {
+    "outputFile": "content/JavascriptCalculus/JavascriptCalculus.css",
+    "inputFile": "content/JavascriptCalculus/JavascriptCalculus.scss"
   }
 ]
