@@ -106,6 +106,12 @@
     <Content Include="content\formValidation\formValidation.min.css">
       <DependentUpon>formValidation.css</DependentUpon>
     </Content>
+    <Content Include="content\JavascriptCalculus\JavascriptCalculus.css">
+      <DependentUpon>JavascriptCalculus.scss</DependentUpon>
+    </Content>
+    <Content Include="content\JavascriptCalculus\JavascriptCalculus.min.css">
+      <DependentUpon>JavascriptCalculus.css</DependentUpon>
+    </Content>
     <Content Include="images\chat\portrait.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -117,6 +123,7 @@
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
     <Content Include="content\formValidation\formValidation.scss" />
+    <Content Include="content\JavascriptCalculus\JavascriptCalculus.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
