@@ -6,4 +6,6 @@ x.toPrecision(8) = 13.734564;
 
 var y = "Vlad Mocanu is a Front-End Developer";
 
-y.indexOf("a")= 2;
+y.indexOf("a") = 2;
+
+y.lastIndexOf("e") = 34;
