@@ -1,4 +1,7 @@
-﻿var z = ["Ana Maria", 2, "Vlad", 7, 1015, "75", "New York City"];
+﻿var x = 13.348938684;
+docuent.getElementById("x-number")
+
+var z = ["Ana Maria", 2, "Vlad", 7, 1015, "75", "New York City"];
 document.getElementById("z-array").innerHTML = z;
 
 function zVariable() {
