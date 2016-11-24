@@ -4,11 +4,7 @@ $max-height: 100%;
 #main {
     width: $max-width;
     height: $max-height;
-    max-width: 800px;
+    max-width: 400px;
     max-height: 800px;
     margin: 2% auto;
-}
-.variable-button {
-    display: block;
-    margin: auto;
 }
