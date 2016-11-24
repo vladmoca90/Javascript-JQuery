@@ -1,15 +1,7 @@
-﻿var x = 13.348938684;
-document.getElementById("x-number").innerHTML = x;
+﻿var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits;
 
-function xVariable() {
-    x.toFixed(6);
-    document.getElementById("x-number").innerHTML = x;
-}
-
-var z = ["Ana Maria", 2, "Vlad", 7, 1015, "75", "New York City"];
-document.getElementById("z-array").innerHTML = z;
-
-function zVariable() {
-    z.splice(2, 2, "Mimi");
-    document.getElementById("z-array").innerHTML = z;
+function myFunction() {
+    fruits.push("Kiwi");
+    document.getElementById("demo").innerHTML = fruits;
 }
