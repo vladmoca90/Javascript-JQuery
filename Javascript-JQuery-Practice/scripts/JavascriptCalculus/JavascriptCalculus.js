@@ -2,6 +2,6 @@
 document.getElementById("practice").innerHTML = fruits;
 
 function myFunction() {
-    fruits.push("Kiwi");
+    fruits.unshift("Kiwi");
     document.getElementById("practice").innerHTML = fruits;
 }
