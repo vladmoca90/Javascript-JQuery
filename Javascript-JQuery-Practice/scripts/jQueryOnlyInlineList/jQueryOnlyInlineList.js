@@ -1,8 +1,7 @@
 ﻿$(document).ready(function () {
 
     $("ul").addClass("list-unstyled list-inline").css({
-        "font-size": "18px",
-        "margin-left": "10px"
+        "font-size": "18px"
     });
 
     $("table").addClass("table table-bordered").css({
