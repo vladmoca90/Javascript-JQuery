@@ -3,10 +3,15 @@
     $("ul").addClass("list-unstyled list-inline").css({
         "font-size": "18px",
         "width": "500px",
-        "margin": "2% auto"
+        "margin": "2% auto",
+        "color": "#FFFFFF"
     });
 
     $("ul>li").css("padding", "7px 12px");
+
+    $("ul").children("li:nth-child(odd)").css("background", "green");
+
+    $("ul").children("li:nth-child(even)").css("background", "red");
 
     $("table").addClass("table table-bordered").css({
         "margin": "5% auto",
