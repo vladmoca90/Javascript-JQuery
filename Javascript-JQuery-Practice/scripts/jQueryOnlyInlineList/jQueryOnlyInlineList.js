@@ -6,7 +6,7 @@
         "margin": "2% auto"
     });
 
-    $("ul>li").css("padding", "7px 15px");
+    $("ul>li").css("padding", "7px 12px");
 
     $("table").addClass("table table-bordered").css({
         "margin": "5% auto",
