@@ -7,7 +7,10 @@
         "color": "#FFFFFF"
     });
 
-    $("ul>li").css("padding", "7px 12px");
+    $("ul>li").css({
+        "padding": "7px 12px",
+        "border-radius": "10px"
+    });
 
     $("ul").children("li:nth-child(odd)").css("background", "green");
 
