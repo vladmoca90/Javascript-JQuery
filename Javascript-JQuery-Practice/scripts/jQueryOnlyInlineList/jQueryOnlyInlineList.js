@@ -18,7 +18,7 @@
     $("ul").children("li:nth-child(even)").css("background", "red");
 
     $("table").addClass("table table-bordered").css({
-        "margin": "5% auto",
+        "margin": "3% auto",
         "width": "500px",
         "font-size": "16px",
         "text-align": "center"
