@@ -20,4 +20,8 @@
         "text-align": "center"
     });
 
+    $(".hide-table").click(function () {
+        $("table").hide();
+    });
+
 });
