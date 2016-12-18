@@ -2,7 +2,7 @@
 
     $("ul").addClass("list-unstyled list-inline").css({
         "font-size": "18px",
-        "width": "500px",
+        "width": "495px",
         "margin": "2% auto",
         "color": "#FFFFFF"
     });
