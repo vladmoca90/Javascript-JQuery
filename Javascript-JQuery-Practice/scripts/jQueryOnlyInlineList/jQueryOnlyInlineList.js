@@ -24,4 +24,8 @@
         $("table").hide();
     });
 
+    $(".show-table").click(function () {
+        $("table").show();
+    });
+
 });
