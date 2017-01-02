@@ -14,6 +14,8 @@
         "font-family": "Tahoma",
     });
 
+    $(".country").css("font-weight", "bold");
+
     $('tr[title="Thomas Nicholas"], tr[title="Alexandru Anton"], tr[title="Julie Sparks"], tr[title="Katrin Basch"]').addClass("warning");
 
 });
