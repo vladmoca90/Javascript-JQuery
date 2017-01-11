@@ -1,4 +1,4 @@
-﻿$("#main").width(500).css("margin", "auto");
+﻿$("#main").width(500).addClass("center-block");
 
 $("#main").addClass("panel panel-default");
 
