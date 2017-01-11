@@ -1,1 +1,1 @@
-﻿
+﻿$("#main").width(500).css("margin", "auto");
