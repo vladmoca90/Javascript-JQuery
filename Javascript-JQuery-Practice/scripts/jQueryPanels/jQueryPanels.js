@@ -4,4 +4,4 @@ $("#main").addClass("panel panel-default");
 
 $("#main>div:first-child").addClass("panel-title");
 
-$("div>h2").addClass();
+$("div>h2").addClass("panel-heading");
