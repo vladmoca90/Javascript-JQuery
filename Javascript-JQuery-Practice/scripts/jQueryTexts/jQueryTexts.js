@@ -1,19 +1,23 @@
-﻿$("#main").width(1000).css({
-    "padding": "10px",
-    "margin": "2% auto"
-});
+﻿$(document).ready(function () {
 
-$(".one").css({
-    "font-family": "Tahoma",
-    "font-size": "15px"
-});
+    $("#main").width(1000).css({
+        "padding": "10px",
+        "margin": "2% auto"
+    });
 
-$(".two").css({
-    "font-family": "Verdana",
-    "font-size": "15px"
-});
+    $(".one").css({
+        "font-family": "Tahoma",
+        "font-size": "15px"
+    });
 
-$(".three").css({
-    "font-family": "Calibri",
-    "font-size": "15px"
-});
+    $(".two").css({
+        "font-family": "Verdana",
+        "font-size": "15px"
+    });
+
+    $(".three").css({
+        "font-family": "Calibri",
+        "font-size": "15px"
+    });
+
+}
