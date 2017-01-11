@@ -4,3 +4,5 @@
 });
 
 $(".one").css("font-family", "Tahoma");
+
+$(".two").css("font-family", "Verdana");
