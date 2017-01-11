@@ -3,8 +3,8 @@
     "margin": "2% auto"
 });
 
-$(".one").css("font-family", "Tahoma");
+$(".one").css({"font-family": "Tahoma"});
 
-$(".two").css("font-family", "Verdana");
+$(".two").css({"font-family": "Verdana"});
 
-$(".three").css("font-family", "Calibri");
+$(".three").css({"font-family": "Calibri"});
