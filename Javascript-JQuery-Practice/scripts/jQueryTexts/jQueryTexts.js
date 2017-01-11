@@ -1,1 +1,1 @@
-﻿
+﻿$(".one").css("font-family", "Tahoma");
