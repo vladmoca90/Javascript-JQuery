@@ -10,8 +10,8 @@
     $("td").css("cursor", "pointer");
 
     $("th, td").addClass("text-center").css({
-        "font-size": "15px",
-        "font-family": "Tahoma",
+        "font-size": "16px",
+        "font-family": "Calibri",
     });
 
     $(".country").css({
