@@ -1,1 +1,1 @@
-﻿$("#main").width(500).addClass("center-block");
+﻿$(".main").width(500).addClass("center-block");
