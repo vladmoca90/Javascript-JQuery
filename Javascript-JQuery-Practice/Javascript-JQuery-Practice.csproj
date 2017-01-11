@@ -140,12 +140,14 @@
     <Content Include="scripts\jQueryOnlyInlineList\jQueryOnlyInlineList.js" />
     <Content Include="scripts\jQueryOnlyTable\jQueryOnlyTable.js" />
     <Content Include="scripts\jQueryOnlyYellowSquareLists\jQueryOnlyYellowSquareLists.js" />
+    <Content Include="scripts\jQueryTexts\jQueryTexts.js" />
     <Content Include="sites\chat\chat.html" />
     <Content Include="sites\formValidation\formValidation.html" />
     <Content Include="sites\JavascriptCalculus\JavascriptCalculus.html" />
     <Content Include="sites\jQueryOnlyInlineList\jQueryOnlyInlineList.html" />
     <Content Include="sites\jQueryOnlyTable\jQueryOnlyTable.html" />
     <Content Include="sites\jQueryOnlyYellowSquareLists\jQueryOnlyYellowSquareLists.html" />
+    <Content Include="sites\jQueryTexts\jQueryTexts.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
