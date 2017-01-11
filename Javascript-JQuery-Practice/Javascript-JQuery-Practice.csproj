@@ -140,7 +140,6 @@
     <Content Include="scripts\jQueryOnlyInlineList\jQueryOnlyInlineList.js" />
     <Content Include="scripts\jQueryOnlyTable\jQueryOnlyTable.js" />
     <Content Include="scripts\jQueryOnlyYellowSquareLists\jQueryOnlyYellowSquareLists.js" />
-    <Content Include="scripts\jQueryPanels\jQueryPanels.js" />
     <Content Include="sites\chat\chat.html" />
     <Content Include="sites\formValidation\formValidation.html" />
     <Content Include="sites\JavascriptCalculus\JavascriptCalculus.html" />
