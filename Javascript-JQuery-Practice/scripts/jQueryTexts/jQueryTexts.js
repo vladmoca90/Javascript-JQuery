@@ -6,3 +6,5 @@
 $(".one").css("font-family", "Tahoma");
 
 $(".two").css("font-family", "Verdana");
+
+$(".three").css("font-family", "Calibri");
