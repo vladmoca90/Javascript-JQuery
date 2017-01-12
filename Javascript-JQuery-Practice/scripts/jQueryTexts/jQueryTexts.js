@@ -21,4 +21,9 @@
         "font-size": "17px"
     });
 
+    $(".four").css({
+        "font-family": "Calibri",
+        "font-size": "16px"
+    });
+
 });
