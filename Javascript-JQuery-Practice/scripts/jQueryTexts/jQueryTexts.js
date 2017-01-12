@@ -22,7 +22,7 @@
     });
 
     $(".four").css({
-        "font-family": "Calibri",
+        "font-family": "Cursive",
         "font-size": "16px"
     });
 
