@@ -28,4 +28,12 @@
         "color": "blue"
     });
 
+    $("#hide").click(function () {
+        $("#main").hide();
+    });
+
+    $("#show").click(function () {
+        $("#main").show();
+    });
+
 });
