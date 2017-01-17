@@ -32,6 +32,8 @@
 
     $("#show").addClass("btn btn-success");
 
+    $("#hide").addClass("btn btn-danger");
+
     $("#hide").click(function () {
         $("#main").hide();
     });
