@@ -28,7 +28,7 @@
         "color": "blue"
     });
 
-    $("#show, #hide").addClass("center-block");
+    $("#show, #hide").addClass("pull-left");
 
     $("#hide").click(function () {
         $("#main").hide();
