@@ -28,6 +28,8 @@
         "color": "blue"
     });
 
+    $("#show, #hide").addClass("center-block");
+
     $("#hide").click(function () {
         $("#main").hide();
     });
