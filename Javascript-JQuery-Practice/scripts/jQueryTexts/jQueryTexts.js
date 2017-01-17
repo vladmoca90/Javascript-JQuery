@@ -30,6 +30,8 @@
 
     $("#show, #hide").addClass("pull-left");
 
+    $("#show").addClass("btn btn-success");
+
     $("#hide").click(function () {
         $("#main").hide();
     });
