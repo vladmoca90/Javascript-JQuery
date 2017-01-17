@@ -24,7 +24,8 @@
 
     $(".four").css({
         "font-family": "Cursive",
-        "font-size": "16px"
+        "font-size": "16px",
+        "color": "blue"
     });
 
 });
