@@ -18,7 +18,8 @@
 
     $(".three").css({
         "font-family": "Calibri",
-        "font-size": "17px"
+        "font-size": "17px",
+        "font-style": "italic"
     });
 
     $(".four").css({
