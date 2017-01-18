@@ -33,7 +33,7 @@
 
     $("#show").addClass("btn btn-success");
 
-    $("#hide").addClass("btn btn-danger");
+    $("#hide").addClass("btn btn-danger").css("margin-left", "25px");
 
     $("#hide").click(function () {
         $("#main").hide();
