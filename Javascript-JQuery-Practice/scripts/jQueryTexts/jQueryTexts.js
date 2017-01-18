@@ -40,11 +40,11 @@
     $("#hide").addClass("btn btn-danger").css("margin-left", "25px");
 
     $("#hide").click(function () {
-        $("#main").hide();
+        $("#main").hide(800);
     });
 
     $("#show").click(function () {
-        $("#main").show();
+        $("#main").show(800);
     });
 
 });
