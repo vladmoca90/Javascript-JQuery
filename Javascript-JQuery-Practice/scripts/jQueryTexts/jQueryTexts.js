@@ -1,6 +1,10 @@
 ﻿$(document).ready(function () {
 
-    $("#main, #button-box").width(1000).css("margin", "2% auto");
+    $("#main, #button-box").css("margin", "2% auto");
+
+    ("#main").width(1000);
+
+    $("#button-box").width(1000);
 
     $("#main").css({
         "padding": "10px",
