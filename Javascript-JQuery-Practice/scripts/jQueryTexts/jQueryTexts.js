@@ -2,9 +2,9 @@
 
     $("#main, #button-box").css("margin", "2% auto");
 
-    ("#main").width(1000);
+    $("#main").width(1000);
 
-    $("#button-box").width(1000);
+    $("#button-box").width(150);
 
     $("#main").css({
         "padding": "10px",
