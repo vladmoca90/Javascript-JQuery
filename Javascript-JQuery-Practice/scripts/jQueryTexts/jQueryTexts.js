@@ -1,8 +1,9 @@
 ﻿$(document).ready(function () {
 
-    $("#main").width(1000).css({
+    $("#main, #button-box").width(1000).css("margin", "2% auto");
+
+    $("#main").css({
         "padding": "10px",
-        "margin": "2% auto",
         "border" : "1px solid #000"
     });
 
