@@ -1,3 +1,3 @@
 ﻿$(document).ready(function () {
-    $(".main-panel")
+    $(".main-panel").addClass("panel panel-warning");
 });
