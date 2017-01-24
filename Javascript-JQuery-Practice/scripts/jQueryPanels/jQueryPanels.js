@@ -4,7 +4,7 @@
 
     $(".one").addClass("panel-heading");
 
-    $("h1").addClass("panel-title");
+    $("h1").addClass("panel-title").css("font-size", "21px");
 
     $(".two").addClass("panel-body");
 
