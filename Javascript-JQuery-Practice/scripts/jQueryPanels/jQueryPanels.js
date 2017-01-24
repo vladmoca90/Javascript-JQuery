@@ -2,9 +2,9 @@
 
     $(".main-panel").addClass("panel panel-warning");
 
-    $(".one").addClass("panel-title");
+    $(".one").addClass("panel-heading");
 
-    $("h1").addClass("panel-heading");
+    $("h1").addClass("panel-title");
 
     $(".two").addClass("panel-body");
 
