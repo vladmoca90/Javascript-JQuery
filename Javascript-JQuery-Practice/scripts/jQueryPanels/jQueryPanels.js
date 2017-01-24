@@ -4,6 +4,8 @@
 
     $(".one").addClass("panel-title");
 
+    $("h1").addClass("panel-heading");
+
     $(".two").addClass("panel-body");
 
 });
