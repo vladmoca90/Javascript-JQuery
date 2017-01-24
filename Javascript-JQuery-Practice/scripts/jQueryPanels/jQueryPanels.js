@@ -8,6 +8,8 @@
 
     $(".two").addClass("panel-body");
 
+    $("ul").css("margin-left", "25px");
+
     $("ul>li").css("font-size", "18px");
 
 });
