@@ -8,4 +8,6 @@
 
     $(".two").addClass("panel-body");
 
+    $("ul>li").css("font-size", "18px");
+
 });
