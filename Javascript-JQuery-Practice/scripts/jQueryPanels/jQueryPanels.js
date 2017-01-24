@@ -2,8 +2,8 @@
 
     $(".main-panel").addClass("panel panel-warning");
 
-    $(".one").addClass(" ");
+    $(".one").addClass("panel-title");
 
-    $(".two").addClass(" ");
+    $(".two").addClass("panel-body");
 
 });
