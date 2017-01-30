@@ -9,13 +9,3 @@ function asianCountriesPop() {
     document.getElementById("#countriesPop").innerHTML = asianCountries;
 
 }
-
-document.getElementById("#countriesPush") = asianCountries;
-
-function asianCountriesPush() {
-
-    asianCountries.push();
-
-    document.getElementById("#countriesPush").innerHTML = asianCountries;
-
-}
