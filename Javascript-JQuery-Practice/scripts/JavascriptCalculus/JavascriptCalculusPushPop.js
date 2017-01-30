@@ -1,19 +1,22 @@
 ﻿var asianCountries = ["Japan", "Taiwan", "South Korea", "Vietnam", "Thailand"];
 
-document.getElementById("#countries") = asianCountries;
+document.getElementById("#countriesPop") = asianCountries;
 
 function asianCountriesPop() {
 
     asianCountries.pop();
 
-    document.getElementById("#countriesPop") = asianCountries;
+    document.getElementById("#countriesPop").innerHTML = asianCountries;
 
 }
+
+
+document.getElementById("#countriesPush") = asianCountries;
 
 function asianCountriesPush() {
 
     asianCountries.push();
 
-    document.getElementById("#countriesPush") = asianCountries;
+    document.getElementById("#countriesPush").innerHTML = asianCountries;
 
 }
