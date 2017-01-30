@@ -4,7 +4,7 @@ document.getElementById("countriesPop").innerHTML = asianCountries;
 
 function asianCountriesPop() {
 
-    asianCountries.pop("Indonesia");
+    asianCountries.pop();
 
     document.getElementById("countriesPop").innerHTML = asianCountries;
 
