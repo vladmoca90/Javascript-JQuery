@@ -4,7 +4,7 @@ document.getElementById("countriesPush").innerHTML = asianCountries;
 
 function asianCountriesPush() {
 
-    asianCountries.push();
+    asianCountries.push("Russia");
 
     document.getElementById("countriesPush").innerHTML = asianCountries;
 
