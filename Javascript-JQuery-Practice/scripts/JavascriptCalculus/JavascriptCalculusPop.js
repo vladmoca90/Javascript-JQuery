@@ -1,6 +1,6 @@
 ﻿var asianCountries = ["Japan", "Taiwan", "South Korea", "Vietnam", "Thailand"];
 
-document.getElementById("#countriesPop") = asianCountries;
+document.getElementById("#countriesPop").innerHTML = asianCountries;
 
 function asianCountriesPop() {
 
