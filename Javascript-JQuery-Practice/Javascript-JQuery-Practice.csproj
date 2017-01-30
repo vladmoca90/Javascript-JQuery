@@ -136,7 +136,8 @@
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="scripts\chat\chat.js" />
     <Content Include="scripts\formValidation\formValidation.js" />
-    <Content Include="scripts\JavascriptCalculus\JavascriptCalculusPushPop.js" />
+    <Content Include="scripts\JavascriptCalculus\JavascriptCalculusPush.js" />
+    <Content Include="scripts\JavascriptCalculus\JavascriptCalculusPop.js" />
     <Content Include="scripts\JavascriptCalculus\JavascriptCalculusSplice.js" />
     <Content Include="scripts\jQueryOnlyInlineList\jQueryOnlyInlineList.js" />
     <Content Include="scripts\jQueryOnlyTable\jQueryOnlyTable.js" />
