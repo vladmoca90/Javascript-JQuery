@@ -6,10 +6,14 @@ function asianCountriesPop() {
 
     asianCountries.pop();
 
+    document.getElementById("#countriesPop") = asianCountries;
+
 }
 
 function asianCountriesPush() {
 
     asianCountries.push();
+
+    document.getElementById("#countriesPush") = asianCountries;
 
 }
