@@ -136,7 +136,8 @@
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="scripts\chat\chat.js" />
     <Content Include="scripts\formValidation\formValidation.js" />
-    <Content Include="scripts\JavascriptCalculus\JavascriptCalculus.js" />
+    <Content Include="scripts\JavascriptCalculus\JavascriptCalculusPushPop.js" />
+    <Content Include="scripts\JavascriptCalculus\JavascriptCalculusSplice.js" />
     <Content Include="scripts\jQueryOnlyInlineList\jQueryOnlyInlineList.js" />
     <Content Include="scripts\jQueryOnlyTable\jQueryOnlyTable.js" />
     <Content Include="scripts\jQueryOnlyYellowSquareLists\jQueryOnlyYellowSquareLists.js" />
@@ -144,7 +145,8 @@
     <Content Include="scripts\jQueryTexts\jQueryTexts.js" />
     <Content Include="sites\chat\chat.html" />
     <Content Include="sites\formValidation\formValidation.html" />
-    <Content Include="sites\JavascriptCalculus\JavascriptCalculus.html" />
+    <Content Include="sites\JavascriptCalculus\JavascriptCalculusPushPop.html" />
+    <Content Include="sites\JavascriptCalculus\JavascriptCalculusSplice.html" />
     <Content Include="sites\jQueryOnlyInlineList\jQueryOnlyInlineList.html" />
     <Content Include="sites\jQueryOnlyTable\jQueryOnlyTable.html" />
     <Content Include="sites\jQueryOnlyYellowSquareLists\jQueryOnlyYellowSquareLists.html" />
