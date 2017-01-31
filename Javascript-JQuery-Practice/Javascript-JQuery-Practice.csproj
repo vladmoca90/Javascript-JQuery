@@ -136,6 +136,7 @@
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="scripts\chat\chat.js" />
     <Content Include="scripts\formValidation\formValidation.js" />
+    <Content Include="scripts\JavascriptCalculus\JavacriptCalculusPositionsJoin.js" />
     <Content Include="scripts\JavascriptCalculus\JavacriptCalculusPositionsTwo.js" />
     <Content Include="scripts\JavascriptCalculus\JavacriptCalculusPositionsOne.js" />
     <Content Include="scripts\JavascriptCalculus\JavascriptCalculusPush.js" />
