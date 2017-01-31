@@ -4,9 +4,7 @@ document.getElementById("african").innerHTML = africanCountries;
 
 function AfricanCountries() {
 
-    africanCountries[2] = africanCountries;
-
-    document.getElementById("african").innerHTML = africanCountries;
+    document.getElementById("african").innerHTML = africanCountries[2];
 
 }
 
