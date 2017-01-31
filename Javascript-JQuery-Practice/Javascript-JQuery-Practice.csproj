@@ -136,6 +136,7 @@
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="scripts\chat\chat.js" />
     <Content Include="scripts\formValidation\formValidation.js" />
+    <Content Include="scripts\JavascriptCalculus\JavacriptCalculusPositions.js" />
     <Content Include="scripts\JavascriptCalculus\JavascriptCalculusPush.js" />
     <Content Include="scripts\JavascriptCalculus\JavascriptCalculusPop.js" />
     <Content Include="scripts\JavascriptCalculus\JavascriptCalculusSplice.js" />
@@ -146,6 +147,7 @@
     <Content Include="scripts\jQueryTexts\jQueryTexts.js" />
     <Content Include="sites\chat\chat.html" />
     <Content Include="sites\formValidation\formValidation.html" />
+    <Content Include="sites\JavascriptCalculus\JavacriptCalculusPositions.html" />
     <Content Include="sites\JavascriptCalculus\JavascriptCalculusPushPop.html" />
     <Content Include="sites\JavascriptCalculus\JavascriptCalculusSplice.html" />
     <Content Include="sites\jQueryOnlyInlineList\jQueryOnlyInlineList.html" />
