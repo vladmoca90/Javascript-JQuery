@@ -2,7 +2,7 @@
 
 document.getElementById("african").innerHTML = africanCountries;
 
-function africanCountries() {
+function AfricanCountries() {
 
     africanCountries[2] = africanCountries;
 
