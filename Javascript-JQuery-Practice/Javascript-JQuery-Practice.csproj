@@ -141,6 +141,8 @@
     <Content Include="scripts\JavascriptCalculus\JavacriptCalculusPositionsOne.js" />
     <Content Include="scripts\JavascriptCalculus\JavascriptCalculusPush.js" />
     <Content Include="scripts\JavascriptCalculus\JavascriptCalculusPop.js" />
+    <Content Include="scripts\JavascriptCalculus\JavascriptCalculusReverse.js" />
+    <Content Include="scripts\JavascriptCalculus\JavascriptCalculusSort.js" />
     <Content Include="scripts\JavascriptCalculus\JavascriptCalculusSplice.js" />
     <Content Include="scripts\jQueryOnlyInlineList\jQueryOnlyInlineList.js" />
     <Content Include="scripts\jQueryOnlyTable\jQueryOnlyTable.js" />
@@ -151,6 +153,7 @@
     <Content Include="sites\formValidation\formValidation.html" />
     <Content Include="sites\JavascriptCalculus\JavacriptCalculusPositions.html" />
     <Content Include="sites\JavascriptCalculus\JavascriptCalculusPushPop.html" />
+    <Content Include="sites\JavascriptCalculus\JavascriptCalculusSort.html" />
     <Content Include="sites\JavascriptCalculus\JavascriptCalculusSplice.html" />
     <Content Include="sites\jQueryOnlyInlineList\jQueryOnlyInlineList.html" />
     <Content Include="sites\jQueryOnlyTable\jQueryOnlyTable.html" />
