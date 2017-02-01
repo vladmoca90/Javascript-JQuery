@@ -1,9 +1,9 @@
 ﻿var name = ["Elliot", "Joana", "Vlad", "Sarah", "Alexander", "Katherine"];
 
-document.getElementsByName("span").innerHTML = name;
+document.getElementsByTagName("span").innerHTML = name;
 
 function reverseNames() {
 
-    document.getElementsByName("span").innerHTML = name.reverse();
+    document.getElementsByTagName("span").innerHTML = name.reverse();
 
 }
