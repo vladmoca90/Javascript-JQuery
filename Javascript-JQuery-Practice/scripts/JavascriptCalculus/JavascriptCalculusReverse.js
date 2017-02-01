@@ -2,7 +2,7 @@
 
 document.getElementsByName("span").innerHTML = name;
 
-function sortingNames() {
+function reverseNames() {
 
     document.getElementsByName("span").innerHTML = name.reverse();
 
