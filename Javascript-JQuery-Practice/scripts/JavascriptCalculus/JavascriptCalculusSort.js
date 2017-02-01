@@ -4,6 +4,6 @@ document.getElementsByTagName("span").innerHTML = name;
 
 function sortingNames() {
 
-    document.getElementsByTagName("span").innerHTML = name.sort();
+    name.sort();
 
 }

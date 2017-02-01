@@ -4,6 +4,6 @@ document.getElementsByTagName("span").innerHTML = name;
 
 function reverseNames() {
 
-    document.getElementsByTagName("span").innerHTML = name.reverse();
+    name.reverse();
 
 }
