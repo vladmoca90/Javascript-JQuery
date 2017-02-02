@@ -1,11 +1,9 @@
-﻿var sentence = "My name is Vlad and I am from Romania";
+﻿function sentenceIndex() {
 
-document.getElementsByClassName("calculateIndex").innerHTML = a;
+    var totalText = document.getElementsByClassName("sentenceText").innerHTML;
 
-function sententceIndex() {
+    var calcIndex = totalText.indexOf("Vlad");
 
-    var b = sentence.indexOf("a");
-
-    document.getElementsByClassName("calculateIndex").innerHTML = b;
+    document.getElementsByClassName("calculateIndex").innerHTML = calcIndex;
 
 }
