@@ -145,6 +145,7 @@
     <Content Include="scripts\JavascriptCalculus\Arrays\JavascriptCalculusSort.js" />
     <Content Include="scripts\JavascriptCalculus\Arrays\JavascriptCalculusSplice.js" />
     <Content Include="scripts\JavascriptCalculus\Strings\JavascriptIndex.js" />
+    <Content Include="scripts\JavascriptCalculus\Strings\JavascriptLastIndex.js" />
     <Content Include="scripts\jQueryOnlyInlineList\jQueryOnlyInlineList.js" />
     <Content Include="scripts\jQueryOnlyTable\jQueryOnlyTable.js" />
     <Content Include="scripts\jQueryOnlyYellowSquareLists\jQueryOnlyYellowSquareLists.js" />

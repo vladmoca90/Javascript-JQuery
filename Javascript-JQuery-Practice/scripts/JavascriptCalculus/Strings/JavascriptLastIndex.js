@@ -2,7 +2,7 @@
 
     var pos = document.getElementById("sentenceSecondText").innerHTML;
 
-    var str = pos.lastIndexOf("34");
+    var str = pos.lastIndexOf("native");
 
     document.getElementById("calculateLastIndex").innerHTML = str;
 
