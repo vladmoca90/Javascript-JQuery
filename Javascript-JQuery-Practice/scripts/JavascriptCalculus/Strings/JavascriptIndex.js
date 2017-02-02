@@ -1,4 +1,4 @@
-﻿function myFunction() {
+﻿function calcTxtIndex() {
 
     var str = document.getElementById("sentenceText").innerHTML;
 
