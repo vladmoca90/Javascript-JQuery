@@ -146,6 +146,8 @@
     <Content Include="scripts\JavascriptCalculus\Arrays\JavascriptCalculusSplice.js" />
     <Content Include="scripts\JavascriptCalculus\Strings\JavascriptIndex.js" />
     <Content Include="scripts\JavascriptCalculus\Strings\JavascriptLastIndex.js" />
+    <Content Include="scripts\JavascriptCalculus\Strings\JavascriptSubstring.js" />
+    <Content Include="scripts\JavascriptCalculus\Strings\JavascriptSubstr.js" />
     <Content Include="scripts\jQueryOnlyInlineList\jQueryOnlyInlineList.js" />
     <Content Include="scripts\jQueryOnlyTable\jQueryOnlyTable.js" />
     <Content Include="scripts\jQueryOnlyYellowSquareLists\jQueryOnlyYellowSquareLists.js" />
@@ -158,6 +160,7 @@
     <Content Include="sites\JavascriptCalculus\Arrays\JavascriptCalculusSort.html" />
     <Content Include="sites\JavascriptCalculus\Arrays\JavascriptCalculusSplice.html" />
     <Content Include="sites\JavascriptCalculus\Strings\JavascriptIndex.html" />
+    <Content Include="sites\JavascriptCalculus\Strings\JavascriptSubstringSubstr.html" />
     <Content Include="sites\jQueryOnlyInlineList\jQueryOnlyInlineList.html" />
     <Content Include="sites\jQueryOnlyTable\jQueryOnlyTable.html" />
     <Content Include="sites\jQueryOnlyYellowSquareLists\jQueryOnlyYellowSquareLists.html" />
