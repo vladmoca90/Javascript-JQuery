@@ -1,8 +1,10 @@
 ﻿function calculateConcat() {
 
-    var texts = document.getElementById("textOne").innerHTML;
+    var firstText = document.getElementById("textOne").innerHTML;
 
-    var cnct = texts.concat(textOne, textTwo);
+    var secondText = document.getElementById("textTwo").innerHTML;
+
+    var cnct = firstText.concat(" ", secondText);
 
     document.getElementById("concatResult").innerHTML = cnct;
 
