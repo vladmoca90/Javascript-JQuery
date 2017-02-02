@@ -1,9 +1,9 @@
-﻿function sentenceIndex() {
+﻿function myFunction() {
 
-    var totalText = document.getElementsByClassName("sentenceText").innerHTML;
+    var str = document.getElementById("sentenceText").innerHTML;
 
-    var calcIndex = totalText.indexOf("Vlad");
+    var pos = str.indexOf("Vlad");
 
-    document.getElementsByClassName("calculateIndex").innerHTML = calcIndex;
+    document.getElementById("calculateIndex").innerHTML = pos;
 
 }
