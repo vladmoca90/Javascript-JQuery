@@ -1,4 +1,8 @@
-﻿function firstName() {
+﻿function send() {
+
+}
+
+function firstName() {
 
     var firstN = document.getElementsByName("firstName")[0].value;
 
