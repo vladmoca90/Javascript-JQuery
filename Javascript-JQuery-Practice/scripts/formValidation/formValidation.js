@@ -1,9 +1,5 @@
 ﻿function send() {
 
-}
-
-function firstName() {
-
     var firstN = document.getElementsByName("firstName")[0].value;
 
     if (firstN.length < 3) {
@@ -12,9 +8,6 @@ function firstName() {
     else {
         document.getElementsByTagName("span")[0].innerHTML = "";
     }
-}
-
-function lastName() {
 
     var lastN = document.getElementsByName("lastName")[0].value;
 
@@ -24,9 +17,6 @@ function lastName() {
     else {
         document.getElementsByTagName("span")[1].innerHTML = "";
     }
-}
-
-function mailValidation() {
 
     var emailValid = document.getElementsByName("mail")[0].value;
 
@@ -42,9 +32,6 @@ function mailValidation() {
     else {
         document.getElementsByTagName("span")[2].innerHTML = "";
     }
-}
-
-function passValidation() {
 
     var p1 = document.getElementsByName("pass")[0].value;
     var p2 = document.getElementsByName("pass")[0].value;
@@ -62,14 +49,11 @@ function passValidation() {
     else {
         document.getElementsByTagName("span")[3].innerHTML = "";
     }
-}
-
-function ageValidation() {
 
     var age = document.getElementsByName("age")[0].value;
 
     if (age >= 18) {
-        alert("Good! You are over 18.");
+        document.getElementsByTagName("span")[4].innerHTML = "Good! You are over 18.";
     }
     else {
         document.getElementsByTagName("span")[4].innerHTML = "You must be over 18 to complete the form!";
