@@ -40,7 +40,7 @@ function mailValidation() {
         alert("Email is not valid!");
     }
     else {
-        document.getElementsByTagName("span")[3].innerHTML = "";
+        document.getElementsByTagName("span")[2].innerHTML = "";
     }
 }
 
@@ -53,8 +53,9 @@ function passValidation() {
         alert("Password too short!");
     }
     else {
-        document.getElementsByTagName("span")[2].innerHTML = "";
+        document.getElementsByTagName("span")[3].innerHTML = "";
     }
+
     if (p1 != p2) {
         alert("Password in not checked!");
     }
