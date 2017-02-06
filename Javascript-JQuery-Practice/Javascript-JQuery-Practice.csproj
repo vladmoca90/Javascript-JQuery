@@ -148,6 +148,8 @@
     <Content Include="scripts\JavascriptCalculus\Arrays\JavascriptCalculusReverse.js" />
     <Content Include="scripts\JavascriptCalculus\Arrays\JavascriptCalculusSort.js" />
     <Content Include="scripts\JavascriptCalculus\Arrays\JavascriptCalculusSplice.js" />
+    <Content Include="scripts\JavascriptCalculus\Numbers\JavascriptCalculusPrecision.js" />
+    <Content Include="scripts\JavascriptCalculus\Numbers\JavascriptCalculusFixed.js" />
     <Content Include="scripts\JavascriptCalculus\Strings\JavascriptConcat.js" />
     <Content Include="scripts\JavascriptCalculus\Strings\JavascriptIndex.js" />
     <Content Include="scripts\JavascriptCalculus\Strings\JavascriptLastIndex.js" />
@@ -164,6 +166,7 @@
     <Content Include="sites\JavascriptCalculus\Arrays\JavascriptCalculusPushPop.html" />
     <Content Include="sites\JavascriptCalculus\Arrays\JavascriptCalculusSort.html" />
     <Content Include="sites\JavascriptCalculus\Arrays\JavascriptCalculusSplice.html" />
+    <Content Include="sites\JavascriptCalculus\Numbers\JavascriptCalculusPrecisionFixed.html" />
     <Content Include="sites\JavascriptCalculus\Strings\JavascriptConcat.html" />
     <Content Include="sites\JavascriptCalculus\Strings\JavascriptIndex.html" />
     <Content Include="sites\JavascriptCalculus\Strings\JavascriptSubstringSubstr.html" />
