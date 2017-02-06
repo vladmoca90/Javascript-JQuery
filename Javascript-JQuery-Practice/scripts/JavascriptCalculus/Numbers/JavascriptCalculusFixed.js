@@ -1,9 +1,9 @@
 ﻿function secondFunction() {
 
-    var a = document.getElementById("secondNumber").innerHTML;
+    var b = 7.709568504375429401;
 
-    var b = a.toFixed(12);
+    var d = b.toFixed(12);
 
-    document.getElementById("secondResultFixed").innerHTML = b;
+    document.getElementById("secondResultFixed").innerHTML = d;
 
 }
