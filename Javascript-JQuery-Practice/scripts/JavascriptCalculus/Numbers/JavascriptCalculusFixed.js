@@ -1,8 +1,8 @@
-﻿function toFixedNo() {
+﻿function toFixNo() {
 
-    var presc = document.getElementById("toFixedNumber").innerHTML;
+    var fixcalc = document.getElementById("toFixedNumber").innerHTML;
 
-    var calculateFixed = presc.toFixed(12);
+    var calculateFixed = fixcalc.toFixed(12);
 
     document.getElementById("toFixedCalc").innerHTML = calculateFixed;
 

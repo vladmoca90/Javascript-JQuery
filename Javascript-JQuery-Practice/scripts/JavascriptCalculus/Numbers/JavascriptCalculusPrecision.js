@@ -1,4 +1,4 @@
-﻿function toPrecisionNo() {
+﻿function toPrecisNo() {
 
     var presc = document.getElementById("toPrecisionNumber").innerHTML;
 
