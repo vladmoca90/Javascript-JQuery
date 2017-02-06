@@ -1,9 +1,9 @@
-﻿function toFixNo() {
+﻿function FxFunctionNo() {
 
-    var fixcalc = document.getElementById("toFixedNumber").innerHTML;
+    var a = document.getElementById("toFxNumber").innerHTML;
 
-    var calculateFixed = fixcalc.toFixed(12);
+    var b = a.toFixed(12);
 
-    document.getElementById("toFixedCalc").innerHTML = calculateFixed;
+    document.getElementById("toFxCalc").innerHTML = calculateFixed;
 
 }

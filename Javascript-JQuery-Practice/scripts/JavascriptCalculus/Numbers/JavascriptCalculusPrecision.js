@@ -1,9 +1,9 @@
-﻿function toPrecisNo() {
+﻿function PrecisFunctionNo() {
 
-    var presc = document.getElementById("toPrecisionNumber").innerHTML;
+    var x = document.getElementById("toPrNumber").innerHTML;
 
-    var calculatePres = presc.toPrecision(7);
+    var y = x.toPrecision(7);
 
-    document.getElementById("toPrecisionCalc").innerHTML = calculatePres;
+    document.getElementById("toPrCalc").innerHTML = calculatePres;
 
 }
