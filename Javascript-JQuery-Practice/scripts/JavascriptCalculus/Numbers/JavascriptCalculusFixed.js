@@ -4,6 +4,6 @@
 
     var calculateFixed = presc.toFixed(12);
 
-    document.getElementById("toFixed").innerHTML = calculateFixed;
+    document.getElementById("toFixedCalc").innerHTML = calculateFixed;
 
 }
