@@ -1,9 +1,9 @@
-﻿function exerciseOne() {
+﻿function exerciseFour() {
 
-    var x = 8;
+    var w = -1;
 
-    var a = (x + 1) * x / (x - 3) * (x + 4);
+    var d = 3*w - sin(1) + w;
 
-    document.getElementById("resultOne").innerHTML = a;
+    document.getElementById("resultFour").innerHTML = d;
 
 }
