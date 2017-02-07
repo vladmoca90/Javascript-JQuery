@@ -2,10 +2,15 @@
 
     f(x) = (x + 1) / (x - 3);
 
-    var a = f(x);
+    var x = 1;
 
-    for (x = 1; x < 2; x++) {
-        console.log(a);
+    if (x == 3) {
+        consoler.log("ERROR! A fraction cannot have the denominater 0.")
     }
+    else {
+        console.log(x);
+    }
+
+    document.getElementById("result").innerHTML = x;
 
 }
