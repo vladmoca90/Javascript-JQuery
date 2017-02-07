@@ -10,5 +10,9 @@
   {
     "outputFile": "content/JavascriptCalculus/JavascriptCalculus.css",
     "inputFile": "content/JavascriptCalculus/JavascriptCalculus.scss"
+  },
+  {
+    "outputFile": "content/JavascriptCalculus/SecondDegreeFuntionStyles/SecondDegreeFuntionStyles.css",
+    "inputFile": "content/JavascriptCalculus/SecondDegreeFuntionStyles/SecondDegreeFuntionStyles.scss"
   }
 ]
