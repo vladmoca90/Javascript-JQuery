@@ -2,8 +2,8 @@
 
     var z = 4;
 
-    var c = 7^z - z^2 + 5*z;
+    var c = 7**z - z**2 + 5*z;
 
-    document.getElementById("resultTwo").innerHTML = c;
+    document.getElementById("resultThree").innerHTML = c;
 
 }
