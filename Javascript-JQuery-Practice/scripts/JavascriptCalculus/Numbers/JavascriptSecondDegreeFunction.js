@@ -1,11 +1,19 @@
 ﻿function calcDelta() {
 
-    document.getElementById("delta").innerHTML = a;
+    var dlt = ;
+
+    document.getElementById("delta").innerHTML = dlt;
 
 }
 
 function calcRoots() {
 
-    document.getElementById("delta").innerHTML = b;
+    var a = ;
+
+    var b = ;
+
+    document.getElementById("rootOne").innerHTML = a;
+
+    document.getElementById("rootTwo").innerHTML = b;
 
 }
