@@ -1,9 +1,9 @@
-﻿function exerciseTwo() {
+﻿function exerciseThree() {
 
-    var y = 11;
+    var z = 4;
 
-    var b = y^3 + 2*y - 7;
+    var c = 7^z - z^2 + 5*z;
 
-    document.getElementById("resultTwo").innerHTML = b;
+    document.getElementById("resultTwo").innerHTML = c;
 
 }
