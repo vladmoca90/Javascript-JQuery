@@ -1,8 +1,8 @@
 ﻿function exercise() {
 
-    var x = 8;
+    var x = 3;
 
-    var a = (x + 7) / (x - 3);
+    var a = (x + 1) / (x - 3);
 
     if (x == 3) {
         console.log("ERROR! A fraction cannot have the denominater 0.");
