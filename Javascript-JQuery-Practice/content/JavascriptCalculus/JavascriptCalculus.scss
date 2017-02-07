@@ -22,9 +22,14 @@ $max-height: 100%;
 #reversing, #calculateIndex,
 #calculateLastIndex, #substringResult,
 #substrResult, #firstResultPres,
-#secondResultFixed, #resultOne,
-#resultTwo, #resultThree,
-#resultFour, #resultFive,
-#resultSix {
+#secondResultFixed {
     margin-left: 50px;
+}
+#resultOne,
+#resultTwo, 
+#resultThree,
+#resultFour, 
+#resultFive,
+#resultSix {
+    margin-left: 20px;
 }
