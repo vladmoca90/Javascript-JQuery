@@ -1,11 +1,11 @@
 ﻿function exercise() {
 
-    var a = (x + 1) / (x - 3);
+    var a = [(x + 1) / (x - 3)];
 
-    var x = 1;
+    var x = 3;
 
     if (x == 3) {
-        consoler.log("ERROR! A fraction cannot have the denominater 0.")
+        console.log("ERROR! A fraction cannot have the denominater 0.");
     }
     else {
         console.log(x);
