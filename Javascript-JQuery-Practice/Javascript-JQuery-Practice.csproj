@@ -148,6 +148,7 @@
     <Content Include="scripts\JavascriptCalculus\Arrays\JavascriptCalculusReverse.js" />
     <Content Include="scripts\JavascriptCalculus\Arrays\JavascriptCalculusSort.js" />
     <Content Include="scripts\JavascriptCalculus\Arrays\JavascriptCalculusSplice.js" />
+    <Content Include="scripts\JavascriptCalculus\Numbers\JavascriptCalcFunctionThree.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\JavascriptCalcFunctionTwo.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\JavascriptCalcFunctionOne.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\JavascriptCalculusPrecision.js" />
