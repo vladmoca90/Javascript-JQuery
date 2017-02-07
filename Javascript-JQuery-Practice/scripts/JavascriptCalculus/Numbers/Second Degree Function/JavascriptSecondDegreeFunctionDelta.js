@@ -1,7 +1,13 @@
 ﻿function calcDelta() {
 
-    var dlt = ;
+    a = 1;
 
-    document.getElementById("delta").innerHTML = dlt;
+    b = -4;
+
+    c = 3;
+
+    var delta = b**2 - 4*a*c;
+
+    document.getElementById("delta").innerHTML = delta;
 
 }
