@@ -1,9 +1,9 @@
-﻿function exerciseFour() {
+﻿function exerciseFive() {
 
-    var w = -1;
+    var v = 0;
 
-    var d = 3*w - Math.sin(w) + w;
+    var e = [Math.cos(7*v) - Math.sin(v**3)]**2;
 
-    document.getElementById("resultFour").innerHTML = d;
+    document.getElementById("resultFive").innerHTML = e;
 
 }
