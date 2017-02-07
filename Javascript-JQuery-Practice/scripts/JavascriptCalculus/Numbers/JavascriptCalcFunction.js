@@ -1,6 +1,6 @@
 ﻿function exercise() {
 
-    f(x) = (x + 1) / (x - 3);
+    var a = (x + 1) / (x - 3);
 
     var x = 1;
 
