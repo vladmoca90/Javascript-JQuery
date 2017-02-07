@@ -1,9 +1,9 @@
-﻿function exerciseOne() {
+﻿function exerciseTwo() {
 
-    var x = 8;
+    var y = -1;
 
-    var a = (x + 1)*x / (x - 3)*(x + 4);
+    var b = y ^ 3 + 2 * y - 7;
 
-    document.getElementById("resultOne").innerHTML = a;
+    document.getElementById("resultTwo").innerHTML = b;
 
 }
