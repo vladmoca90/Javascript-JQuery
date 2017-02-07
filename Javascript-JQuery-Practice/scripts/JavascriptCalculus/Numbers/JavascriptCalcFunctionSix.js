@@ -1,8 +1,8 @@
 ﻿function exerciseSix() {
 
-    var u = Math.acos(-3);
+    var u = Math.sin(Math.PI);
 
-    var f = 5*Math.log10(u) + [log(u + 8)]**2;
+    var f = Math.log(u**2) + [2*Math.log(u + 1)]**2;
 
     document.getElementById("resultSix").innerHTML = f;
 
