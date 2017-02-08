@@ -11,3 +11,5 @@
     document.getElementById("delta").innerHTML = delta;
 
 }
+
+// add the conditions for the delta => > 0, = 0, <0
