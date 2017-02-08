@@ -1,11 +1,19 @@
 ﻿function calcRoots() {
 
-    var a = ;
+    delta = 4;
 
-    var b = ;
+    a = 1;
 
-    document.getElementById("rootOne").innerHTML = a;
+    b = -4;
 
-    document.getElementById("rootTwo").innerHTML = b;
+    c = 3;
+
+    frst = [b * 2 - Math.sqrt(delta)] / 2 * a;
+
+    scnd = [-(b * 2) - Math.sqrt(delta)] / 2 * a;
+
+    document.getElementById("rootOne").innerHTML = frst;
+
+    document.getElementById("rootTwo").innerHTML = scnd;
 
 }
