@@ -1,6 +1,6 @@
 ﻿function calcRoots() {
 
-    delta = Math.sqrt(16);
+    delta = Math.sqrt(4);
 
     a = 1;
 
@@ -8,9 +8,9 @@
 
     c = 3;
 
-    frst = (b - delta) / (2 * a);
+    var frst = (- b + delta) / (2 * a);
 
-    scnd = [-b - delta] / (2 * a);
+    var scnd = [-b - delta] / (2 * a);
 
     document.getElementById("rootOne").innerHTML = frst;
 
