@@ -10,6 +10,16 @@
 
     document.getElementById("delta").innerHTML = delta;
 
+    if (delta > 0) {
+        alert("The roots are distinctive");
+    }
+    else if(delta == 0) {
+        alert("The roots are equal");
+    }
+    else (delta < 0) {
+        alert("The equation is imposible")
+    }
+
 }
 
 // add the conditions for the delta => > 0, = 0, <0
