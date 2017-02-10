@@ -10,7 +10,7 @@
 
     var frst = (- b + delta) / (2 * a);
 
-    var scnd = [-b - delta] / (2 * a);
+    var scnd = (-b - delta) / (2 * a);
 
     document.getElementById("rootOne").innerHTML = frst;
 

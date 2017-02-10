@@ -8,9 +8,13 @@
 
     c = -3;
 
-    var frst = (- b + delta) / 2 * a;
+    var yOne = (-b + delta) / 2 * a;
 
-    var scnd = (-b - delta) / 2 * a;
+    var frst = yOne.toFixed(2);
+
+    var yTwo = (-b - delta) / 2 * a;
+
+    var scnd = yTwo.toFixed(2);
 
     document.getElementById("rootOne").innerHTML = frst;
 

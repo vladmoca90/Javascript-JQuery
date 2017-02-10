@@ -2,8 +2,10 @@
 
     var w = -1;
 
-    var d = 3*w - Math.sin(w) + w;
+    var d = 3 * w - Math.sin(w) + w;
 
-    document.getElementById("resultFour").innerHTML = d;
+    var resultFour = d.toFixed(2);
+
+    document.getElementById("resultFour").innerHTML = resultFour;
 
 }
