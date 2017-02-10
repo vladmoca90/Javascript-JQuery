@@ -12,10 +12,11 @@
 
     var scnd = (-b - delta) / 2 * a;
 
-    for (frst <= 0 || scnd <= 0) {
-
+    if (frst <= 0 || scnd <= 0) {
         document.getElementByClass("rootCondition").innerHTML = "Not a valid root. Is is <= 0)";
-
+    }
+    else {
+        document.getElementByClass("rootCondition").innerHTML = "Not a valid root. Is is <= 0)"
     }
 
     document.getElementById("rootOne").innerHTML = frst;
