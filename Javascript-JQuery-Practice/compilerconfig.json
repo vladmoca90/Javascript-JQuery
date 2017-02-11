@@ -18,5 +18,9 @@
   {
     "outputFile": "content/formValidation/Sarus-Rule.css",
     "inputFile": "content/formValidation/Sarus-Rule.scss"
+  },
+  {
+    "outputFile": "content/JavascriptCalculus/Sarus-Rule.css",
+    "inputFile": "content/JavascriptCalculus/Sarus-Rule.scss"
   }
 ]
