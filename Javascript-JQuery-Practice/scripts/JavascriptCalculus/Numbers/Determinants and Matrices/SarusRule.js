@@ -1,22 +1,12 @@
 ﻿function calcDeter() {
 
-    a = 1;
+    a = 1; b = -5; c = 2;
 
-    b = -5;
+    d = -1; e = 0; f = -4;
 
-    c = 2;
+    g = 1; h = -2; i = -11;
 
-    d = -1;
+    y = a * e * i + b * f * g + c * d * h - c * e * g - b * d * i - a * f * h;
 
-    e = 0;
-
-    f = -4;
-
-    g = 1;
-
-    h = -2;
-
-    i = -11;
-
-
+    document.getElementById("result").innerHTML = y;
 }
