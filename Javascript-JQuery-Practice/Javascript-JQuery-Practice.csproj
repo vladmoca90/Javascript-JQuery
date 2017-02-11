@@ -106,6 +106,12 @@
     <Content Include="content\formValidation\formValidation.min.css">
       <DependentUpon>formValidation.css</DependentUpon>
     </Content>
+    <Content Include="content\JavascriptCalculus\Sarus-Rule.css">
+      <DependentUpon>Sarus-Rule.scss</DependentUpon>
+    </Content>
+    <Content Include="content\JavascriptCalculus\Sarus-Rule.min.css">
+      <DependentUpon>Sarus-Rule.css</DependentUpon>
+    </Content>
     <Content Include="content\JavascriptCalculus\JavascriptCalculus.css">
       <DependentUpon>JavascriptCalculus.scss</DependentUpon>
     </Content>
@@ -124,6 +130,7 @@
     </None>
     <Content Include="content\formValidation\formValidation.scss" />
     <Content Include="content\JavascriptCalculus\JavascriptCalculus.scss" />
+    <Content Include="content\JavascriptCalculus\Sarus-Rule.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -148,6 +155,7 @@
     <Content Include="scripts\JavascriptCalculus\Arrays\JavascriptCalculusReverse.js" />
     <Content Include="scripts\JavascriptCalculus\Arrays\JavascriptCalculusSort.js" />
     <Content Include="scripts\JavascriptCalculus\Arrays\JavascriptCalculusSplice.js" />
+    <Content Include="scripts\JavascriptCalculus\Numbers\Determinants and Matrices\SarusRule.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\JavascriptCalcFunctionSix.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\JavascriptCalcFunctionFive.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\JavascriptCalcFunctionFour.js" />
@@ -176,6 +184,7 @@
     <Content Include="sites\JavascriptCalculus\Arrays\JavascriptCalculusPushPop.html" />
     <Content Include="sites\JavascriptCalculus\Arrays\JavascriptCalculusSort.html" />
     <Content Include="sites\JavascriptCalculus\Arrays\JavascriptCalculusSplice.html" />
+    <Content Include="sites\JavascriptCalculus\Numbers\Determinants and Matrices\SarusRule.html" />
     <Content Include="sites\JavascriptCalculus\Numbers\JavascriptCalcFunction.html" />
     <Content Include="sites\JavascriptCalculus\Numbers\JavascriptCalculusPrecisionFixed.html" />
     <Content Include="sites\JavascriptCalculus\Numbers\Second Degree Function\JavascriptLogarithmFunction.html" />

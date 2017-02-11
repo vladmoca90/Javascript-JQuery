@@ -14,5 +14,9 @@
   {
     "outputFile": "content/JavascriptCalculus/SecondDegreeFuntionStyles/SecondDegreeFuntionStyles.css",
     "inputFile": "content/JavascriptCalculus/SecondDegreeFuntionStyles/SecondDegreeFuntionStyles.scss"
+  },
+  {
+    "outputFile": "content/formValidation/Sarus-Rule.css",
+    "inputFile": "content/formValidation/Sarus-Rule.scss"
   }
 ]
