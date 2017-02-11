@@ -16,6 +16,8 @@
 
     var scnd = yTwo.toFixed(2);
 
+    var frst = 2.07;
+
     document.getElementById("rootOne").innerHTML = frst;
 
     document.getElementById("rootTwo").innerHTML = scnd;
