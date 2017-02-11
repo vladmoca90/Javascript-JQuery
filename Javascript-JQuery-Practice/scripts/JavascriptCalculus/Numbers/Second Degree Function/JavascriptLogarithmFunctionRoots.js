@@ -16,15 +16,15 @@
 
     var scnd = yTwo.toFixed(2);
 
-    document.getElementById("rootOne").innerHTML = frst;
-
-    document.getElementById("rootTwo").innerHTML = scnd;
-
     if (frst <= 0 || scnd <= 0) {
-        document.getElementsByClassName("rootCondition").innerHTML = "Not a valid root. It is <= 0)";
+        document.getElementsByClassName("rootCondition").innerHTML = "Not a valid root. It is <= 0";
     }
     else {
         document.getElementsByClassName("rootCondition").innerHTML = "";
     }
+
+    document.getElementById("rootOne").innerHTML = frst;
+
+    document.getElementById("rootTwo").innerHTML = scnd;
 
 }
