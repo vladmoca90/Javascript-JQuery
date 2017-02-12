@@ -165,6 +165,8 @@
     <Content Include="scripts\JavascriptCalculus\Numbers\JavascriptCalcFunctionOne.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\JavascriptCalculusPrecision.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\JavascriptCalculusFixed.js" />
+    <Content Include="scripts\JavascriptCalculus\Numbers\Second Degree Function\JavascriptExponentialFunctionDelta.js" />
+    <Content Include="scripts\JavascriptCalculus\Numbers\Second Degree Function\JavascriptExponentialFunctionRoots.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\Second Degree Function\JavascriptLogarithmFunctionRoots.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\Second Degree Function\JavascriptLogarithmFunctionDelta.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\Second Degree Function\JavascriptSecondDegreeFunctionRoots.js" />
@@ -190,6 +192,7 @@
     <Content Include="sites\JavascriptCalculus\Numbers\JavascriptCalcFunction.html" />
     <Content Include="sites\JavascriptCalculus\Numbers\JavascriptCalculusPrecisionFixed.html" />
     <Content Include="sites\JavascriptCalculus\Numbers\Second Degree Function\JavascriptLogarithmFunction.html" />
+    <Content Include="sites\JavascriptCalculus\Numbers\Second Degree Function\JavascriptExponentialFunction.html" />
     <Content Include="sites\JavascriptCalculus\Numbers\Second Degree Function\JavascriptSecondDegreeFunction.html" />
     <Content Include="sites\JavascriptCalculus\Strings\JavascriptConcat.html" />
     <Content Include="sites\JavascriptCalculus\Strings\JavascriptIndex.html" />
