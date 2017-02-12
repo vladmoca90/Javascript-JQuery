@@ -1,4 +1,4 @@
-﻿function calcDeter() {
+﻿function sarusRule() {
 
     a = 1; b = -5; c = 2;
 

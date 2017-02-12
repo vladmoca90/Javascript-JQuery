@@ -1,10 +1,65 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en-gb">
 <head>
-    <title></title>
-	<meta charset="utf-8" />
+
+    <title>Triangle Method</title>
+
+    <meta charset="utf-8" />
+
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js"></script>
+
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css" />
+
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../../../../content/JavascriptCalculus/JavascriptCalculus.css" />
+
+    <link rel="stylesheet" type="text/css" href="../../../../content/JavascriptCalculus/Sarus-Rule.css" />
+
+    <script src="../../../../scripts/JavascriptCalculus/Numbers/Determinants and Matrices/TriangleMethod.js"></script>
+
 </head>
 <body>
 
+    <div role="main" id="main">
+        <div class="Sarus-Rule">
+            <table>
+                <tr>
+                    <td>a</td>
+                    <td>d</td>
+                    <td>g</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>e</td>
+                    <td>h</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>f</td>
+                    <td>i</td>
+                </tr>
+            </table>
+        </div>
+        <p></p>
+        <p><strong>You note the determinante with an y</strong></p>
+        <p></p>
+        <p>This way you will have <strong>y = aei + bfg + cdh - ceg - bdi - afh</strong></p>
+        <button class="btn btn-success" onclick="calcTrian()">Calculate</button>
+        <p class="calc-result">y = <span id="result"></span></p>
+    </div>
+
 </body>
 </html>
+
+
