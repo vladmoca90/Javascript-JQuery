@@ -1,6 +1,6 @@
 ﻿function calcRoots() {
 
-    delta = Math.sqrt(5);
+    delta = Math.sqrt(25);
 
     a = 1;
 
@@ -10,11 +10,7 @@
 
     var yOne = (-b + delta) / 2 * a;
 
-    var frst = yOne.toFixed(2);
-
     var yTwo = (-b - delta) / 2 * a;
-
-    var scnd = yTwo.toFixed(2);
 
     document.getElementById("rootOne").innerHTML = frst;
 
