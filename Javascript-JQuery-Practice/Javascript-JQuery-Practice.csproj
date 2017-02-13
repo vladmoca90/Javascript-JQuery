@@ -166,7 +166,8 @@
     <Content Include="scripts\JavascriptCalculus\Numbers\JavascriptCalculusPrecision.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\JavascriptCalculusFixed.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\Second Degree Function\JavascriptExponentialFunctionDelta.js" />
-    <Content Include="scripts\JavascriptCalculus\Numbers\Second Degree Function\JavascriptExponentialFunctionRoots.js" />
+    <Content Include="scripts\JavascriptCalculus\Numbers\Second Degree Function\JavascriptExponentialFunctionXRoots.js" />
+    <Content Include="scripts\JavascriptCalculus\Numbers\Second Degree Function\JavascriptExponentialFunctionYRoots.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\Second Degree Function\JavascriptLogarithmFunctionRoots.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\Second Degree Function\JavascriptLogarithmFunctionDelta.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\Second Degree Function\JavascriptSecondDegreeFunctionRoots.js" />
