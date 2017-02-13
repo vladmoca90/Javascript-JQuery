@@ -9,3 +9,12 @@
     document.getElementById("rootXTwo").innerHTML = scnd;
 
 }
+
+/* 
+    if(frst <= 0 || scnd <= 0) {
+        document.getElementsByClassName("rootsConditions").innerHTML = "The root is not valid";
+    }
+    else {
+        document.getElementsByClassName("rootsConditions").innerHTML = "";
+    }
+*/
