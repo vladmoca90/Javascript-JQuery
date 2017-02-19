@@ -1,12 +1,28 @@
-﻿function calcXRoots() {
+﻿function calcXRoots(y1, y2, base) {
 
-    var frst = [Math.log(4)] / [Math.log(3)];
+    if(base<=0) {
+        alert("The base cannot be negative");
+        return;
+    }
 
-    var scnd = [Math.log(-1)] / [Math.log(3)];
+    if(y1 <= 0) {
+        document.getElementById("rootXOne").innerHTML = "The root is not valid";
+    }
+    else {
+        var frst = [Math.log(y1)] / [Math.log(base)];
 
-    document.getElementById("rootXOne").innerHTML = frst;
+        document.getElementById("rootXOne").innerHTML = frst;
+    }
 
-    document.getElementById("rootXTwo").innerHTML = scnd;
+    if(y2 <= 0) {
+        document.getElementById("rootXTwo").innerHTML = "The root is not valid";
+    }
+    else {
+        var scnd = [Math.log(y2)] / [Math.log(base)];
+
+        document.getElementById("rootXTwo").innerHTML = scnd;
+    }
+
 
 }
 

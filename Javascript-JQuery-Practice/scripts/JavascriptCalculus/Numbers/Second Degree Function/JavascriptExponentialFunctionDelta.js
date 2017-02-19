@@ -1,12 +1,12 @@
 ﻿function calcDelta() {
 
-    a = 1;
+    var a = 1;
 
-    b = -3;
+    var b = -3;
 
-    c = -4;
+    var c = -4;
 
-    delta = b**2 - 4*a*c;
+    var delta = b**2 - 4*a*c;
 
     document.getElementById("delta").innerHTML = delta;
 
