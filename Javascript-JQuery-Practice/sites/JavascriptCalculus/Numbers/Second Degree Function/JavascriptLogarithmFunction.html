@@ -37,15 +37,21 @@
 
         <p>Note the log(x) = y and you have 5y<sup>2</sup> + 2y - 3</p>
 
-        <p>&Delta; = b<sup>2</sup> - 4ac</p>
+        <p>&Delta; = b<sup>2</sup> - 4ac</p> <br />
 
-        <button class="btn btn-info" onclick="deltaLogarithm()">Calculate Delta</button>
+        a = <input type="text" id="a" /> <br />
+
+        b = <input type="text" id="b" /> <br />
+
+        c = <input type="text" id="c" /> <br />
+
+        <button class="btn btn-info" click="deltaLogarithm()">Calculate Delta</button>
 
         <p class="solutions">&Delta; = <span id="delta"></span></p>
 
         <p class="roots">Roots are y<sub>1</sub> and y<sub>2</sub>. Both must be > 0 because the argument of a logarithm must always be positive</p>
 
-        <button class="btn btn-info" onclick="calcLogRoots()">Calculate Roots</button>
+        <button class="btn btn-info" click="calcLogRoots(y1, y2)">Calculate Roots</button>
 
         <p class="solutions">y<sub>1</sub> = <span id="rootOne"></span><span id="rootConditionOne"></span></p>
 

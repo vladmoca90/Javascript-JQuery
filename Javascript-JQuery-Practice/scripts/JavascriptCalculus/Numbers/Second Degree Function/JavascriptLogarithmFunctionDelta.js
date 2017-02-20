@@ -1,27 +1,30 @@
-﻿function deltaLogarithm() {
+﻿$(document).ready(function() {
 
-    var a = 5;
-
-    var b = 2;
-
-    var c = - 3;
+    $("#calcDelta").click(function() {
 
     var delta = b**2 - 4*a*c;
+  
+    if(delta < 0) {
+        alert("The equation is imposible");
+        return;
+    }
+    else if(delta == 0) {
+        alert("The roots are equal");
+        document.getElementById("delta").innerHTML = delta;
+    }
+    else {
+        alert("The roots are different");
+        document.getElementById("delta").innerHTML = delta;
+    }
 
-    document.getElementById("delta").innerHTML = delta;
+    var y1 = (- b + Math.sqrt(delta)) / (2 * a);
 
-}
+    $("#rootOne").html(y1);
 
-/* 
+    var y2 = (- b - Math.sqrt(delta)) / (2 * a);
 
-if (delta > 0) {
-    alert("The roots are distinctive");
-}
-else if(delta == 0) {
-    alert("The roots are equal");
-}
-else {
-    alert("The equation is imposible");
-}
+    $("#rootTwo").html(y2);
 
-*/
+  });
+});
+
