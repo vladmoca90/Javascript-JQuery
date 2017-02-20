@@ -2,11 +2,11 @@
 
     delta = Math.sqrt(25);
 
-    a = 1;
+    var a = 1;
 
-    b = -3;
+    var b = -3;
 
-    c = -4;
+    var c = -4;
 
     var yOne = (-b + delta) / 2 * a;
 
