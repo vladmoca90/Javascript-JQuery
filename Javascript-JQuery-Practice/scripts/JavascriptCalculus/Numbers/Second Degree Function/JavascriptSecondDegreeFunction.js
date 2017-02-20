@@ -1,30 +1,36 @@
 ﻿$(function() {
 
-$("#calcRoots").click(function () {
+    $("#calcRoots").click(function () {
 
-    var delta = b**2 - 4*a*c;
+        var a = $("#a").val();
 
-    if(delta < 0) {
-        alert("The equation is imposible");
-        return;
-    }
-    else if(delta == 0) {
-        alert("The roots are equal");
-        document.getElementById("delta").innerHTML = delta;
-    }
-    else {
-        alert("The roots are different");
-        document.getElementById("delta").innerHTML = delta;
-    }
+        var b = $("#b").val();
 
-    var x1 = (- b + Math.sqrt(delta)) / (2 * a);
+        var c = $("#c").val();
 
-    $("#rootOne").html(x1);
+        var delta = b**2 - 4*a*c;
 
-    var x2 = (- b - Math.sqrt(delta)) / (2 * a);
+        if(delta < 0) {
+            alert("The equation is imposible");
+            return;
+        }
+        else if(delta == 0) {
+            alert("The roots are equal");
+            document.getElementById("delta").innerHTML = delta;
+        }
+        else {
+            alert("The roots are different");
+            document.getElementById("delta").innerHTML = delta;
+        }
 
-    $("#rootTwo").html(x2);
+        var x1 = (- b + Math.sqrt(delta)) / (2 * a);
 
-});
+        $("#rootOne").html(x1);
+
+        var x2 = (- b - Math.sqrt(delta)) / (2 * a);
+
+        $("#rootTwo").html(x2);
+
+    });
 
 });
