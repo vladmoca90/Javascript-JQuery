@@ -2,12 +2,6 @@
 
 $("#calcRoots").click(function () {
 
-    var a = $("#a").val();
-
-    var b = $("#b").val();
-
-    var c = $("#c").val();
-
     var delta = b**2 - 4*a*c;
 
     if(delta < 0) {
