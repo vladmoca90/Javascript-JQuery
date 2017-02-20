@@ -3,6 +3,12 @@
     $("#calcDelta").click(function() {
 
         var delta = b**2 - 4*a*c;
+
+        $("#a").val();
+
+        $("#b").val();
+
+        $("#c").val();
   
         if(delta < 0) {
             alert("The equation is imposible");

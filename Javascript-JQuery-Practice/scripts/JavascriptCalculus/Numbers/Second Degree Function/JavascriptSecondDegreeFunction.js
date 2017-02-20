@@ -34,16 +34,3 @@ $("#calcRoots").click(function () {
 });
 
 });
-
-
-/*
-    if (delta > 0) {
-       alert("The roots are distinctive");
-    }
-    else if (delta == 0) {
-       alert("The roots are equal");
-    }
-    else {
-       alert("The equation is imposible");
-    }
-*/
