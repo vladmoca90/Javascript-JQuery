@@ -1,25 +1,30 @@
-﻿function calcLogRoots() {
+﻿$(document).ready(function() {
 
-    delta = Math.sqrt(8);
+    $("#calcDelta").click(function() {
 
-    var a = 5;
+        var delta = b**2 - 4*a*c;
+  
+        if(delta < 0) {
+            alert("The equation is imposible");
+            return;
+        }
+        else if(delta == 0) {
+            alert("The roots are equal");
+            document.getElementById("delta").innerHTML = delta;
+        }
+        else {
+            alert("The roots are different");
+            document.getElementById("delta").innerHTML = delta;
+        }
 
-    var b = 2;
+        var y1 = (- b + Math.sqrt(delta)) / (2 * a);
 
-    var c = -3;
+        $("#rootOne").html(y1);
 
-    var yOne = (-b + delta) / 2 * a;
+        var y2 = (- b - Math.sqrt(delta)) / (2 * a);
 
-    var frst = yOne.toFixed(2);
+        $("#rootTwo").html(y2);
 
-    var yTwo = (-b - delta) / 2 * a;
+    });
+});
 
-    var scnd = yTwo.toFixed(2);
-
-    var frst = 2.07;
-
-    document.getElementById("rootOne").innerHTML = frst;
-
-    document.getElementById("rootTwo").innerHTML = scnd;
-
-}
