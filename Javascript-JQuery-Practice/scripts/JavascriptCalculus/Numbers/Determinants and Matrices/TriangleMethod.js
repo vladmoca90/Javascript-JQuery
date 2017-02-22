@@ -1,6 +1,30 @@
-﻿function calcTrian() {
+﻿$(document).ready(function() {
 
-    x = a*e*i + d*h*c + g*b*f - c*e*g - a*f*h - d*b*i;
+    var a = $("#a").val();
 
-    document.getElementById("result").innerHTML = x;
-}
+    var b = $("#b").val();
+
+    var c = $("#c").val();
+
+    var d = $("#d").val();
+
+    var e = $("#e").val();
+
+    var f = $("#f").val();
+
+    var g = $("#g").val();
+
+    var h = $("#h").val();
+
+    var i = $("#i").val();
+
+
+    $("#calcTriangl").click(function() {
+
+        var x = a*e*i + d*h*c + g*b*f - c*e*g - a*f*h - d*b*i;
+
+        document.getElementById("result").innerHTML = x;
+
+    });
+
+});
