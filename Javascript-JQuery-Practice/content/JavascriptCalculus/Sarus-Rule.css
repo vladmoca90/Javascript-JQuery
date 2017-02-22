@@ -6,3 +6,9 @@
   .Sarus-Rule tr > td {
     padding: 12px; }
 
+input[type="text"] {
+  margin-top: 10px; }
+
+button {
+  margin-top: 15px; }
+
