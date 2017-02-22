@@ -1,25 +1,24 @@
 ﻿$(document).ready(function() {
 
-    var a = $("#a").val();
+    $("#calcTriangl").click(function () {
 
-    var b = $("#b").val();
+        var a = $("#a").val();
 
-    var c = $("#c").val();
+        var b = $("#b").val();
 
-    var d = $("#d").val();
+        var c = $("#c").val();
 
-    var e = $("#e").val();
+        var d = $("#d").val();
 
-    var f = $("#f").val();
+        var e = $("#e").val();
 
-    var g = $("#g").val();
+        var f = $("#f").val();
 
-    var h = $("#h").val();
+        var g = $("#g").val();
 
-    var i = $("#i").val();
+        var h = $("#h").val();
 
-
-    $("#calcTriangl").click(function() {
+        var i = $("#i").val();
 
         var x = a*e*i + d*h*c + g*b*f - c*e*g - a*f*h - d*b*i;
 
