@@ -1,6 +1,6 @@
 ﻿$(document).ready(function () {
 
-    $("#parent").addClass("center-block").width(400).height(400).css({
+    $("#parent").addClass("center-block").width(300).height(300).css({
         "background": "yellow",
     });
 
@@ -14,8 +14,9 @@
 
         $("#parent").animate({
             background: "red",
-            width: "500px",
-            height: "500px",
+            width: "400px",
+            height: "400px",
+            borderRadius: "100%",
             opacity: "0.5"
         });
 
@@ -23,8 +24,9 @@
             background: "yellow",
             width: "75px",
             height: "75px",
-            top: 100,
-            left: 140
+            marginTop: "120px",
+            marginLeft: "100px",
+            display: "block"
         });
 
     });
