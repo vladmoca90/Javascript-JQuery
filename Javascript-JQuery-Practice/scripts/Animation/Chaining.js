@@ -4,12 +4,7 @@
         "background": "red"
     });
 
-    $("#chain-interior").width(300).height(300).css({
-        "border": "1px solid black",
-        "background": "white"
-    });
-
     $("button").onclick(function () {
-
+        $("#chaining").animate();
     });
 });
