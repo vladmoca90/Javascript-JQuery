@@ -141,7 +141,8 @@
   <ItemGroup>
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="scripts\Animation\animation.js" />
+    <Content Include="scripts\Animation\Animation.js" />
+    <Content Include="scripts\Animation\Chaining.js" />
     <Content Include="scripts\chat\chat.js" />
     <Content Include="scripts\formValidation\age.js" />
     <Content Include="scripts\formValidation\emailValidation.js" />
@@ -180,7 +181,8 @@
     <Content Include="scripts\jQueryOnlyYellowSquareLists\jQueryOnlyYellowSquareLists.js" />
     <Content Include="scripts\jQueryPanels\jQueryPanels.js" />
     <Content Include="scripts\jQueryTexts\jQueryTexts.js" />
-    <Content Include="sites\Animation\animation.html" />
+    <Content Include="sites\Animation\Animation.html" />
+    <Content Include="sites\Animation\Chaining.html" />
     <Content Include="sites\chat\chat.html" />
     <Content Include="sites\formValidation\formValidation.html" />
     <Content Include="sites\JavascriptCalculus\Arrays\JavacriptCalculusPositions.html" />
