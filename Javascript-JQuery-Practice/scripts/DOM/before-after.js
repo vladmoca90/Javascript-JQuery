@@ -15,4 +15,8 @@
 
     $("#first, #second, #third, p").css("margin-top", "15px");
 
+    $("p").addClass("text-center");
+
+    $("button").addClass("center-block");
+
 });
