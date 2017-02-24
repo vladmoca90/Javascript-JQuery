@@ -144,6 +144,7 @@
     <Content Include="scripts\Animation\Animation.js" />
     <Content Include="scripts\Animation\Chaining.js" />
     <Content Include="scripts\chat\chat.js" />
+    <Content Include="scripts\DOM\before-after.js" />
     <Content Include="scripts\formValidation\age.js" />
     <Content Include="scripts\formValidation\emailValidation.js" />
     <Content Include="scripts\formValidation\firstName.js" />
@@ -184,6 +185,7 @@
     <Content Include="sites\Animation\Animation.html" />
     <Content Include="sites\Animation\Chaining.html" />
     <Content Include="sites\chat\chat.html" />
+    <Content Include="sites\DOM\before-after.html" />
     <Content Include="sites\formValidation\formValidation.html" />
     <Content Include="sites\JavascriptCalculus\Arrays\JavacriptCalculusPositions.html" />
     <Content Include="sites\JavascriptCalculus\Arrays\JavascriptCalculusPushPop.html" />
