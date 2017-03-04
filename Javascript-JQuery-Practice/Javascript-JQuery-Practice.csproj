@@ -173,7 +173,7 @@
     <Content Include="scripts\JavascriptCalculus\Numbers\Determinants and Matrices\SarusRule.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\Determinants and Matrices\TriangleMethod.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\divisorsOfN.js" />
-    <Content Include="scripts\JavascriptCalculus\Numbers\factorial.js" />
+    <Content Include="scripts\JavascriptCalculus\Numbers\factorials, arrangements, combinations.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\JavascriptCalcFunctionSix.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\JavascriptCalcFunctionFive.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\JavascriptCalcFunctionFour.js" />
@@ -182,11 +182,13 @@
     <Content Include="scripts\JavascriptCalculus\Numbers\JavascriptCalcFunctionOne.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\JavascriptCalculusPrecision.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\JavascriptCalculusFixed.js" />
+    <Content Include="scripts\JavascriptCalculus\Numbers\power, square and hyp.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\Second Degree Function\JavascriptExponentialFunctionDelta.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\Second Degree Function\JavascriptExponentialFunctionRoots.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\Second Degree Function\JavascriptLogarithmFunctionRoots.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\Second Degree Function\JavascriptSecondDegreeFunction.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\sidesOfATriangle.js" />
+    <Content Include="scripts\JavascriptCalculus\Objects\calculateArea.js" />
     <Content Include="scripts\JavascriptCalculus\Strings\JavascriptConcat.js" />
     <Content Include="scripts\JavascriptCalculus\Strings\JavascriptIndex.js" />
     <Content Include="scripts\JavascriptCalculus\Strings\JavascriptLastIndex.js" />
