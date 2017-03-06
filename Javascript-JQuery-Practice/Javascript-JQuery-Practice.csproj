@@ -170,6 +170,8 @@
     <Content Include="scripts\JavascriptCalculus\Arrays\sumOfElementsInAnArray.js" />
     <Content Include="scripts\JavascriptCalculus\Arrays\trianglePerimeter.js" />
     <Content Include="scripts\JavascriptCalculus\fibonacci.js" />
+    <Content Include="scripts\JavascriptCalculus\Numbers\binomio.js" />
+    <Content Include="scripts\JavascriptCalculus\Numbers\BinomioSquares.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\Determinants and Matrices\SarusRule.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\Determinants and Matrices\TriangleMethod.js" />
     <Content Include="scripts\JavascriptCalculus\Numbers\divisorsOfN.js" />
