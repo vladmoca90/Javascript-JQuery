@@ -152,6 +152,7 @@
     <Content Include="scripts\formValidation\passValidation.js" />
     <Content Include="scripts\JavascriptCalculus\Arrays\combineLists.js" />
     <Content Include="scripts\JavascriptCalculus\Arrays\divisorsOfN.js" />
+    <Content Include="scripts\JavascriptCalculus\Arrays\functionsWithArraysAsParameter.js" />
     <Content Include="scripts\JavascriptCalculus\Arrays\JavacriptCalculusPositionsConcat.js" />
     <Content Include="scripts\JavascriptCalculus\Arrays\JavacriptCalculusPositionsTwo.js" />
     <Content Include="scripts\JavascriptCalculus\Arrays\JavacriptCalculusPositionsOne.js" />
