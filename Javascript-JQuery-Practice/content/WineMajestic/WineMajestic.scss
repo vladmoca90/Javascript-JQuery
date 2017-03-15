@@ -65,16 +65,26 @@ $light-grey: #EDF1EE;
     background: $light-grey;
     color: #283533;
     font-size: 14px;
+    @media screen and (max-width: 480px) {
+        font-size: 12px;
+    }
+}
+.button-container {
+    span {
+        @media screen and (max-width: 480px) {
+            font-size: 12px;
+        }
+    }
 }
 .like-button {
-     text-transform: uppercase;
-     color: $white;
-     background: $pink;
-     border: 0px;
-     border-radius: 3px;
-     padding: 8px 21px;
-     margin-right: 6px;
-     font-size: 10px;
+    text-transform: uppercase;
+    color: $white;
+    background: $pink;
+    border: 0px;
+    border-radius: 3px;
+    padding: 8px 21px;
+    margin-right: 6px;
+    font-size: 10px;
 }
 .review-comment {
     border-top: 1px solid $light-grey;
