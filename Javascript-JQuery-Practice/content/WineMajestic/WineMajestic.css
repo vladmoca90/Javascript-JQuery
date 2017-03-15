@@ -27,7 +27,7 @@
   margin-bottom: 48px; }
   #send-container .send-button {
     margin-top: 12px;
-    padding: 10px 28px;
+    padding: 12px 38px;
     float: right; }
     @media screen and (max-width: 480px) {
       #send-container .send-button {
@@ -37,6 +37,7 @@
   margin-top: 24px; }
   .comment-content #review-heading {
     font-size: 21px;
+    font-weight: bold;
     text-transform: uppercase; }
 
 .bold-name {
@@ -48,7 +49,7 @@
 
 .text {
   border-radius: 6px;
-  padding: 12px;
+  padding: 18px;
   background: #EDF1EE;
   color: #283533;
   font-size: 14px; }
@@ -59,16 +60,16 @@
   background: #B61364;
   border: 0px;
   border-radius: 3px;
-  padding: 7px 20px;
+  padding: 8px 21px;
   margin-right: 6px;
-  font-size: 12px; }
+  font-size: 10px; }
 
 .review-comment {
   border-top: 1px solid #EDF1EE;
   clear: right; }
   .review-comment button {
     margin-top: 12px;
-    padding: 10px 28px;
+    padding: 14px 48px;
     float: right; }
     @media screen and (max-width: 480px) {
       .review-comment button {
