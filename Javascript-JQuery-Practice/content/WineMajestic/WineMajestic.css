@@ -77,9 +77,8 @@
 input {
   width: 100%;
   padding: 12px;
-  border-radius: 6px;
+  border-radius: 10px;
   border: 1px solid #EDF1EE;
-  color: #283533;
-  opacity: 0.5;
+  color: #000000;
   font-size: 14px; }
 
