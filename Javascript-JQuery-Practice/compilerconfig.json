@@ -22,5 +22,9 @@
   {
     "outputFile": "content/JavascriptCalculus/Sarus-Rule.css",
     "inputFile": "content/JavascriptCalculus/Sarus-Rule.scss"
+  },
+  {
+    "outputFile": "content/WineMajestic/WineMajestic.css",
+    "inputFile": "content/WineMajestic/WineMajestic.scss"
   }
 ]
