@@ -1,6 +1,6 @@
 ﻿#content {
   width: 100%;
-  max-width: 600px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 18px; }
 
@@ -11,7 +11,7 @@
 .comment-container {
   margin-bottom: 24px; }
   .comment-container.me {
-    width: 90%;
+    width: 85%;
     float: right; }
     .comment-container.me .like-button {
       background: #ffffff;
@@ -59,8 +59,9 @@
   background: #B61364;
   border: 0px;
   border-radius: 3px;
-  padding: 5px 20px;
-  margin-right: 6px; }
+  padding: 7px 20px;
+  margin-right: 6px;
+  font-size: 12px; }
 
 .review-comment {
   border-top: 1px solid #EDF1EE;
