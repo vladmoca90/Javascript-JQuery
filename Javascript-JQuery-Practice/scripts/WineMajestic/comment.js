@@ -1,9 +1,5 @@
 ﻿$(function () {
 
-    $(".like-button").click(function () {
-
-    });
-
     $(".send-button").click(function () {
 
         var container = $("#template").clone();
