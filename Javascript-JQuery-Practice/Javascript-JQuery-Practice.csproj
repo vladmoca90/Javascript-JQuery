@@ -216,7 +216,8 @@
     <Content Include="scripts\jQueryOnlyYellowSquareLists\jQueryOnlyYellowSquareLists.js" />
     <Content Include="scripts\jQueryPanels\jQueryPanels.js" />
     <Content Include="scripts\jQueryTexts\jQueryTexts.js" />
-    <Content Include="scripts\WineMajestic\WineMajestic.js" />
+    <Content Include="scripts\WineMajestic\likes-dislikes.js" />
+    <Content Include="scripts\WineMajestic\comment.js" />
     <Content Include="sites\Animation\Animation.html" />
     <Content Include="sites\Animation\Chaining.html" />
     <Content Include="sites\chat\chat.html" />
