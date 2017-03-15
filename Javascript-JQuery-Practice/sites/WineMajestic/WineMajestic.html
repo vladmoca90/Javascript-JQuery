@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+
+    <title>Wine Majestic</title>
+
+    <meta charset="utf-8" />
+
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js"></script>
+
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css" />
+
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <script src="../../scripts/WineMajestic/WineMajestic.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../../content/WineMajestic/WineMajestic.css" />
+
+</head>
+<body>
+    <main id="content">
+        <ul class="container-list">
+            <li>
+                <div class="comment-container friend">
+                    <p><span class="bold-name">Jimbo</span><span class="message-date">3 days ago</span></p>
+                    <div class="comment-content">
+                        <p class="text">
+                            Bought this for the first time and wouldn't buy again. Was not expecting the
+                            blush color that came out and, for me, a little sweet. It is, nevertheless, a
+                            palatable drink for all that.
+                        </p>
+                        <div>
+                            <button class="like-button">Like</button>
+                            <span>You and 5 people like this</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="comment-container me">
+                    <p><span class="bold-name">John Thomas</span><span class="message-date">Yesterday</span></p>
+                    <div class="comment-content">
+                        <p class="text">
+                            I am sorry to hear it you didn't enjoy it Jimbo. It does need to be open an
+                            hour before drinking to give it some air and time to warm up to room temperature.
+                        </p>
+                    </div>
+                    <div>
+                        <button class="like-button">Like</button>
+                        <span>1 person likes this</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="comment-container me" id="template">
+            <p><span class="bold-name">John Thomas</span><span class="message-date">Yesterday</span></p>
+            <div class="comment-content">
+                <p class="text">
+                </p>
+            </div>
+            <div>
+                <button class="like-button">Like</button>
+                <span>1 person likes this</span>
+            </div>
+        </div>
+        <div class="comment-content" id="send-container">
+                <input type="text" placeholder="Write a comment..." />
+                <button class="like-button send-button">Send</button>
+        </div>
+        <div class="comment-content review-comment">
+            <p id="review-heading">Write your own review</p>
+            <form>
+                <input type="text" placeholder="Write a comment..." />
+                <button class="like-button review">Leave a review</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
