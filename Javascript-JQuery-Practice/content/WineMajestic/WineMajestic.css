@@ -10,8 +10,14 @@ input {
 
 #content {
   max-width: 1000px;
-  margin: 0 auto;
-  padding: 18px; }
+  margin: auto;
+  padding: 18px;
+  overflow: auto; }
+
+.like-button,
+#review-heading,
+.name {
+  font-weight: bold; }
 
 .container-list {
   list-style-type: none;
@@ -20,7 +26,7 @@ input {
 .comment-container {
   margin-bottom: 24px; }
   .comment-container.me {
-    width: 85%; }
+    width: 88%; }
     .comment-container.me .like-button {
       background: #ffffff;
       color: #B61364;
@@ -31,60 +37,62 @@ input {
 
 input {
   padding: 16px;
-  border-radius: 5px;
+  border-radius: 6px;
   border: 1px solid #EDF1EE;
   color: #000000;
   font-size: 14px; }
 
 .like-button {
-  text-transform: uppercase;
   color: #ffffff;
   background: #B61364;
   border: 0px;
   border-radius: 2px;
   padding: 8px 21px;
   margin-right: 6px;
-  font-size: 11px;
-  font-weight: bold; }
+  font-size: 11px; }
+
+.like-button,
+#review-heading {
+  text-transform: uppercase; }
 
 #send-container {
-  width: 85%;
+  width: 88%;
   margin-bottom: 48px; }
   #send-container .send-button {
     margin-top: 12px;
-    margin-right: 0px;
-    padding: 12px 36px; }
+    margin-right: 0px; }
     @media screen and (max-width: 480px) {
       #send-container .send-button {
         width: 100%; } }
+
+.send-button,
+.review-comment button {
+  padding: 14px 40px; }
 
 .comment-content {
   margin-top: 12px; }
   .comment-content .text-shape {
     width: 0px;
     height: 0px;
-    margin-left: 24px;
-    border-right: 16px solid transparent;
-    border-bottom: 16px solid #EDF1EE; }
+    margin-left: 21px;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #EDF1EE; }
   .comment-content #review-heading {
     padding: 6px;
     background: #ffffff;
     width: 28%;
     text-align: center;
     margin: -20px auto 24px;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase; }
+    font-size: 18px; }
     @media screen and (max-width: 480px) {
       .comment-content #review-heading {
         text-align: left;
         margin-top: 24px;
         padding: 0px;
         width: 100%;
-        font-size: 14px; } }
+        font-size: 16px; } }
 
-.comment-name .bold-name {
-  font-weight: bold;
+.comment-name .name {
   color: #B61364; }
 
 .comment-name .message-date {
@@ -102,12 +110,10 @@ input {
   clear: right; }
   .review-comment button {
     margin-top: 12px;
-    margin-right: 0px;
-    padding: 12px 42px; }
+    margin-right: 0px; }
     @media screen and (max-width: 480px) {
       .review-comment button {
-        width: 100%;
-        margin-bottom: 24px; } }
+        width: 100%; } }
 
 @media screen and (max-width: 480px) {
   .button-container span,
