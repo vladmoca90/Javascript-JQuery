@@ -1,9 +1,10 @@
 ﻿$max-size: 100%;
-$white: #ffffff;
+$white: #FFFFFF;
 $black: #000000;
 $pink: #B61364;
 $light-grey: #EDF1EE;
 $dark-grey: #283533;
+$pale-pink: #D4B9C5;
 
 #content,
 input {
@@ -30,14 +31,23 @@ input {
     list-style-type: none;
     padding: 0px;
 }
+.like-button {
+    color: $white;
+    background: $pink;
+    border: 0px;
+    border-radius: 3px;
+    padding: 8px 21px;
+    margin-right: 6px;
+    font-size: 11px;
+}
 .comment-container {
     margin-bottom: 24px;
     &.me {
         width: 88%;
         .like-button {
-            background: $white;
             color: $pink;
-            border: 1px solid #D4B9C5;
+            background: $white;
+            border: 1px solid $pale-pink;
         }
     }
 }
@@ -50,15 +60,6 @@ input {
     border: 1px solid $light-grey;
     color: $black;
     font-size: 14px;
-}
-.like-button {
-    color: $white;
-    background: $pink;
-    border: 0px;
-    border-radius: 3px;
-    padding: 8px 21px;
-    margin-right: 6px;
-    font-size: 11px;
 }
 .like-button,
 #review-heading {
@@ -96,7 +97,6 @@ input {
     }
     #review-heading {
         padding: 6px;
-        background: $white;
         width: 28%;
         text-align: center;
         margin: -20px auto 24px;
@@ -131,6 +131,7 @@ input {
 .review-comment {
     border-top: 1px solid $light-grey;
     clear: right;
+    background: $white;
     button {
         margin-top: 12px;
         margin-right: 0px;

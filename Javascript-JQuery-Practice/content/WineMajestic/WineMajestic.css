@@ -23,13 +23,22 @@ input {
   list-style-type: none;
   padding: 0px; }
 
+.like-button {
+  color: #FFFFFF;
+  background: #B61364;
+  border: 0px;
+  border-radius: 3px;
+  padding: 8px 21px;
+  margin-right: 6px;
+  font-size: 11px; }
+
 .comment-container {
   margin-bottom: 24px; }
   .comment-container.me {
     width: 88%; }
     .comment-container.me .like-button {
-      background: #ffffff;
       color: #B61364;
+      background: #FFFFFF;
       border: 1px solid #D4B9C5; }
 
 #template {
@@ -41,15 +50,6 @@ input {
   border: 1px solid #EDF1EE;
   color: #000000;
   font-size: 14px; }
-
-.like-button {
-  color: #ffffff;
-  background: #B61364;
-  border: 0px;
-  border-radius: 3px;
-  padding: 8px 21px;
-  margin-right: 6px;
-  font-size: 11px; }
 
 .like-button,
 #review-heading {
@@ -82,7 +82,6 @@ input {
     border-bottom: 18px solid #EDF1EE; }
   .comment-content #review-heading {
     padding: 6px;
-    background: #ffffff;
     width: 28%;
     text-align: center;
     margin: -20px auto 24px;
@@ -113,7 +112,8 @@ input {
 
 .review-comment {
   border-top: 1px solid #EDF1EE;
-  clear: right; }
+  clear: right;
+  background: #FFFFFF; }
   .review-comment button {
     margin-top: 12px;
     margin-right: 0px; }
