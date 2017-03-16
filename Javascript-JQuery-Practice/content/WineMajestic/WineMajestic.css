@@ -22,7 +22,11 @@
   display: none; }
 
 @media screen and (max-width: 480px) {
-  .button-container span {
+  .button-container span,
+  .send-button,
+  .comment-name,
+  .text,
+  input {
     font-size: 12px; } }
 
 .like-button {
@@ -34,6 +38,9 @@
   padding: 8px 21px;
   margin-right: 6px;
   font-size: 10px; }
+  @media screen and (max-width: 480px) {
+    .like-button {
+      font-size: 8px; } }
 
 #send-container {
   width: 85%;
@@ -44,9 +51,6 @@
     padding: 12px 38px;
     float: right;
     margin-right: 0px; }
-    @media screen and (max-width: 480px) {
-      #send-container .send-button {
-        width: 100%; } }
 
 .comment-content {
   margin-top: 24px; }
@@ -55,11 +59,11 @@
     font-weight: bold;
     text-transform: uppercase; }
 
-.bold-name {
+.comment-name .bold-name {
   font-weight: bold;
   color: #B61364; }
 
-.message-date {
+.comment-name .message-date {
   margin-left: 10px; }
 
 .text {
@@ -68,9 +72,6 @@
   background: #EDF1EE;
   color: #283533;
   font-size: 14px; }
-  @media screen and (max-width: 480px) {
-    .text {
-      font-size: 12px; } }
 
 .review-comment {
   border-top: 1px solid #EDF1EE;
@@ -91,7 +92,4 @@ input {
   border: 1px solid #EDF1EE;
   color: #000000;
   font-size: 14px; }
-  @media screen and (max-width: 480px) {
-    input {
-      font-size: 12px; } }
 

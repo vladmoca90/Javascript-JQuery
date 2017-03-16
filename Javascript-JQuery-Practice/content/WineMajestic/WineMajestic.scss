@@ -29,11 +29,13 @@ $light-grey: #EDF1EE;
 #template {
     display: none;
 }
-.button-container {
-    span {
-        @media screen and (max-width: 480px) {
-            font-size: 12px;
-        }
+.button-container span,
+.send-button,
+.comment-name,
+.text,
+input {
+    @media screen and (max-width: 480px) {
+        font-size: 12px;
     }
 }
 .like-button {
@@ -45,6 +47,9 @@ $light-grey: #EDF1EE;
     padding: 8px 21px;
     margin-right: 6px;
     font-size: 10px;
+    @media screen and (max-width: 480px) {
+        font-size: 8px;
+    }
 }
 #send-container {
     width: 85%;
@@ -55,9 +60,6 @@ $light-grey: #EDF1EE;
         padding: 12px 38px;
         float: right;
         margin-right: 0px;
-        @media screen and (max-width: 480px) {
-            width: $max-size;
-        }
     }
 }
 .comment-content {
@@ -70,23 +72,21 @@ $light-grey: #EDF1EE;
         text-transform: uppercase;
     }
 }
-.bold-name {
-    font-weight: bold;
-    color: $pink;
+.comment-name {
+    .bold-name {
+        font-weight: bold;
+        color: $pink;
+    }
+    .message-date {
+        margin-left: 10px;
+    }
 }
-.message-date {
-    margin-left: 10px;
-}
-
 .text {
     border-radius: 6px;
     padding: 18px;
     background: $light-grey;
     color: #283533;
     font-size: 14px;
-    @media screen and (max-width: 480px) {
-        font-size: 12px;
-    }
 }
 .review-comment {
     border-top: 1px solid $light-grey;
@@ -108,7 +108,4 @@ input {
     border: 1px solid $light-grey;
     color: $black;
     font-size: 14px;
-    @media screen and (max-width: 480px) {
-        font-size: 12px;
-    }
 }
