@@ -19,7 +19,7 @@ input {
 #content {
     max-width: 1000px;
     margin: auto;
-    padding: 18px;
+    padding: 24px;
     overflow: auto;
 }
 .like-button, 
@@ -39,6 +39,9 @@ input {
     padding: 8px 21px;
     margin-right: 6px;
     font-size: 11px;
+    @media screen and (max-width: 480px) {
+        padding: 6px 21px;
+    }
 }
 .comment-container {
     margin-bottom: 24px;
@@ -101,6 +104,7 @@ input {
         text-align: center;
         margin: -20px auto 24px;
         font-size: 18px;
+        background: $white;
         @media screen and (max-width: 480px) {
             text-align: left;
             margin-top: 24px;
@@ -123,6 +127,9 @@ input {
     padding: 20px;
     background: $light-grey;
     font-size: 14px;
+    @media screen and (max-width: 480px) {
+        padding: 16px;
+    }
 }
 .text,
 #review-heading {
