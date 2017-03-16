@@ -13,7 +13,7 @@ input {
 .comment-container.me,
 #send-container,
 .send-button,
-.review-comment button {
+.review {
     float: right;
 }
 #content {
@@ -68,7 +68,7 @@ input {
 #template {
     display: none;
 }
-input {
+input[type="text"] {
     padding: 18px;
     border-radius: 7px;
     border: 1px solid $light-grey;
@@ -97,8 +97,8 @@ input {
     }
 }
 .send-button,
-.review-comment button {
-    padding: 12px 40px;
+.review {
+    padding: 14px 40px;
 }
 .comment-content {
     margin-top: 12px;
@@ -156,7 +156,7 @@ input {
     border-top: 1px solid $light-grey;
     clear: right;
     background: $white;
-    button {
+    .review {
         margin-top: 12px;
         margin-right: 0px;
         @media screen and (max-width: 480px) {

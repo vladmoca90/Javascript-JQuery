@@ -5,7 +5,7 @@ input {
 .comment-container.me,
 #send-container,
 .send-button,
-.review-comment button {
+.review {
   float: right; }
 
 #content {
@@ -58,14 +58,14 @@ input {
 #template {
   display: none; }
 
-input {
+input[type="text"] {
   padding: 18px;
   border-radius: 7px;
   border: 1px solid #EDF1EE;
   color: #000000;
   font-size: 14px; }
   @media screen and (max-width: 480px) {
-    input {
+    input[type="text"] {
       padding: 16px; } }
 
 .like-button,
@@ -86,8 +86,8 @@ input {
         width: 100%; } }
 
 .send-button,
-.review-comment button {
-  padding: 12px 40px; }
+.review {
+  padding: 14px 40px; }
 
 .comment-content {
   margin-top: 12px; }
@@ -138,11 +138,11 @@ input {
   border-top: 1px solid #EDF1EE;
   clear: right;
   background: #FFFFFF; }
-  .review-comment button {
+  .review-comment .review {
     margin-top: 12px;
     margin-right: 0px; }
     @media screen and (max-width: 480px) {
-      .review-comment button {
+      .review-comment .review {
         width: 100%; } }
 
 @media screen and (max-width: 480px) {
