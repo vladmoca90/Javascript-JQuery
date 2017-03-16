@@ -19,7 +19,7 @@ input {
 .name {
   font-weight: bold; }
 
-.container-list {
+.content-list {
   list-style-type: none;
   padding: 0px; }
 
@@ -37,7 +37,7 @@ input {
 
 input {
   padding: 16px;
-  border-radius: 6px;
+  border-radius: 7px;
   border: 1px solid #EDF1EE;
   color: #000000;
   font-size: 14px; }
@@ -46,7 +46,7 @@ input {
   color: #ffffff;
   background: #B61364;
   border: 0px;
-  border-radius: 2px;
+  border-radius: 3px;
   padding: 8px 21px;
   margin-right: 6px;
   font-size: 11px; }
@@ -58,6 +58,9 @@ input {
 #send-container {
   width: 88%;
   margin-bottom: 48px; }
+  @media screen and (max-width: 480px) {
+    #send-container {
+      margin-bottom: 24px; } }
   #send-container .send-button {
     margin-top: 12px;
     margin-right: 0px; }
@@ -76,7 +79,7 @@ input {
     height: 0px;
     margin-left: 21px;
     border-right: 15px solid transparent;
-    border-bottom: 15px solid #EDF1EE; }
+    border-bottom: 18px solid #EDF1EE; }
   .comment-content #review-heading {
     padding: 6px;
     background: #ffffff;
@@ -100,10 +103,13 @@ input {
 
 .text {
   border-radius: 6px;
-  padding: 16px;
+  padding: 20px;
   background: #EDF1EE;
-  color: #283533;
   font-size: 14px; }
+
+.text,
+#review-heading {
+  color: #283533; }
 
 .review-comment {
   border-top: 1px solid #EDF1EE;
@@ -116,7 +122,7 @@ input {
         width: 100%; } }
 
 @media screen and (max-width: 480px) {
-  .button-container span,
+  .button-like-container span,
   .comment-name,
   .text,
   input {
