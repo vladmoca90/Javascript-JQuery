@@ -13,6 +13,9 @@ input {
   margin: auto;
   padding: 24px;
   overflow: auto; }
+  @media screen and (max-width: 480px) {
+    #content {
+      padding: 18px; } }
 
 .like-button,
 #review-heading,
@@ -55,7 +58,7 @@ input {
   display: none; }
 
 input {
-  padding: 18px;
+  padding: 16px;
   border-radius: 7px;
   border: 1px solid #EDF1EE;
   color: #000000;
