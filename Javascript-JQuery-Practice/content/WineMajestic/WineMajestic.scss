@@ -73,10 +73,13 @@ input {
 	    border-bottom: 16px solid $light-grey;
     }
     #review-heading {
-        margin-top: 24px;
+        padding: 6px;
+        background: $white;
+        width: 28%;
+        margin-top: -24px;
         margin-bottom: 24px;
         font: {
-            size: 21px;
+            size: 18px;
             weight: bold;
         }
         text-transform: uppercase;

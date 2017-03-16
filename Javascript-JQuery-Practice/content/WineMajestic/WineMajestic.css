@@ -63,9 +63,12 @@ input {
     border-right: 16px solid transparent;
     border-bottom: 16px solid #EDF1EE; }
   .comment-content #review-heading {
-    margin-top: 24px;
+    padding: 6px;
+    background: #ffffff;
+    width: 28%;
+    margin-top: -24px;
     margin-bottom: 24px;
-    font-size: 21px;
+    font-size: 18px;
     font-weight: bold;
     text-transform: uppercase; }
     @media screen and (max-width: 480px) {
