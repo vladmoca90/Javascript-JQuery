@@ -2,6 +2,12 @@
 input {
   width: 100%; }
 
+.comment-container.me,
+#send-container,
+.send-button,
+.review-comment button {
+  float: right; }
+
 #content {
   max-width: 1000px;
   margin: 0 auto;
@@ -14,8 +20,7 @@ input {
 .comment-container {
   margin-bottom: 24px; }
   .comment-container.me {
-    width: 85%;
-    float: right; }
+    width: 85%; }
     .comment-container.me .like-button {
       background: #ffffff;
       color: #B61364;
@@ -43,12 +48,10 @@ input {
 
 #send-container {
   width: 85%;
-  float: right;
   margin-bottom: 48px; }
   #send-container .send-button {
     margin-top: 12px;
     padding: 12px 38px;
-    float: right;
     margin-right: 0px; }
     @media screen and (max-width: 480px) {
       #send-container .send-button {
@@ -66,6 +69,7 @@ input {
     padding: 6px;
     background: #ffffff;
     width: 28%;
+    text-align: center;
     margin-top: -24px;
     margin-bottom: 24px;
     font-size: 18px;
@@ -73,7 +77,11 @@ input {
     text-transform: uppercase; }
     @media screen and (max-width: 480px) {
       .comment-content #review-heading {
-        font-size: 15px; } }
+        text-align: left;
+        margin-top: 24px;
+        padding: 0px;
+        width: 100%;
+        font-size: 14px; } }
 
 .comment-name .bold-name {
   font-weight: bold;
@@ -95,7 +103,6 @@ input {
   .review-comment button {
     margin-top: 12px;
     padding: 12px 48px;
-    float: right;
     margin-right: 0px; }
     @media screen and (max-width: 480px) {
       .review-comment button {
