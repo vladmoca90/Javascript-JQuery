@@ -37,8 +37,15 @@ input {
 
 .comment-container {
   margin-bottom: 24px; }
+  @media screen and (max-width: 480px) {
+    .comment-container {
+      margin-bottom: 18px; } }
   .comment-container.me {
-    width: 88%; }
+    width: 88%;
+    margin-top: 18px; }
+    @media screen and (max-width: 480px) {
+      .comment-container.me {
+        margin-top: 12px; } }
     .comment-container.me .like-button {
       color: #B61364;
       background: #FFFFFF;
