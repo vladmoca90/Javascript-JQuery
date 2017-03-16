@@ -55,7 +55,7 @@ input {
   display: none; }
 
 input {
-  padding: 16px;
+  padding: 18px;
   border-radius: 7px;
   border: 1px solid #EDF1EE;
   color: #000000;
@@ -89,7 +89,7 @@ input {
     height: 0px;
     margin-left: 21px;
     border-right: 15px solid transparent;
-    border-bottom: 18px solid #EDF1EE; }
+    border-bottom: 15px solid #EDF1EE; }
   .comment-content #review-heading {
     padding: 6px;
     width: 28%;
