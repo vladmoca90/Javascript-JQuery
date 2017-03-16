@@ -38,7 +38,7 @@ input {
     display: none;
 }
 input {
-    padding: 12px;
+    padding: 16px;
     border-radius: 5px;
     border: 1px solid $light-grey;
     color: $black;
@@ -52,15 +52,18 @@ input {
     border-radius: 2px;
     padding: 8px 21px;
     margin-right: 6px;
-    font-size: 10px;
+    font: {
+        size: 11px;
+        weight: bold;
+    }
 }
 #send-container {
     width: 85%;
     margin-bottom: 48px;
     .send-button {
         margin-top: 12px;
-        padding: 12px 38px;
         margin-right: 0px;
+        padding: 12px 36px;
         @media screen and (max-width: 480px) {
             width: 100%;
         }
@@ -76,15 +79,14 @@ input {
 	    border-bottom: 16px solid $light-grey;
     }
     .input-shape {
-
+        
     }
     #review-heading {
         padding: 6px;
         background: $white;
         width: 28%;
         text-align: center;
-        margin-top: -24px;
-        margin-bottom: 24px;
+        margin: -20px auto 24px;
         font: {
             size: 18px;
             weight: bold;
@@ -110,7 +112,7 @@ input {
 }
 .text {
     border-radius: 6px;
-    padding: 18px;
+    padding: 16px;
     background: $light-grey;
     color: #283533;
     font-size: 14px;
@@ -120,8 +122,8 @@ input {
     clear: right;
     button {
         margin-top: 12px;
-        padding: 12px 48px;
         margin-right: 0px;
+        padding: 12px 42px;
         @media screen and (max-width: 480px) {
             width: $max-size;
             margin-bottom: 24px;
