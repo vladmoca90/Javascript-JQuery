@@ -39,11 +39,12 @@ input {
     background: $pink;
     border: 0px;
     border-radius: 3px;
-    padding: 6px 20px;
+    padding: 8px 20px;
     margin-right: 6px;
     font-size: 11px;
     @media screen and (max-width: 480px) {
-        padding: 6px 21px;
+        padding: 6px 18px;
+        margin-right: 4px;
     }
 }
 .comment-container {
@@ -68,11 +69,14 @@ input {
     display: none;
 }
 input {
-    padding: 16px;
+    padding: 18px;
     border-radius: 7px;
     border: 1px solid $light-grey;
     color: $black;
     font-size: 14px;
+    @media screen and (max-width: 480px) {
+        padding: 16px;
+    }
 }
 .like-button,
 #review-heading {
@@ -94,7 +98,7 @@ input {
 }
 .send-button,
 .review-comment button {
-    padding: 14px 40px;
+    padding: 12px 40px;
 }
 .comment-content {
     margin-top: 12px;
@@ -102,8 +106,8 @@ input {
         width: 0px;
         height: 0px;
         margin-left: 21px;
-	    border-right: 15px solid transparent;
-	    border-bottom: 15px solid $light-grey;
+	    border-right: 17px solid transparent;
+	    border-bottom: 17px solid $light-grey;
     }
     .input-shape {
 
@@ -130,6 +134,9 @@ input {
     }
     .message-date {
         margin-left: 10px;
+        @media screen and (max-width: 480px) {
+            margin-left: 6px;
+        }
     }
 }
 .text {
