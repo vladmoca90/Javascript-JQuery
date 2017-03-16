@@ -21,14 +21,29 @@
 #template {
   display: none; }
 
+@media screen and (max-width: 480px) {
+  .button-container span {
+    font-size: 12px; } }
+
+.like-button {
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #B61364;
+  border: 0px;
+  border-radius: 3px;
+  padding: 8px 21px;
+  margin-right: 6px;
+  font-size: 10px; }
+
 #send-container {
-  width: 90%;
+  width: 85%;
   float: right;
   margin-bottom: 48px; }
   #send-container .send-button {
     margin-top: 12px;
     padding: 12px 38px;
-    float: right; }
+    float: right;
+    margin-right: 0px; }
     @media screen and (max-width: 480px) {
       #send-container .send-button {
         width: 100%; } }
@@ -57,27 +72,14 @@
     .text {
       font-size: 12px; } }
 
-@media screen and (max-width: 480px) {
-  .button-container span {
-    font-size: 12px; } }
-
-.like-button {
-  text-transform: uppercase;
-  color: #ffffff;
-  background: #B61364;
-  border: 0px;
-  border-radius: 3px;
-  padding: 8px 21px;
-  margin-right: 6px;
-  font-size: 10px; }
-
 .review-comment {
   border-top: 1px solid #EDF1EE;
   clear: right; }
   .review-comment button {
     margin-top: 12px;
-    padding: 14px 48px;
-    float: right; }
+    padding: 12px 48px;
+    float: right;
+    margin-right: 0px; }
     @media screen and (max-width: 480px) {
       .review-comment button {
         width: 100%; } }
@@ -85,8 +87,11 @@
 input {
   width: 100%;
   padding: 12px;
-  border-radius: 10px;
+  border-radius: 4px;
   border: 1px solid #EDF1EE;
   color: #000000;
   font-size: 14px; }
+  @media screen and (max-width: 480px) {
+    input {
+      font-size: 12px; } }
 
