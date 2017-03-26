@@ -6,7 +6,7 @@
     });
     $("#text").css({
         "column-count": "3",
-        "column-gap": "15px",
+        "column-gap": "25px",
         "column-rule": "1px dotted #000",
     });
 });
