@@ -9,4 +9,7 @@
         "column-gap": "25px",
         "column-rule": "1px dotted #000",
     });
+    $("button").click(function () {
+        $(".words-style").css("fontWeight", "bold");
+    });
 });
