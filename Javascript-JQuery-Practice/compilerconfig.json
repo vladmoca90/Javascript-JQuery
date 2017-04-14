@@ -26,5 +26,9 @@
   {
     "outputFile": "content/WineMajestic/WineMajestic.css",
     "inputFile": "content/WineMajestic/WineMajestic.scss"
+  },
+  {
+    "outputFile": "content/Video/Video.css",
+    "inputFile": "content/Video/Video.scss"
   }
 ]
