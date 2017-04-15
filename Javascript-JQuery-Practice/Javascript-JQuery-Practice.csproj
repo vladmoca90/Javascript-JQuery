@@ -118,6 +118,12 @@
     <Content Include="content\JavascriptCalculus\JavascriptCalculus.min.css">
       <DependentUpon>JavascriptCalculus.css</DependentUpon>
     </Content>
+    <Content Include="content\Video\Video.css">
+      <DependentUpon>Video.scss</DependentUpon>
+    </Content>
+    <Content Include="content\Video\Video.min.css">
+      <DependentUpon>Video.css</DependentUpon>
+    </Content>
     <Content Include="content\WineMajestic\WineMajestic.css">
       <DependentUpon>WineMajestic.scss</DependentUpon>
     </Content>
@@ -138,6 +144,7 @@
     <Content Include="content\JavascriptCalculus\JavascriptCalculus.scss" />
     <Content Include="content\JavascriptCalculus\Sarus-Rule.scss" />
     <Content Include="content\WineMajestic\WineMajestic.scss" />
+    <Content Include="content\Video\Video.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -214,6 +221,7 @@
     <Content Include="scripts\JavascriptCalculus\Strings\translate.js" />
     <Content Include="scripts\InlineList\InlineList.js" />
     <Content Include="scripts\Table\Table.js" />
+    <Content Include="scripts\Video\Video.js" />
     <Content Include="scripts\YellowSquareLists\YellowSquareLists.js" />
     <Content Include="scripts\Panels\Panels.js" />
     <Content Include="scripts\Texts\Texts.js" />
@@ -240,6 +248,7 @@
     <Content Include="sites\JavascriptCalculus\Strings\JavascriptSubstringSubstr.html" />
     <Content Include="sites\InlineList\InlineList.html" />
     <Content Include="sites\Table\Table.html" />
+    <Content Include="sites\Video\Video.html" />
     <Content Include="sites\YellowSquareLists\YellowSquareLists.html" />
     <Content Include="sites\Panels\Panels.html" />
     <Content Include="sites\Texts\Texts.html" />
