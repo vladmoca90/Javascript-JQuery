@@ -1,2 +1,6 @@
-﻿body {
+﻿$max: 100%;
+
+#container {
+    width: $max;
+    max-width: 400px;
 }
