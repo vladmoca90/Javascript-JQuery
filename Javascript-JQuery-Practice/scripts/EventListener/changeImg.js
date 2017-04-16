@@ -1,8 +1,12 @@
 ﻿function changeImg() {
 
-    document.getElementsByClassName("first").style.display = "block";
+    var firstImg = document.getElementsByClassName("first");
 
-    document.getElementsByClassName("second").style.display = "none";
+    firstImg.style.display = "block";
+
+    var scndImg = document.getElementsByClassName("second");
+
+    scndImg.style.display = "none";
 
 }
 
