@@ -4,13 +4,16 @@
     width: $max;
     max-width: 500px;
     margin: auto;
-    .card-img {
+    .card-image {
         img {
             width: $max;
             max-width: 500px;
         }
     }
     .card-text {
+        p {
+            padding-top: 10px;
+        }
         button {
             margin-top: 10px;
         }
