@@ -1,2 +1,12 @@
-﻿body {
+﻿$max: 100%;
+
+.card {
+    width: $max;
+    max-width: 500px;
+    margin: auto;
+    .card-text {
+        button {
+            margin-top: 10px;
+        }
+    }
 }
