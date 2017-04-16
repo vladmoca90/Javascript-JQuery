@@ -4,6 +4,12 @@
     width: $max;
     max-width: 500px;
     margin: auto;
+    .card-img {
+        img {
+            width: $max;
+            max-width: 500px;
+        }
+    }
     .card-text {
         button {
             margin-top: 10px;
