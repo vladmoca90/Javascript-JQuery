@@ -100,11 +100,11 @@
     <Content Include="content\chat\chat.min.css">
       <DependentUpon>chat.css</DependentUpon>
     </Content>
-    <Content Include="content\EventListener\changeImg.css">
-      <DependentUpon>changeImg.scss</DependentUpon>
+    <Content Include="content\EventListener\changeBlock.css">
+      <DependentUpon>changeBlock.scss</DependentUpon>
     </Content>
-    <Content Include="content\EventListener\changeImg.min.css">
-      <DependentUpon>changeImg.css</DependentUpon>
+    <Content Include="content\EventListener\changeBlock.min.css">
+      <DependentUpon>changeBlock.css</DependentUpon>
     </Content>
     <Content Include="content\formValidation\formValidation.css">
       <DependentUpon>formValidation.scss</DependentUpon>
@@ -151,7 +151,7 @@
     <Content Include="content\JavascriptCalculus\Sarus-Rule.scss" />
     <Content Include="content\WineMajestic\WineMajestic.scss" />
     <Content Include="content\Video\Video.scss" />
-    <Content Include="content\EventListener\changeImg.scss" />
+    <Content Include="content\EventListener\changeBlock.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -167,7 +167,7 @@
     <Content Include="scripts\chat\chat.js" />
     <Content Include="scripts\Columns\Columns.js" />
     <Content Include="scripts\DOM\before-after.js" />
-    <Content Include="scripts\EventListener\changeImg.js" />
+    <Content Include="scripts\EventListener\changeBlock.js" />
     <Content Include="scripts\formValidation\age.js" />
     <Content Include="scripts\formValidation\emailValidation.js" />
     <Content Include="scripts\formValidation\firstName.js" />
@@ -239,7 +239,7 @@
     <Content Include="sites\chat\chat.html" />
     <Content Include="sites\Columns\Columns.html" />
     <Content Include="sites\DOM\before-after.html" />
-    <Content Include="sites\EventListener\changeImg.html" />
+    <Content Include="sites\EventListener\changeBlock.html" />
     <Content Include="sites\formValidation\formValidation.html" />
     <Content Include="sites\JavascriptCalculus\Arrays\JavacriptCalculusPositions.html" />
     <Content Include="sites\JavascriptCalculus\Arrays\JavascriptCalculusPushPop.html" />
