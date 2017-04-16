@@ -1,10 +1,10 @@
 ﻿function changeImg() {
 
-    var firstImg = document.getElementsByClassName("first").style;
+    var first = document.getElementsByClassName("first").style;
 
     firstImg = "display: block";
 
-    var scndImg = document.getElementsByClassName("scnd").style;
+    var scnd = document.getElementsByClassName("scnd").style;
 
     scndImg = "display: none";
 

@@ -2,12 +2,19 @@
 
 .card {
     width: $max;
-    max-width: 500px;
-    margin: auto;
-    .card-image {
-        img {
-            width: $max;
-            max-width: 500px;
+    max-width: 300px;
+    margin: 3% auto;
+    .card-block {
+        .first,
+        .scnd {
+            width: 300px;
+            height: 300px;
+        }
+        .first {
+            background: red;
+        }
+        .scnd {
+            background: blue;
         }
     }
     .card-text {

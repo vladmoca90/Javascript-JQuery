@@ -1,10 +1,15 @@
 ﻿.card {
   width: 100%;
-  max-width: 500px;
-  margin: auto; }
-  .card .card-image img {
-    width: 100%;
-    max-width: 500px; }
+  max-width: 300px;
+  margin: 3% auto; }
+  .card .card-block .first,
+  .card .card-block .scnd {
+    width: 300px;
+    height: 300px; }
+  .card .card-block .first {
+    background: red; }
+  .card .card-block .scnd {
+    background: blue; }
   .card .card-text p {
     padding-top: 10px; }
   .card .card-text button {
