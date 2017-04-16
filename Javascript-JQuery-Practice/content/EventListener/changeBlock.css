@@ -5,11 +5,11 @@
   .card .card-block .first,
   .card .card-block .scnd {
     width: 300px;
-    height: 300px; }
+    height: 150px; }
   .card .card-block .first {
-    background: red; }
+    background: gold; }
   .card .card-block .scnd {
-    background: blue; }
+    background: orange; }
   .card .card-text button {
     margin-top: 10px; }
 
