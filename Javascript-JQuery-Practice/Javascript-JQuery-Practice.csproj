@@ -167,6 +167,7 @@
     <Content Include="scripts\chat\chat.js" />
     <Content Include="scripts\Columns\Columns.js" />
     <Content Include="scripts\DOM\before-after.js" />
+    <Content Include="scripts\dropdown\dropdown.js" />
     <Content Include="scripts\EventListener\changeBlock.js" />
     <Content Include="scripts\formValidation\age.js" />
     <Content Include="scripts\formValidation\emailValidation.js" />
@@ -239,6 +240,7 @@
     <Content Include="sites\chat\chat.html" />
     <Content Include="sites\Columns\Columns.html" />
     <Content Include="sites\DOM\before-after.html" />
+    <Content Include="sites\dropdown\dropdown.html" />
     <Content Include="sites\EventListener\changeBlock.html" />
     <Content Include="sites\formValidation\formValidation.html" />
     <Content Include="sites\JavascriptCalculus\Arrays\JavacriptCalculusPositions.html" />
