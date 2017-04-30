@@ -1,12 +1,12 @@
 ﻿function changeBlock() {
 
-    var firstBlock = document.getElementsByClassName("first").style;
+    var firstBlock = document.getElementsByClassName("first").style.display;
 
-    firstBlock = "display: block";
+    firstBlock = "block";
 
-    var scndBlock = document.getElementsByClassName("scnd").style;
+    var scndBlock = document.getElementsByClassName("scnd").style.display;
 
-    scndBlock = "display: none";
+    scndBlock = "none";
 
 }
 
