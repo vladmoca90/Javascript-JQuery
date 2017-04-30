@@ -4,19 +4,23 @@
     width: $max;
     max-width: 300px;
     margin: 3% auto;
+
     .card-block {
         .first,
         .scnd {
             width: 300px;
             height: 150px;
         }
+
         .first {
-            background: gold;
+            background: red;
         }
+
         .scnd {
-            background: orange;
+            background: blue;
         }
     }
+
     .card-text {
         button {
             margin-top: 10px;

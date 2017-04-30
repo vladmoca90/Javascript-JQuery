@@ -7,9 +7,9 @@
     width: 300px;
     height: 150px; }
   .card .card-block .first {
-    background: gold; }
+    background: red; }
   .card .card-block .scnd {
-    background: orange; }
+    background: blue; }
   .card .card-text button {
     margin-top: 10px; }
 
