@@ -1,1 +1,1 @@
-﻿@import url("https://fonts.googleapis.com/css?family=Montserrat");body{background-color:#bcc6cc;font-family:'Montserrat',sans-serif;}section{max-width:80%;padding:20px;}ul{list-style:none;}ul li{display:inline-block;font-size:1.25em;line-height:40px;margin:0 8px;}.nav .active a{color:#1756e8;}.nav a{color:#f75d59;}.tab-pane{display:none;}.tab-pane.active{display:block;}
+﻿#tab-container{width:100%;max-width:800px;margin:auto;}#tab-container .nav .active>a{color:#f00;}#tab-container .tab-pane{display:none;}#tab-container .tab-pane.active{display:block;}

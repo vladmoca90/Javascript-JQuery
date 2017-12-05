@@ -94,6 +94,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\AIA Worldwide\AIA-Worldwide.css">
+      <DependentUpon>AIA-Worldwide.scss</DependentUpon>
+    </Content>
+    <Content Include="content\AIA Worldwide\AIA-Worldwide.min.css">
+      <DependentUpon>AIA-Worldwide.css</DependentUpon>
+    </Content>
     <Content Include="content\chat\chat.css">
       <DependentUpon>chat.scss</DependentUpon>
     </Content>
@@ -138,6 +144,7 @@
     <Content Include="content\JavascriptCalculus\JavascriptCalculus.scss" />
     <Content Include="content\JavascriptCalculus\Sarus-Rule.scss" />
     <Content Include="content\WineMajestic\WineMajestic.scss" />
+    <Content Include="content\AIA Worldwide\AIA-Worldwide.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -148,6 +155,7 @@
   <ItemGroup>
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="scripts\AIA Worldwide\AIA-Worldwide.js" />
     <Content Include="scripts\Animation\Animation.js" />
     <Content Include="scripts\Animation\Chaining.js" />
     <Content Include="scripts\chat\chat.js" />
@@ -219,6 +227,7 @@
     <Content Include="scripts\Panels\Panels.js" />
     <Content Include="scripts\Texts\Texts.js" />
     <Content Include="scripts\WineMajestic\comment.js" />
+    <Content Include="sites\AIA Worldwide\AIA-Worldwide.html" />
     <Content Include="sites\Animation\Animation.html" />
     <Content Include="sites\Animation\Chaining.html" />
     <Content Include="sites\chat\chat.html" />

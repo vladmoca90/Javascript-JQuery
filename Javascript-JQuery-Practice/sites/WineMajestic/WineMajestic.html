@@ -29,75 +29,48 @@
     <link rel="stylesheet" type="text/css" href="../../content/WineMajestic/WineMajestic.css" />
 
 </head>
-<body>
-    <main id="content">
-        <ul class="content-list">
-            <li>
-                <div class="comment-container friend">
-                    <p class="comment-name">
-                        <span class="name">Jimbo</span>
-                        <span class="message-date">3 days ago</span>
-                    </p>
-                    <div class="comment-content">
-                        <div class="text-shape"></div>
-                        <p class="text">
-                            Bought this for the first time and wouldn't buy again. Was not expecting the
-                            blush colour that came out and, for me, a little sweet. It is, nevertheless, a
-                            palatable drink for all that.
-                        </p>
-                        <div class="button-like-container">
-                            <button class="like-button">Like</button>
-                            <span>You and 5 people like this</span>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="comment-container me">
-                    <p class="comment-name">
-                        <span class="name">John Thomas</span>
-                        <span class="message-date">Yesterday</span>
-                    </p>
-                    <div class="comment-content">
-                        <div class="text-shape"></div>
-                        <p class="text">
-                            I'm sorry to hear it you didn't enjoy it Jimbo. It does need to be open an
-                            hour before drinking to give it some air and time to warm up to room temperature.
-                        </p>
-                    </div>
-                    <div class="button-like-container">
-                        <button class="like-button">Like</button>
-                        <span>1 person likes this</span>
-                    </div>
-                </div>
-            </li>
-        </ul>
-        <div class="comment-container me" id="template">
-            <p class="comment-name">
-                <span class="name">John Thomas</span>
-                <span class="message-date">Yesterday</span>
-            </p>
-            <div class="comment-content">
-                <div class="text-shape"></div>
-                <p class="text">
-                </p>
-            </div>
-            <div class="button-like-container">
-                <button class="like-button">Like</button>
-                <span></span>
-            </div>
-        </div>
-        <div class="comment-content" id="send-container">
-            <div class="text-shape input-shape"></div>
-            <input type="text" placeholder="Write a comment..." />
-            <button class="like-button send-button">Send</button>
-        </div>
-        <div class="comment-content review-comment">
-            <p id="review-heading">Write your own review</p>
-            <div class="text-shape input-shape"></div>
-            <input type="text" placeholder="Write a comment..." />
-            <button class="like-button review">Leave a review</button>
-        </div>
-    </main>
-</body>
+<  <body>
+
+    <div>
+      <!-- Tabs -->
+      <ul id="nav-tab" class="nav">
+        <li class="active"><a href="#home">Home</a></li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#messages">Messages</a></li>
+        <li><a href="#settings">Settings</a></li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane active" id="home">Home Panel</div>
+        <div class="tab-pane" id="profile">Profile Panel</div>
+        <div class="tab-pane" id="messages">Messages Panel</div>
+        <div class="tab-pane" id="settings">Settings Panel</div>
+      </div>
+    </div>
+    
+    <footer>
+      <script type="text/javascript">
+        (function(){
+          function onTabClick(event){
+            var actives = document.querySelectorAll('.active');
+
+            // deactivate existing active tab and panel
+            for (var i=0; i < actives.length; i++){
+              actives[i].className = actives[i].className.replace('active', '');
+            }
+
+            // activate new tab and panel
+            event.target.parentElement.className += ' active';
+            document.getElementById(event.target.href.split('#')[1]).className += ' active';
+          }
+
+          var el = document.getElementById('nav-tab');
+
+          el.addEventListener('click', onTabClick, false);
+        })();
+      </script>
+    </footer>
+
+  </body>
 </html>

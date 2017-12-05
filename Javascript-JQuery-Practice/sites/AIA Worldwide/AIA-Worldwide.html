@@ -22,28 +22,46 @@
 
     <link rel="stylesheet" href="../../content/AIA Worldwide/AIA-Worldwide.css" />
 
-    <script src="../../scripts/AIA Worldwide/AIA-Worldwide.js"></script>
-
 </head>
 <body>
 
-    <section>
-
+    <div id="tab-container">
+        <!-- Tabs -->
         <ul id="nav-tab" class="nav">
-            <li class="active">
-                <a href="#tab1">Tab Um</a>
-            </li>
-            <li>
-                <a href="#tab2">Tab Dois</a>
-            </li>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#messages">Messages</a></li>
+            <li><a href="#settings">Settings</a></li>
         </ul>
-        
+
+        <!-- Tab panes -->
         <div class="tab-content">
-            <div class="tab-pane active" id="tab1"> Conteúdo Primário</div>
-            <div class="tab-pane" id="tab2"> Conteúdo Secundário</div>
+            <div class="tab-pane active" id="home">Home Panel</div>
+            <div class="tab-pane" id="profile">Profile Panel</div>
+            <div class="tab-pane" id="messages">Messages Panel</div>
+            <div class="tab-pane" id="settings">Settings Panel</div>
         </div>
+    </div>
 
-    </section>
+    <script type="text/javascript">
+        (function () {
+            function onTabClick(event) {
+                var actives = document.querySelectorAll('.active');
 
+                // deactivate existing active tab and panel
+                for (var i = 0; i < actives.length; i++) {
+                    actives[i].className = actives[i].className.replace('active', '');
+                }
+
+                // activate new tab and panel
+                event.target.parentElement.className += ' active';
+                document.getElementById(event.target.href.split('#')[1]).className += ' active';
+            }
+
+            var el = document.getElementById('nav-tab');
+
+            el.addEventListener('click', onTabClick, false);
+        })();
+    </script>
 </body>
 </html>
