@@ -10,11 +10,12 @@
         } 
         li {
             width: 200px !important;
+            height: 100px !important;
             float: left;
             a {
                 font: {
-                    size: 18px;
-                    weight: bold;
+                    size: 15px;
+                    family: Arial, Helvetica, sans-serif;
                 }
                 text-align: center;
             }
@@ -22,6 +23,20 @@
     }
     .tab-pane {
         display: none;
+        padding-top: 35px;
+        .left, .right {
+            width: 50%;
+        }
+        .left {
+            h3 {
+                font-weight: bold;
+                margin-bottom: 22px;
+                -webkit-font-smoothing: antialiased;
+            }
+            p {
+                line-height: 22px;
+            }
+        }
         &.active {
             display: block;
         }
