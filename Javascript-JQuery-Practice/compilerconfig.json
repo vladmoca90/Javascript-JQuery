@@ -38,5 +38,9 @@
   {
     "outputFile": "content/EventListener/changeBlock.css",
     "inputFile": "content/EventListener/changeBlock.scss"
+  },
+  {
+    "outputFile": "content/AIA Worldwide/AIA-Worldwide.css",
+    "inputFile": "content/AIA Worldwide/AIA-Worldwide.scss"
   }
 ]

@@ -1,0 +1,30 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+  background-color: #BCC6CC;
+  font-family: 'Montserrat', sans-serif;
+}
+section {
+  max-width: 80%;
+  padding:20px;
+}
+ul {
+    list-style: none
+}
+ul li {
+    display: inline-block;
+    font-size: 1.25em;
+    line-height: 40px;
+    margin: 0 8px;
+}
+.nav .active a {
+    color: #1756E8;
+}
+.nav a {
+    color: #F75D59;
+}
+.tab-pane {
+    display: none;
+}
+.tab-pane.active {
+    display: block;
+}
