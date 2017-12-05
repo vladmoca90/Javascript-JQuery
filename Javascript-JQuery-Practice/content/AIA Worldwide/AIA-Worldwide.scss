@@ -1,10 +1,23 @@
 ﻿#tab-container {
     width: 100%;
-    max-width: 800px;
-    margin: auto; 
-    .nav {
-        .active > a {
-            color: red;
+    max-width: 1000px;
+    margin: 5% auto; 
+    #navigation-tab.nav {
+        .active {
+            a {
+                color: red;
+            }
+        } 
+        li {
+            width: 200px !important;
+            float: left;
+            a {
+                font: {
+                    size: 18px;
+                    weight: bold;
+                }
+                text-align: center;
+            }
         }
     }
     .tab-pane {

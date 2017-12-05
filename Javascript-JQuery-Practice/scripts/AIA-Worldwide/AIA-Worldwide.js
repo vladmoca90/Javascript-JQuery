@@ -12,7 +12,7 @@
         document.getElementById(event.target.href.split('#')[1]).className += ' active';
     }
 
-    var el = document.getElementById('nav-tab');
+    var el = document.getElementById('navigation-tab');
 
     el.addEventListener('click', onTabClick, false);
 })();

@@ -1,1 +1,1 @@
-﻿#tab-container{width:100%;max-width:800px;margin:auto;}#tab-container .nav .active>a{color:#f00;}#tab-container .tab-pane{display:none;}#tab-container .tab-pane.active{display:block;}
+﻿#tab-container{width:100%;max-width:1000px;margin:5% auto;}#tab-container #navigation-tab.nav .active a{color:#f00;}#tab-container #navigation-tab.nav li{width:200px !important;float:left;}#tab-container #navigation-tab.nav li a{font-size:18px;font-weight:bold;text-align:center;}#tab-container .tab-pane{display:none;}#tab-container .tab-pane.active{display:block;}

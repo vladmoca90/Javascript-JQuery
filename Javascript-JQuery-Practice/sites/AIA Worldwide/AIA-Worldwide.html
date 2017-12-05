@@ -27,19 +27,24 @@
 
     <div id="tab-container">
         <!-- Tabs -->
-        <ul id="nav-tab" class="nav">
-            <li class="active"><a href="#home">Home</a></li>
-            <li><a href="#profile">Profile</a></li>
-            <li><a href="#messages">Messages</a></li>
-            <li><a href="#settings">Settings</a></li>
+        <ul role="list" id="navigation-tab" class="nav">
+            <li role="listitem" class="active"><a role="link" href="#home">IT Infrastructure</a></li>
+            <li role="listitem"><a role="link" href="#profile">Big data &amp; Cyber security</a></li>
+            <li role="listitem"><a role="link" href="#messages">Payments</a></li>
+            <li role="listitem"><a role="link" href="#settings">Cloud computing</a></li>
+            <li role="listitem"><a role="link" href="#consulting">Consulting</a></li>
+
         </ul>
 
         <!-- Tab panes -->
         <div class="tab-content">
-            <div class="tab-pane active" id="home">Home Panel</div>
+            <div class="tab-pane active" id="home">
+                <p></p>
+            </div>
             <div class="tab-pane" id="profile">Profile Panel</div>
             <div class="tab-pane" id="messages">Messages Panel</div>
             <div class="tab-pane" id="settings">Settings Panel</div>
+            <div class="tab-pane" id="consulting">Consulting Panel</div>
         </div>
     </div>
 
@@ -58,7 +63,7 @@
                 document.getElementById(event.target.href.split('#')[1]).className += ' active';
             }
 
-            var el = document.getElementById('nav-tab');
+            var el = document.getElementById('navigation-tab');
 
             el.addEventListener('click', onTabClick, false);
         })();
