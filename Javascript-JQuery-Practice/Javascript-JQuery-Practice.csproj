@@ -155,7 +155,7 @@
   <ItemGroup>
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="scripts\AIA Worldwide\AIA-Worldwide.js" />
+    <Content Include="scripts\AIA-Worldwide\AIA-Worldwide.js" />
     <Content Include="scripts\Animation\Animation.js" />
     <Content Include="scripts\Animation\Chaining.js" />
     <Content Include="scripts\chat\chat.js" />
