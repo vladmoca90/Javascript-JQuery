@@ -8,25 +8,25 @@
         "background": "red",
     });
 
-    $("#parent, #child").css("border", "1px solid #000000");
+    $("#parent, #child").css("border", "1px solid #ccc");
 
     $("#button").click(function() {
 
         $("#parent").animate({
             background: "red",
-            width: "400px",
-            height: "400px",
             borderRadius: "100%",
-            opacity: "0.5"
+            height: "400px",
+            marginTop: "75px",
+            width: "400px"
         });
 
         $("#child").animate({
             background: "yellow",
-            width: "75px",
-            height: "75px",
-            marginTop: "120px",
-            marginLeft: "100px",
-            display: "block"
+            borderRadius: "100%",
+            display: "block",
+            height: "125px",
+            margin: "125px auto",
+            width: "125px"
         });
 
     });
