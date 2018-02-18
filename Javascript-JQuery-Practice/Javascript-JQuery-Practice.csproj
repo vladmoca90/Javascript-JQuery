@@ -172,6 +172,7 @@
     <Content Include="scripts\JavascriptCalculus\Arrays\Push.js" />
     <Content Include="scripts\JavascriptCalculus\Arrays\Pop.js" />
     <Content Include="scripts\JavascriptCalculus\Arrays\Reverse.js" />
+    <Content Include="scripts\JavascriptCalculus\Arrays\Slice.js" />
     <Content Include="scripts\JavascriptCalculus\Arrays\Sort.js" />
     <Content Include="scripts\JavascriptCalculus\Arrays\Splice.js" />
     <Content Include="scripts\JavascriptCalculus\Arrays\listWithSquaresOfNumbers.js" />
@@ -229,10 +230,11 @@
     <Content Include="sites\DOM\before-after.html" />
     <Content Include="sites\dropdown\dropdown.html" />
     <Content Include="sites\formValidation\formValidation.html" />
-    <Content Include="sites\JavascriptCalculus\Arrays\JavacriptCalculusPositions.html" />
-    <Content Include="sites\JavascriptCalculus\Arrays\JavascriptCalculusPushPop.html" />
-    <Content Include="sites\JavascriptCalculus\Arrays\JavascriptCalculusSort.html" />
-    <Content Include="sites\JavascriptCalculus\Arrays\JavascriptCalculusSplice.html" />
+    <Content Include="sites\JavascriptCalculus\Arrays\Positions.html" />
+    <Content Include="sites\JavascriptCalculus\Arrays\Push-Pop.html" />
+    <Content Include="sites\JavascriptCalculus\Arrays\Slice.html" />
+    <Content Include="sites\JavascriptCalculus\Arrays\Sort.html" />
+    <Content Include="sites\JavascriptCalculus\Arrays\Splice.html" />
     <Content Include="sites\JavascriptCalculus\Numbers\Determinants and Matrices\SarusRule.html" />
     <Content Include="sites\JavascriptCalculus\Numbers\Determinants and Matrices\TriangleMethod.html" />
     <Content Include="sites\JavascriptCalculus\Numbers\JavascriptCalcFunction.html" />

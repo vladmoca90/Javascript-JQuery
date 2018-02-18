@@ -4,7 +4,7 @@ document.getElementById("practice").innerHTML = fruits;
 
 function myFunction() {
 
-    fruits.slice(1, 1, "Kiwi");
+    fruits.slice(2, 3, "Kiwi");
 
     document.getElementById("practice").innerHTML = fruits;
 
