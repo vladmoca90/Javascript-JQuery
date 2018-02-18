@@ -2,7 +2,7 @@
 <html lang="en-gb">
 <head>
 
-    <title>Javascript Calculus Push & Pop</title>
+    <title>Sort</title>
 
     <meta charset="utf-8" />
 
@@ -24,29 +24,30 @@
 
     <link rel="stylesheet" type="text/css" href="../../../content/JavascriptCalculus/JavascriptCalculus.css" />
 
-    <script src="../../../scripts/JavascriptCalculus/Arrays/Push.js"></script>
+    <script src="../../../scripts/JavascriptCalculus/Arrays/Sort.js"></script>
 
-    <script src="../../../scripts/JavascriptCalculus/Array/Pop.js"></script>
+    <script src="../../../scripts/JavascriptCalculus/Arrays/Reverse.js"></script>
 
 </head>
 <body>
 
     <div role="main" class="main">
 
-        <p>var asianCountries = ["Japan", "Taiwan", "South Korea", "Vietnam", "Thailand"]</p>
+        <p>var names = ["Elliot", "Joana", "Vlad", "Sarah", "Alexander", "Katherine"]</p>
 
-        <button role="button" onclick="asianCountriesPush()" class="btn btn-danger pull-left">Push</button> 
+        <button class="btn btn-info" onclick="sortingNames()">Sort</button>
 
-        <button role="button" onclick="asianCountriesPop()" class="btn btn-success pull-right">Pop</button>
+        <span id="sorting"></span>
 
     </div>
-    <div class="push-pop-container">
+    <div role="main" class="main">
 
-        <span id="countriesPush" class="pull-left"></span>
+        <button class="btn btn-warning" onclick="reverseNames()">Reverse</button>
 
-        <span id="countriesPop" class="pull-right"></span>
+        <span id="reversing"></span>
 
     </div>
 
 </body>
 </html>
+
