@@ -2,7 +2,7 @@
 <html lang="en-gb">
 <head>
 
-    <title>Javascript Calculus Sort</title>
+    <title>Positions</title>
 
     <meta charset="utf-8" />
 
@@ -24,30 +24,44 @@
 
     <link rel="stylesheet" type="text/css" href="../../../content/JavascriptCalculus/JavascriptCalculus.css" />
 
-    <script src="../../../scripts/JavascriptCalculus/Arrays/Sort.js"></script>
+    <script src="../../../scripts/JavascriptCalculus/Arrays/PositionsOne.js"></script>
 
-    <script src="../../../scripts/JavascriptCalculus/Arrays/Reverse.js"></script>
+    <script src="../../../scripts/JavascriptCalculus/Arrays/PositionsTwo.js"></script>
+
+    <script src="../../../scripts/JavascriptCalculus/Arrays/PositionsConcat.js"></script>
 
 </head>
 <body>
 
     <div role="main" class="main">
 
-        <p>var names = ["Elliot", "Joana", "Vlad", "Sarah", "Alexander", "Katherine"]</p>
+        <p>var africanCountries = ["South Africa", "Zimbabwe", "Nigeria", "Morocco", "Ethiopia"]</p>
 
-        <button class="btn btn-info" onclick="sortingNames()">Sort</button>
+        <button class="btn btn-success" onclick="AfricanCountries()">Check</button>
 
-        <span id="sorting"></span>
+        <span id="african"></span>
 
     </div>
     <div role="main" class="main">
 
-        <button class="btn btn-warning" onclick="reverseNames()">Reverse</button>
+        <p>var europeanCountries = ["Spain", "Greece", "Austria", "Netherlands", "Poland"]</p>
 
-        <span id="reversing"></span>
+        <button class="btn btn-info" onclick="EuroCountries()">Check</button>
+
+        <span id="european"></span>
+
+    </div>
+    <div role="main" class="main">
+
+        <p>var northAmericanCountries = ["United States", "Canada", "Mexico"]</p>
+
+        <p>var southAmericanCountries = ["Colombia", "Bolivia", "Venezuela"]</p>
+
+        <button class="btn btn-danger" onclick="AmericanCountries()">Concat</button>
+
+        <span id="joinCountries"></span>
 
     </div>
 
 </body>
 </html>
-

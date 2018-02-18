@@ -2,7 +2,7 @@
 <html lang="en-gb">
 <head>
 
-    <title>Javascript Calculus Splice</title>
+    <title>Push & Pop</title>
 
     <meta charset="utf-8" />
 
@@ -24,20 +24,27 @@
 
     <link rel="stylesheet" type="text/css" href="../../../content/JavascriptCalculus/JavascriptCalculus.css" />
 
-    <script src="../../../scripts/JavascriptCalculus/Arrays/Splice.js"></script>
+    <script src="../../../scripts/JavascriptCalculus/Arrays/Push.js"></script>
+
+    <script src="../../../scripts/JavascriptCalculus/Array/Pop.js"></script>
 
 </head>
 <body>
 
     <div role="main" class="main">
 
-        <p>You have: var fruits = ["Banana", "Orange", "Apple", "Mango", "Apricot", "Fig"]</p>
+        <p>var asianCountries = ["Japan", "Taiwan", "South Korea", "Vietnam", "Thailand"]</p>
 
-        <button role="button" onclick="myFunction()" class="btn btn-danger">Splice</button> 
+        <button role="button" onclick="asianCountriesPush()" class="btn btn-danger pull-left">Push</button> 
 
-        <br />
+        <button role="button" onclick="asianCountriesPop()" class="btn btn-success pull-right">Pop</button>
 
-        <span id="practice"></span>
+    </div>
+    <div class="push-pop-container">
+
+        <span id="countriesPush" class="pull-left"></span>
+
+        <span id="countriesPop" class="pull-right"></span>
 
     </div>
 
