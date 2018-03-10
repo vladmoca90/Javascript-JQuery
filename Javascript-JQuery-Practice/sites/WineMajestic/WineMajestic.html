@@ -23,6 +23,8 @@
 
     <script src="../../scripts/WineMajestic/comment.js"></script>
 
+    <script src="../../scripts/WineMajestic/likes-dislikes.js"></script>
+
     <link rel="stylesheet" type="text/css" href="../../content/WineMajestic/WineMajestic.css" />
 
 </head>
@@ -46,28 +48,28 @@
         </div>
     </div>
 
-    <footer>
-        <script type="text/javascript">
-            (function() {
-                function onTabClick(event) {
-                    var actives = document.querySelectorAll('.active');
+    <footer></footer>
 
-                    // deactivate existing active tab and panel
-                    for (var i = 0; i < actives.length; i++) {
-                        actives[i].className = actives[i].className.replace('active', '');
-                    }
+    <script type="text/javascript">
+        (function() {
+            function onTabClick(event) {
+                var actives = document.querySelectorAll('.active');
 
-                    // activate new tab and panel
-                    event.target.parentElement.className += ' active';
-                    document.getElementById(event.target.href.split('#')[1]).className += ' active';
+                // deactivate existing active tab and panel
+                for (var i = 0; i < actives.length; i++) {
+                    actives[i].className = actives[i].className.replace('active', '');
                 }
 
-                var el = document.getElementById('nav-tab');
+                // activate new tab and panel
+                event.target.parentElement.className += ' active';
+                document.getElementById(event.target.href.split('#')[1]).className += ' active';
+            }
 
-                el.addEventListener('click', onTabClick, false);
-            })();
-        </script>
-    </footer>
+            var el = document.getElementById('nav-tab');
+
+            el.addEventListener('click', onTabClick, false);
+        })();
+    </script>
 
     </body>
 
