@@ -1,0 +1,23 @@
+{
+  "name": "javascript-jquery-practice",
+  "version": "1.0.0",
+  "description": "Javascript and jQuery project",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^4.18.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test project"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladmoca90/Javascript-JQuery-Practice.git"
+  },
+  "author": "ag_dubs <vladmoca90@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vladmoca90/Javascript-JQuery-Practice/issues"
+  },
+  "homepage": "https://github.com/vladmoca90/Javascript-JQuery-Practice#readme"
+}
