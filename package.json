@@ -1,16 +1,18 @@
 {
   "name": "javascript-jquery-practice",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "eslint": "^4.18.2",
     "font-awesome": "^4.7.0",
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
-    "bootstrap": "^4.0.0-alpha.6",
-    "eslint": "^4.18.2",
-    "node": "^9.8.0",
     "jquery": "^3.3.1",
-    "node-sass": "^4.7.2"
+    "node": "^9.8.0",
+    "node-sass": "^4.7.2",
+    "pkg": "^4.3.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -25,6 +27,5 @@
   "bugs": {
     "url": "https://github.com/vladmoca90/Javascript-JQuery-Practice/issues"
   },
-  "homepage": "https://github.com/vladmoca90/Javascript-JQuery-Practice#readme",
-  "description": ""
+  "homepage": "https://github.com/vladmoca90/Javascript-JQuery-Practice#readme"
 }
