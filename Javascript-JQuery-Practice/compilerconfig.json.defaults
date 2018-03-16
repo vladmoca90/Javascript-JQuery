@@ -15,7 +15,7 @@
     "sass": {
       "includePath": "",
       "indentType": "space",
-      "indentWidth": 8,
+      "indentWidth": 4,
       "outputStyle": "nested",
       "Precision": 5,
       "relativeUrls": true,
@@ -43,7 +43,7 @@
     "javascript": {
       "enabled": true,
       "termSemicolons": true,
-      "gzip": false
+      "gzip": false,
     }
   }
 }

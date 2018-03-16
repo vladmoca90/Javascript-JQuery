@@ -2,17 +2,13 @@
 
  function longestArray(x, y) {
 
-  var longest = [];
-
   if (x.length > y.length) {
-     return x.concat(longest);
+     return x;
   } else if(x.length == y.length) {
    throw new Error("The arrays are equal");
   }
   else {
-     return y.concat(longest);
+     return y;
   }
-
-  return longest;
 
  }
