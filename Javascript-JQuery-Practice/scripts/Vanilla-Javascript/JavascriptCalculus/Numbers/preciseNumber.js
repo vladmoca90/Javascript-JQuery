@@ -1,5 +1,4 @@
 ﻿//Calculate the precise value of a given numer
-
 function preciseNumber(n) {
 
 if(n < 0) {

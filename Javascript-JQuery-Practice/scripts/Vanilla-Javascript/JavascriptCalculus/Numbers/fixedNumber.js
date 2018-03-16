@@ -1,5 +1,4 @@
 ﻿//Calculate the fixed value of a given numer
-
 function fixedNumber(n) {
 
 if(n < 0) {

@@ -241,7 +241,7 @@
     <Content Include="sites\JavascriptCalculus\Numbers\Determinants and Matrices\SarusRule.html" />
     <Content Include="sites\JavascriptCalculus\Numbers\Determinants and Matrices\TriangleMethod.html" />
     <Content Include="sites\JavascriptCalculus\Numbers\JavascriptCalcFunction.html" />
-    <Content Include="sites\JavascriptCalculus\Numbers\JavascriptCalculusPrecisionFixed.html" />
+    <Content Include="sites\JavascriptCalculus\Numbers\Precision-Fixed-number.html" />
     <Content Include="sites\JavascriptCalculus\Numbers\Second Degree Function\JavascriptLogarithmFunction.html" />
     <Content Include="sites\JavascriptCalculus\Numbers\Second Degree Function\JavascriptExponentialFunction.html" />
     <Content Include="sites\JavascriptCalculus\Numbers\Second Degree Function\JavascriptSecondDegreeFunction.html" />
