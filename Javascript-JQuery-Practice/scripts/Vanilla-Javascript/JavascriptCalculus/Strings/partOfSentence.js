@@ -5,4 +5,3 @@ function partOfSentence(sentence) {
  return sentence.substring(0, 10);
 
 }
-
