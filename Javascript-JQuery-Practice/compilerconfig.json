@@ -42,5 +42,9 @@
   {
     "outputFile": "content/AIA Worldwide/AIA-Worldwide.css",
     "inputFile": "content/AIA Worldwide/AIA-Worldwide.scss"
+  },
+  {
+    "outputFile": "content/mixins/mixins.css",
+    "inputFile": "content/mixins/mixins.scss"
   }
 ]
