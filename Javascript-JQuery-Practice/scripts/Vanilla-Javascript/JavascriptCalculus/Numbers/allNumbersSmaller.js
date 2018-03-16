@@ -2,8 +2,8 @@
 
 function allNumbersSmaller(n) {
 
- if (n < 0) {
-  throw new Error("The number must be greater or equal to 0");
+ if (n <= 0) {
+  throw new Error("The number must be greater than 0");
  }
 
  var smaller = [];
