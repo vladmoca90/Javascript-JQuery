@@ -6,9 +6,9 @@
 
   if (x.length > y.length) {
      return x.concat(longest);
-  } /*else if(x.length == y.length) {
+  } else if(x.length == y.length) {
    throw new Error("The arrays are equal");
-  } */
+  }
   else {
      return y.concat(longest);
   }
