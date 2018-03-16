@@ -14,11 +14,11 @@
             alert("The equation is imposible");
             return;
         }
-        else if(delta == 0) {
+        if(delta == 0) {
             alert("The roots are equal");
             document.getElementById("delta").innerHTML = delta;
         }
-        else {
+        if(delta > 0) {
             alert("The roots are different");
             document.getElementById("delta").innerHTML = delta;
         }

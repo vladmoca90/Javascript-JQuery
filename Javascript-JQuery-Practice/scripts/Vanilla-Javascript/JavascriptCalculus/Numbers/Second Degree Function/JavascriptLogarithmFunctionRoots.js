@@ -14,12 +14,7 @@
             alert("The equation is imposible");
             return;
         }
-        else if(delta == 0) {
-            alert("The roots are equal");
-            document.getElementById("delta").innerHTML = delta;
-        }
-        else {
-            alert("The roots are different");
+        if(delta >= 0) {
             document.getElementById("delta").innerHTML = delta;
         }
 
