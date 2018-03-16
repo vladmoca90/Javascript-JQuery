@@ -15,7 +15,7 @@
     "sass": {
       "includePath": "",
       "indentType": "space",
-      "indentWidth": 2,
+      "indentWidth": 4,
       "outputStyle": "nested",
       "Precision": 5,
       "relativeUrls": true,
