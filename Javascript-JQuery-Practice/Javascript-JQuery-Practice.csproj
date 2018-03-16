@@ -118,6 +118,8 @@
     <Content Include="content\JavascriptCalculus\JavascriptCalculus.min.css">
       <DependentUpon>JavascriptCalculus.css</DependentUpon>
     </Content>
+    <Content Include="content\mixins\mixins.css" />
+    <Content Include="content\mixins\mixins.min.css" />
     <Content Include="content\utilities\utilities.css" />
     <Content Include="content\utilities\utilities.min.css" />
     <Content Include="content\WineMajestic\WineMajestic.css">
@@ -141,6 +143,7 @@
     <Content Include="content\JavascriptCalculus\Sarus-Rule.scss" />
     <Content Include="content\WineMajestic\WineMajestic.scss" />
     <Content Include="content\utilities\utilities.scss" />
+    <Content Include="content\mixins\mixins.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -238,7 +241,7 @@
     <Content Include="sites\JavascriptCalculus\Numbers\Determinants and Matrices\SarusRule.html" />
     <Content Include="sites\JavascriptCalculus\Numbers\Determinants and Matrices\TriangleMethod.html" />
     <Content Include="sites\JavascriptCalculus\Numbers\JavascriptCalcFunction.html" />
-    <Content Include="sites\JavascriptCalculus\Numbers\JavascriptCalculusPrecisionFixed.html" />
+    <Content Include="sites\JavascriptCalculus\Numbers\Precision-Fixed-number.html" />
     <Content Include="sites\JavascriptCalculus\Numbers\Second Degree Function\JavascriptLogarithmFunction.html" />
     <Content Include="sites\JavascriptCalculus\Numbers\Second Degree Function\JavascriptExponentialFunction.html" />
     <Content Include="sites\JavascriptCalculus\Numbers\Second Degree Function\JavascriptSecondDegreeFunction.html" />

@@ -5,11 +5,11 @@ function sortArray(array) {
   var c = array[2];
 
 
-  if (a < b) {
-    if (a < c) {
+  if (a <= b) {
+    if (a <= c) {
       sortedArray.push(a);
 
-      if (b < c) {
+      if (b <= c) {
         sortedArray.push(b);
         sortedArray.push(c);
 
@@ -20,13 +20,15 @@ function sortArray(array) {
     } else {
       sortedArray.push(c);
     }
+
+    return sortedArray;
   }
 
-  if (b < c) {
-    if (b < a) {
+  if (b <= c) {
+    if (b <= a) {
       sortedArray.push(b);
 
-      if (a < c) {
+      if (a <= c) {
         sortedArray.push(a);
         sortedArray.push(c);
       } else {
@@ -36,12 +38,14 @@ function sortArray(array) {
     } else {
       sortedArray.push(a);
     }
+
+    return sortedArray;
   }
 
-  if (c < a) {
-    if (c < b) {
+  if (c <= a) {
+    if (c <= b) {
       sortedArray.push(c);
-      if (b < a) {
+      if (b <= a) {
         sortedArray.push(b);
         sortedArray.push(a);
 

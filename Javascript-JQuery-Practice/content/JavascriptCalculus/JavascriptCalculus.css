@@ -1,17 +1,15 @@
 ﻿.main {
-  width: 100%;
-  height: 100%;
-  max-width: 400px;
-  margin: 2% auto; }
-  .main #practice {
-    margin-top: 1%;
-    display: inline-block; }
+        max-width: 400px;
+        margin: 2% auto; }
+        .main #practice {
+                margin-top: 1%;
+                display: inline-block; }
 
 .push-pop-container {
-  display: block;
-  margin: 2% auto;
-  width: 50%;
-  overflow: auto; }
+        display: block;
+        margin: 2% auto;
+        width: 50%;
+        overflow: auto; }
 
 #african, #european,
 #joinCountries, #sorting,
@@ -19,7 +17,7 @@
 #calculateLastIndex, #substringResult,
 #substrResult, #firstResultPres,
 #secondResultFixed {
-  margin-left: 50px; }
+        margin-left: 50px; }
 
 #resultOne,
 #resultTwo,
@@ -27,15 +25,15 @@
 #resultFour,
 #resultFive,
 #resultSix {
-  margin-left: 20px; }
+        margin-left: 20px; }
 
 .roots {
-  margin: 25px 0px; }
+        margin: 25px 0px; }
 
 .solutions {
-  margin-top: 25px; }
+        margin-top: 25px; }
 
 .calc-result {
-  margin-left: 15px;
-  display: inline-block; }
+        margin-left: 15px;
+        display: inline-block; }
 
