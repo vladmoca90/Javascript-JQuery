@@ -1,0 +1,34 @@
+{
+  "name": "javascript-jquery-practice",
+  "version": "1.0.0",
+  "description": "\"A prject with work samples of Javascript and Jquery\"",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-minify-css": "^1.2.4",
+    "bootstrap": "^4.0.0-alpha.6",
+    "eslint": "^4.18.2",
+    "node-sass": "^4.7.2",
+    "font-awesome": "^4.7.0",
+    "gulp-sass": "^3.1.0",
+    "node": "^9.8.0",
+    "jquery": "^3.3.1",
+    "npm-install-all": "^1.1.21",
+    "pkg": "^4.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladmoca90/Javascript-JQuery-Practice.git"
+  },
+  "author": "ag_dubs <vladmoca90@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vladmoca90/Javascript-JQuery-Practice/issues"
+  },
+  "homepage": "https://github.com/vladmoca90/Javascript-JQuery-Practice#readme"
+}
