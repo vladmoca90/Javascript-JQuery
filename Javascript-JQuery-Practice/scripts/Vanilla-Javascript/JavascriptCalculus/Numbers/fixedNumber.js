@@ -1,7 +1,5 @@
 ﻿//Calculate the fixed value of a given number
-function fixedNumber() {
-
-    var n = document.getElementsByClassName("fixedValue").value;
+function fixedNumber(n) {
 
     if (n < 0) {
         throw new Error("The number must be greater than 0");
@@ -10,6 +8,8 @@ function fixedNumber() {
         return 0;
     }
 
-    return document.getElementsByClassName("fixedNumberResult").innerHtml = n.toFixed();
+    var m = n.toFixed();
+
+    return m;
 
 }
