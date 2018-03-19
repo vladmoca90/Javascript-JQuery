@@ -1,5 +1,5 @@
 ﻿//Calculate the fixed value of a given number
-function fixedNumber(n) {
+function fixedNumber(n, f) {
 
     if (n < 0) {
         throw new Error("The number must be greater than 0");
@@ -8,7 +8,7 @@ function fixedNumber(n) {
         return 0;
     }
 
-    var m = n.toFixed();
+    var m = n.toFixed(f);
 
     return m;
 

@@ -1,5 +1,5 @@
 ﻿//Calculate the precise value of a given number
-function preciseNumber(n) {
+function preciseNumber(n, p) {
 
     if (n < 0) {
         throw new Error("Then number must be greater than 0");
@@ -8,7 +8,7 @@ function preciseNumber(n) {
         return 0;
     }
 
-    p = n.toPrecision();
+    m = n.toPrecision(p);
 
-    return p;
+    return m;
 }
