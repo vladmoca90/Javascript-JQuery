@@ -2,13 +2,12 @@
 
  function longestArray(x, y) {
 
-  if (x.length > y.length) {
-     return x;
-  } else if(x.length == y.length) {
-   throw new Error("The arrays are equal");
-  }
-  else {
-     return y;
-  }
+     if (x.length == y.length) {
+         throw new Error("The arrays are equal");
+     } else if (x.length > y.length) {
+         return x;
+     } else {
+         return y;
+     }
 
  }
