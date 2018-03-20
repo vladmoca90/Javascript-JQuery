@@ -1,4 +1,4 @@
-﻿#form-validation,
+#form-validation,
 #location-container,
 .buttons-container,
 .submit-reset {
@@ -60,4 +60,3 @@ input[name="age"] {
   color: red;
   font-weight: bold;
   text-indent: 15px; }
-
