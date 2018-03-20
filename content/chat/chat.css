@@ -1,4 +1,4 @@
-﻿@import url(http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css);
 h1 {
   text-align: center; }
 
@@ -45,4 +45,3 @@ h1 {
   #conversation .picture,
   #conversation .time {
     width: 10%; }
-
