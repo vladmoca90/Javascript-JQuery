@@ -1,7 +1,5 @@
 ﻿//Calculate the precise value of a given number
-function preciseNumber() {
-
-    var m = document.getElementsByClassName("preciseValue").value;
+function preciseNumber(n, p) {
 
     if (n < 0) {
         throw new Error("Then number must be greater than 0");
@@ -10,6 +8,7 @@ function preciseNumber() {
         return 0;
     }
 
-    return document.getElementsByClassName("preciseNumberResult").innerHtml = m.toPrecision();
+    m = n.toPrecision(p);
 
+    return m;
 }
