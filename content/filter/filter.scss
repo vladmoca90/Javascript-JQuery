@@ -1,16 +1,35 @@
 @import '../mixins/mixins.scss';
-
 body {
     margin: 0;
     padding: 0;
 }
 
 .filter-container {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    max-width: 625px;
+
     &__input {
         font-size: 15px;
     }
-    &__text {
+
+    &__input,
+    &__content {
         margin-top: 15px;
-        padding: 10px;
+    }
+
+    &__content {
+        padding: 15px;
+    }
+
+    &__heading {
+        margin-bottom: 18px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    &__text {
+        font-size: 13px;
+        margin-bottom: 0;
     }
 }

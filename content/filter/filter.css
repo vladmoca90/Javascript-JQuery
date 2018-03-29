@@ -2,9 +2,20 @@ body {
   margin: 0;
   padding: 0; }
 
-.filter-container__input {
-  font-size: 15px; }
-
-.filter-container__text {
-  margin-top: 15px;
-  padding: 10px; }
+.filter-container {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0 auto;
+  max-width: 625px; }
+  .filter-container__input {
+    font-size: 15px; }
+  .filter-container__input, .filter-container__content {
+    margin-top: 15px; }
+  .filter-container__content {
+    padding: 15px; }
+  .filter-container__heading {
+    margin-bottom: 18px;
+    margin-top: 0;
+    text-align: center; }
+  .filter-container__text {
+    font-size: 13px;
+    margin-bottom: 0; }
