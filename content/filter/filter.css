@@ -17,6 +17,9 @@ body {
     margin-bottom: 15px;
     margin-top: 0;
     text-align: center; }
+  .filter-container__sub-heading--small {
+    font-size: 14px;
+    font-style: italic; }
   .filter-container__text {
     font-size: 13px;
     margin-bottom: 0; }
