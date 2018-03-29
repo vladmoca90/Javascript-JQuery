@@ -9,11 +9,12 @@ body {
   .filter-container__input {
     font-size: 15px; }
   .filter-container__input, .filter-container__content {
-    margin-top: 15px; }
+    margin-top: 25px; }
   .filter-container__content {
+    border-radius: 10px;
     padding: 15px; }
   .filter-container__heading {
-    margin-bottom: 18px;
+    margin-bottom: 15px;
     margin-top: 0;
     text-align: center; }
   .filter-container__text {
