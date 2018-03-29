@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.filter-container__input {
+  font-size: 15px; }
+
+.filter-container__text {
+  margin-top: 15px;
+  padding: 10px; }

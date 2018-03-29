@@ -4,3 +4,13 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.filter-container {
+    &__input {
+        font-size: 15px;
+    }
+    &__text {
+        margin-top: 15px;
+        padding: 10px;
+    }
+}
