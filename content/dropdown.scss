@@ -16,10 +16,12 @@
         padding: 0;
         text-align: center;
         &__list {
-            margin: 10px;
+            border-top: 1px solid #ccc;
+            padding: 10px;
         }
         &__link {
-            color: #000;
+            color: #555;
+            cursor: text;
             text-align: center;
             text-decoration: none;
         }
