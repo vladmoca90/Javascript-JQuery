@@ -1,13 +1,14 @@
 .nav {
   border-radius: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 30px auto;
   max-width: 125px; }
   .nav-button {
-    font-size: 16px;
+    font-size: 18px;
     margin: 10px;
     text-align: center; }
   .nav .menu {
-    font-size: 15px;
+    font-size: 16px;
     list-style-type: none;
     margin: 0;
     padding: 0;
