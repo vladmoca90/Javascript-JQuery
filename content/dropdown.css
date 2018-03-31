@@ -1,0 +1,22 @@
+.nav {
+  border-radius: 10px;
+  margin: 30px auto;
+  max-width: 125px; }
+  .nav-button {
+    font-size: 16px;
+    margin: 10px;
+    text-align: center; }
+  .nav .menu {
+    font-size: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+    .nav .menu__list {
+      border-top: 1px solid #ccc;
+      padding: 10px; }
+    .nav .menu__link {
+      color: #555;
+      cursor: text;
+      text-align: center;
+      text-decoration: none; }
