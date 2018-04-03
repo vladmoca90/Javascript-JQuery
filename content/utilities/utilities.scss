@@ -3,10 +3,9 @@
     position: relative;
 }
 
-//Only when the parent has position: relative
 .u--absolute {
     position: absolute;
-}
+}//Only when the parent has position: relative
 
 .u-fixed {
     position: fixed;
@@ -72,10 +71,14 @@
     justify-content: center;
 }
 
+.u-space-around {
+    justify-content: space-around;
+}
+
 .u-space-between {
     justify-content: space-between;
 }
 
-.u-space-around {
-    justify-content: space-around;
+.u-space-evenly {
+    justify-content: space-evenly;
 }
