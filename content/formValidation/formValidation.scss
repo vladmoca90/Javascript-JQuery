@@ -1,14 +1,11 @@
-﻿#form-validation,
-#location-container,
-.buttons-container,
-.submit-reset {
-    width: 100%;
-}
-#form-validation {
+﻿@import '../variables/variables.scss';
+
+@import '../mixins/mixins.scss';
+
+.form-validation {
+    background-color: #F6F6F6;
     max-width: 500px;
     margin: 3% auto;
-    background: #F6F6F6;
-    border: 1px solid #CCCCCC;
     padding: 2%;
     div[class="form-group"] {
         line-height: 34px;
@@ -33,10 +30,10 @@
         width: 10%;
     }
 }
-#form-validation label,
+.form-validation label,
 input[name="age"],
 input[name="dateOfBirth"],
-#location-container,
+.location-container,
 .buttons-container {
     float: left;
 }
@@ -49,20 +46,20 @@ input[name="dateOfBirth"] {
 input[name="age"] {
     margin-left: 18%;
 }
-#location-container {
-    max-width: 200px;
+.location-container {
     margin-left: 10% !important;
+    max-width: 200px;
 }
 .buttons-container {
     max-width: 130px;
 }
 .submit-reset {
-    max-width: 150px;
     clear: both;
     margin: auto;
+    max-width: 150px;
 }
 .rootCondition {
-    color: red;
+    color: $red-medium;
     font-weight: bold;
     text-indent: 15px;
 }

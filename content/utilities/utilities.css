@@ -22,9 +22,6 @@
 .u-full-height {
   height: 100%; }
 
-.u-border--0 {
-  border: 0; }
-
 .u-border {
   border: 1px solid #ccc; }
 
@@ -50,8 +47,11 @@
   align-items: center;
   justify-content: center; }
 
+.u-space-around {
+  justify-content: space-around; }
+
 .u-space-between {
   justify-content: space-between; }
 
-.u-space-around {
-  justify-content: space-around; }
+.u-space-evenly {
+  justify-content: space-evenly; }
