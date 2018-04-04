@@ -1,4 +1,4 @@
-﻿$(document).ready(function () {
+﻿$(function () {
 
     $("table").width(450).addClass("table table-hover").css({
         "margin": "2% auto",

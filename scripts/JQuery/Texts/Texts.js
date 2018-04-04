@@ -1,4 +1,4 @@
-﻿$(document).ready(function () {
+﻿$(function () {
 
     $("#main, #button-box").css("margin", "2% auto");
 

@@ -1,4 +1,4 @@
-﻿$(document).ready(function () {
+﻿$(function () {
 
     $("ul").addClass("list-unstyled list-inline").css({
         "font-size": "18px",
