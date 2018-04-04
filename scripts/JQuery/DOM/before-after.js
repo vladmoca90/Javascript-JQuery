@@ -1,4 +1,4 @@
-﻿$(document).ready(function () {
+﻿$(function () {
 
     $("#first").click(function () {
         $("#afterVlad").after("and I am 25 years old");

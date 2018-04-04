@@ -1,4 +1,4 @@
-﻿$(document).ready(function () {
+﻿$(function () {
 
     $(".main-panel").addClass("panel panel-warning").css("margin-top", "20px");
 

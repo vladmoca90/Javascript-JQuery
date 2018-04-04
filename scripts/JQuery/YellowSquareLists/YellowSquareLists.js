@@ -1,4 +1,4 @@
-﻿$(document).ready(function() {
+﻿$(function() {
 
     $("#box").width(400).height(450).addClass("center-block").css({
         "margin-top": "4%",

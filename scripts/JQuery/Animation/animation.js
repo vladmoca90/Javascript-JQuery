@@ -1,4 +1,4 @@
-﻿$(document).ready(function () {
+﻿$(function () {
 
     $("#parent").addClass("center-block").width(300).height(300).css({
         "background": "yellow",
