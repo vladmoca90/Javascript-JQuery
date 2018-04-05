@@ -1,8 +1,8 @@
 ﻿$(function () {
 
     $("table").width(450).addClass("table table-hover").css({
-        "margin": "2% auto",
-        "border": "1px solid #DDDDDD"
+        "margin": "20px auto",
+        "border": "1px solid #ccc"
     });
 
     $("tr>td").css("border-right", "1px solid #DDDDDD").not(".country");
