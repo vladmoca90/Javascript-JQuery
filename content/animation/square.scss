@@ -1,0 +1,13 @@
+@import '../variables/variables.scss';
+
+@import '../mixins/mixins.scss';
+
+.square {
+    margin: 0 auto;
+    max-width: 300px;
+    min-height: 300px;
+    .square__child {
+        max-width: 150px;
+        min-height: 150px;
+    }
+}

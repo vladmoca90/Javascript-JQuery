@@ -1,14 +1,14 @@
 ﻿$(function () {
 
     $("ul").addClass("list-unstyled list-inline").css({
-        "font-size": "18px",
-        "width": "495px",
-        "margin": "20px auto",
+        "font-size": "16px",
+        "width": "500px",
+        "margin": "30px auto",
         "color": "#fff"
     });
 
     $("ul>li").css({
-        "padding": "7px 12px",
+        "padding": "7px 15px",
         "border-radius": "10px",
         "cursor": "pointer"
     });
