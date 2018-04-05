@@ -5,8 +5,8 @@
 .form-validation {
     background-color: #F6F6F6;
     max-width: 500px;
-    margin: 3% auto;
-    padding: 2%;
+    margin: 30px auto;
+    padding: 20px;
     div[class="form-group"] {
         line-height: 34px;
         margin-left: 0px;
@@ -55,7 +55,7 @@ input[name="age"] {
 }
 .submit-reset {
     clear: both;
-    margin: auto;
+    margin: 0 auto;
     max-width: 150px;
 }
 .rootCondition {
