@@ -1,6 +1,6 @@
 ﻿$(function () {
 
-    $("#main, #button-box").css("margin", "2% auto");
+    $("#main, #button-box").css("margin", "20px auto");
 
     $("#main").width(1000);
 
@@ -8,7 +8,7 @@
 
     $("#main").css({
         "padding": "10px",
-        "border" : "1px solid #000"
+        "border" : "1px solid #ccc"
     });
 
     $(".one").css({

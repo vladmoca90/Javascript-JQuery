@@ -37,9 +37,6 @@
 .u-flex {
   display: flex; }
 
-.u-flex--inline {
-  display: inline-flex; }
-
 .u-flex--column {
   flex-direction: column; }
 
