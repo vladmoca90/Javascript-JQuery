@@ -1,9 +1,10 @@
 function sortArray(array) {
+
   var sortedArray = [];
+
   var a = array[0];
   var b = array[1];
   var c = array[2];
-
 
   if (a <= b) {
     if (a <= c) {
