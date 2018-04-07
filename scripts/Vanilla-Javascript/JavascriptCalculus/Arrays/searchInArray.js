@@ -8,8 +8,7 @@ function search(array, n) {
     if (array.length == 1) {
         if (n == array[0]) {
             return true;
-        }
-        else {
+        } else {
             return false;
         }
     }

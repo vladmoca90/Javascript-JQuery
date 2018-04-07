@@ -1,5 +1,4 @@
 //A function that uses .map()
-
 function arrayMapping(array) {
     if (array.length == 0) {
         throw new Error('Array cannot be empty');

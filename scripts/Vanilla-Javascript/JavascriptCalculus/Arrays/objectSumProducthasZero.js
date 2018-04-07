@@ -7,7 +7,6 @@
     hasZero: false
 }
 */
-
 function calculateProperties(array) {
 
     if (array.length == 0) {

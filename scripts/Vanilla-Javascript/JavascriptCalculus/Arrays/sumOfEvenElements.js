@@ -8,8 +8,7 @@ function evenSum(array) {
     if (array.length == 1) {
         if (array[0] % 2 == 0) {
             return array[0];
-        }
-        else {
+        } else {
             throw new Error("The only number in the array is not even");
         }
     }
