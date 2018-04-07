@@ -3,5 +3,17 @@
 @import '../mixins/mixins.scss';
 
 .dropdown {
-    
+    border-radius: 8px;
+    color: $main;
+    max-width: 150px;
+    text-align: center;
+
+    &__button {
+    }
+
+    &__list {
+        &-item {
+
+        }
+    }
 }
