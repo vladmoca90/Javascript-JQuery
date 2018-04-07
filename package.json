@@ -3,19 +3,25 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "dependencies": {
     "all": "^0.0.0",
-    "npm": "^5.8.0"
-  },
-  "devDependencies": {
-    "gulp-sass": "^3.1.0",
-    "jasmine-core": "^3.1.0",
+    "gulp-minify": "^2.1.0",
+    "gulp-sass": "^3.2.1",
     "jasmine": "^3.1.0",
+    "jasmine-core": "^3.1.0",
     "karma": "^2.0.0",
-    "karma-cli": "^1.0.1"
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.1.1",
+    "npm": "^5.8.0",
+    "pkg": "^4.3.1"
   },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma"
   },
   "repository": {
     "type": "git",
