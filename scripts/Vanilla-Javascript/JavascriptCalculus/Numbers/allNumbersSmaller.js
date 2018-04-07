@@ -8,7 +8,7 @@ function allNumbersSmaller(n) {
 
  var smaller = [];
 
- for (i = ; i < n; i++) {
+ for (i = 0; i < n; i++) {
   if (n > i) {
    smaller.push(i);
   }
