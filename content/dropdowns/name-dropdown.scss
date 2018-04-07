@@ -5,6 +5,7 @@
 .dropdown {
     border-radius: 8px;
     color: $main;
+    margin: 50px auto;
     max-width: 150px;
     text-align: center;
 
@@ -12,6 +13,7 @@
     }
 
     &__list {
+        text-align: center;
         &-item {
 
         }

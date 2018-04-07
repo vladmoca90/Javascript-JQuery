@@ -1,5 +1,8 @@
 .dropdown {
   border-radius: 8px;
   color: #444;
+  margin: 50px auto;
   max-width: 150px;
   text-align: center; }
+  .dropdown__list {
+    text-align: center; }
