@@ -1,5 +1,5 @@
 $(function() {
     $('.dropdown__button').click(function() {
-        $('.dropdown__list').toggle(500);
+        $('.dropdown__list').slideToggle(250);
     });
 });

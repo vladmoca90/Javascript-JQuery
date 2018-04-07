@@ -5,17 +5,25 @@
 .dropdown {
     border-radius: 8px;
     color: $main;
+    @include font-prop(15px, $main, $arial);
     margin: 50px auto;
-    max-width: 150px;
+    max-width: 125px;
     text-align: center;
 
     &__button {
+        cursor: pointer;
+        padding: 10px;
     }
 
     &__list {
+        display: none;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
         text-align: center;
         &-item {
-
+            border-top: $side-gray;
+            padding: 10px;
         }
     }
 }
