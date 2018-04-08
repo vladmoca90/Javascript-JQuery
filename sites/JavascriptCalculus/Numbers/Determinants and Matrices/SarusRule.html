@@ -19,7 +19,7 @@
 
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="../../../../content/JavascriptCalculus/JavascriptCalculus.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../content/utilities/utilities.css" />
 
     <link rel="stylesheet" type="text/css" href="../../../../content/JavascriptCalculus/Sarus-Rule.css" />
 
@@ -29,8 +29,8 @@
 
 <body>
 
-    <div role="main" class="main">
-        <div class="Sarus-Rule">
+    <div role="main" class="container u-full-width">
+        <div class="container__table u-full-width">
             <table>
                 <tr>
                     <td>a</td>
@@ -52,17 +52,50 @@
 
         <p></p>
 
-        <p><strong>You note the determinante with an y</strong></p>
+        <p>
+            <strong>You note the determinante with an y</strong>
+        </p>
 
         <p></p>
 
-        <p>This way you will have <strong>y = aei + bfg + cdh - ceg - bdi - afh</strong></p>
+        <p>This way you will have
+            <strong>y = aei + bfg + cdh - ceg - bdi - afh</strong>
+        </p>
 
-        a: <input type="text" id="a" /> b: <input type="text" id="b" /> c: <input type="text" id="c" /> d: <input type="text" id="d" /> e: <input type="text" id="e" /> f: <input type="text" id="f" /> g: <input type="text" id="g" /> h: <input type="text"
-            id="h" /> i: <input type="text" id="i" />
+        <div class="container__inputs u-flex u-space-evenly">
+            <span>a:
+                <input type="text" id="a" /> 
+            </span>
+            <span>b:
+                <input type="text" id="b" /> 
+            </span>
+            <span>c:
+                <input type="text" id="c" /> 
+            </span>
+            <span>d:
+                <input type="text" id="d" />
+            </span>
+            <span>e:
+                <input type="text" id="e" />
+            </span>
+            <span>f:
+                <input type="text" id="f" />
+            </span>
+            <span>g:
+                <input type="text" id="g" /> 
+            </span>
+            <span>h:
+                <input type="text" id="h" /> 
+            </span>
+            <span>i:
+                <input type="text" id="i" />
+            </span>
+        </div>
 
         <button class="btn btn-success" id="sarusRule">Calculate</button>
-        <p class="calc-result">y = <span id="result"></span></p>
+        <p class="calc-result">y =
+            <span id="result"></span>
+        </p>
     </div>
 
 </body>
