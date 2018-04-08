@@ -5,7 +5,5 @@ function stringToArray(string) {
         throw new Error('The string cannot be empty');
     }
 
-    var array = [];
-
-    return array;
+    return string.trim().split();
 }
