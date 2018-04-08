@@ -1,8 +1,8 @@
 //A function that write a string uppercase
 function upperCaseString(string) {
 
-    if (array.length == 0) {
-        throw new Error('Array cannot be empty');
+    if (string.length == 0) {
+        throw new Error('String cannot be empty');
     }
 
     return string.toUpperCase();
@@ -11,8 +11,8 @@ function upperCaseString(string) {
 //A function that write a string lowercase
 function lowerCaseString(string) {
 
-    if (array.length == 0) {
-        throw new Error('Array cannot be empty');
+    if (string.length == 0) {
+        throw new Error('String cannot be empty');
     }
 
     return string.toLowerCase();
