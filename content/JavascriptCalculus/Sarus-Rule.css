@@ -1,13 +1,19 @@
-.Sarus-Rule {
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  width: 100%;
-  max-width: 96px; }
-  .Sarus-Rule tr > td {
-    padding: 12px; }
-
-input[type="text"] {
-  margin-top: 10px; }
-
-button {
-  margin-top: 15px; }
+.container {
+  max-width: 500px; }
+  .container__table {
+    border-top: 0;
+    border-right: 1px;
+    border-bottom: 0;
+    border-left: 1px;
+    border-style: solid;
+    border-color: #444;
+    margin: 20px auto;
+    max-width: 100px; }
+    .container__table tr > td {
+      padding: 12px; }
+  .container__inputs {
+    flex-flow: row wrap; }
+    .container__inputs input[type="text"] {
+      margin-top: 10px; }
+  .container #sarusRule {
+    margin-top: 15px; }

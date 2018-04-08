@@ -1,15 +1,29 @@
-﻿.Sarus-Rule {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    width: 100%;
-    max-width: 96px;
-    tr>td {
-        padding: 12px;
+﻿@import '../variables/variables.scss';
+
+@import '../mixins/mixins.scss';
+
+.container {
+    max-width: 500px;
+
+    &__table {
+        @include borders(0, 1px, 0, 1px, solid, $main);
+        margin: 20px auto;
+        max-width: 100px;
+
+        tr>td {
+            padding: 12px;
+        }
     }
-}
-input[type="text"] {
-    margin-top: 10px;
-}
-button {
-    margin-top: 15px;
+
+    &__inputs {
+        flex-flow: row wrap;
+
+        input[type="text"] {
+            margin-top: 10px;
+        }
+    }
+
+    #sarusRule {
+        margin-top: 15px;
+    }
 }
