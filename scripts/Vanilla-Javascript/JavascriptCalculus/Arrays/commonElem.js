@@ -14,7 +14,7 @@ function commonElem(array) {
 
     for (i = 0; i < array.length; i++) {
         for (j = i; j < array.length; j++) {
-            if (array[i] == array[j]) {
+            if (array[i] !== array[j]) {
                 var common = array[j];
             } else {
                 throw new Error('There is no common element');
