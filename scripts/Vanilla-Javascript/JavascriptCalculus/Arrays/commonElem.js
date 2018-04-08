@@ -1,5 +1,6 @@
 //A function that returns the dublicated element in an array
 
+/*
 function commonElem(array) {
 
     if (array.length == 0) {
@@ -24,3 +25,5 @@ function commonElem(array) {
 
     return common;
 }
+
+*/
