@@ -7,21 +7,23 @@ function commonElem(array) {
     }
 
     if (array.length == 1) {
-        console.log('THe array has one element only. There no common');
+        console.log('The array has one element only. There no common');
     }
 
     if (array.length == 2) {
         if (array[0] == array[1]) {
-            return array
+            console.log('The array has two different elements. There no common');
         } else {
-            console.log('THe array has different elements. There no common');
+            return array[0];
         }
     }
 
-    var counter = 0;
+    var common;
 
     for (i = 0; i < array.length; i++) {
-        array[i] == common;
+        for (i = j; i < array.length; j++) {
+
+        }
     }
 
     return common;
