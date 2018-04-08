@@ -8,10 +8,10 @@ function longestWordLength(string) {
 
     var splitString = string.trim().split(' ');
 
-    var longest = '';
+    var longest = splitString[0].length;
 
     for (i = 0; i < splitString.length; i++) {
-        longest = Math.max(splitString[i].length);
+        longest = Math.max(longest, splitString[i].length);
     }
 
     return longest;
