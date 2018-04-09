@@ -1,20 +1,20 @@
-﻿//smallest element in an array//
+﻿//smallest element in an list//
 
-function min(array) {
+function min(list) {
 
-    if (array.length == 0) {
+    if (list.length == 0) {
         throw new Error("The list cannot be empty");
     }
-    if (array.length == 1) {
-        return array[0];
+    if (list.length == 1) {
+        return list[0];
     }
 
-    var minSoFar = array[0];
+    var minSoFar = list[0];
 
-    for (var i = 0; i < array.length; i++) {
+    for (var i = 0; i < list.length; i++) {
 
-        if (array[i] < minSoFar) {
-            minSoFar = array[i];
+        if (list[i] < minSoFar) {
+            minSoFar = list[i];
         }
     }
 

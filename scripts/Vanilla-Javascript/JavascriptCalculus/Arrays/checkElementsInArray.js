@@ -1,13 +1,13 @@
-//A function that checks if all elements in an array fulfill a certain condition
+//A function that checks if all elements in an list fulfill a certain condition
 
-function checkElementsInArray(array) {
+function checkElementsInList(list) {
 
-    if(array.length == 0) {
-        throw new Error('The array cannot be empty');
+    if(list.length == 0) {
+        throw new Error('The list cannot be empty');
     }
 
-    for (i = 0; i < array.length; i++) {
-        if(array[i] > 10) {
+    for (i = 0; i < list.length; i++) {
+        if(list[i] > 10) {
             return false;
         }
     }

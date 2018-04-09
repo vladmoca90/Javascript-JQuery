@@ -1,16 +1,16 @@
 //A function that uses .map()
-function arrayMapping(array) {
-    if (array.length == 0) {
-        throw new Error('Array cannot be empty');
+function listMapping(list) {
+    if (list.length == 0) {
+        throw new Error('List cannot be empty');
     }
 
-    var mappedArray = [];
+    var mappedList = [];
 
-    for (i = 0; i < array.length; i++) {
-        array.map(function () {
-            return mappedArray.push(array[i] * 2);
+    for (i = 0; i < list.length; i++) {
+        list.map(function () {
+            return mappedList.push(list[i] * 2);
         });
     }
 
-    return mappedArray;
+    return mappedList;
 }

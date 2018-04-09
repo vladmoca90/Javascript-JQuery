@@ -1,64 +1,65 @@
-function sortArray(array) {
+//A function that sort the elements of an array
+function sortList(list) {
 
-  var sortedArray = [];
+  var sortedList = [];
 
-  var a = array[0];
-  var b = array[1];
-  var c = array[2];
+  var a = list[0];
+  var b = list[1];
+  var c = list[2];
 
   if (a <= b) {
     if (a <= c) {
-      sortedArray.push(a);
+      sortedList.push(a);
 
       if (b <= c) {
-        sortedArray.push(b);
-        sortedArray.push(c);
+        sortedList.push(b);
+        sortedList.push(c);
 
       } else {
-        sortedArray.push(c);
-        sortedArray.push(b);
+        sortedList.push(c);
+        sortedList.push(b);
       }
     } else {
-      sortedArray.push(c);
+      sortedList.push(c);
     }
 
-    return sortedArray;
+    return sortedList;
   }
 
   if (b <= c) {
     if (b <= a) {
-      sortedArray.push(b);
+      sortedList.push(b);
 
       if (a <= c) {
-        sortedArray.push(a);
-        sortedArray.push(c);
+        sortedList.push(a);
+        sortedList.push(c);
       } else {
-        sortedArray.push(c);
-        sortedArray.push(a);
+        sortedList.push(c);
+        sortedList.push(a);
       }
     } else {
-      sortedArray.push(a);
+      sortedList.push(a);
     }
 
-    return sortedArray;
+    return sortedList;
   }
 
   if (c <= a) {
     if (c <= b) {
-      sortedArray.push(c);
+      sortedList.push(c);
       if (b <= a) {
-        sortedArray.push(b);
-        sortedArray.push(a);
+        sortedList.push(b);
+        sortedList.push(a);
 
       } else {
-        sortedArray.push(b);
-        sortedArray.push(a);
+        sortedList.push(b);
+        sortedList.push(a);
 
       }
     } else {
-      sortedArray.push(b);
+      sortedList.push(b);
     }
   }
 
-  return sortedArray;
+  return sortedList;
 }
