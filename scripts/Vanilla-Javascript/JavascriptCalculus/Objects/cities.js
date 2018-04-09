@@ -1,20 +1,18 @@
 //An object that is named city and has the property name
 //The function cities() analyzes the cases
 
-var city = [
-  {
-    name: 'New  City',
-    state: 'New York'
-  },
-   {
-    name: 'Los Angeles',
-    state: 'California'
-  },
-   {
-    name: 'Atlanta',
-    state: 'Georgia'
-  },
-]
+var city = {
+  name: [
+    "New York City",
+    "Los Angeles",
+    "Atlanta"
+  ],
+    state: [
+      "New York",
+      "California",
+      "Georgia",
+    ],
+}
 
 function cities(city) {
 
