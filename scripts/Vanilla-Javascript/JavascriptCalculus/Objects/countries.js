@@ -1,4 +1,4 @@
-//An object with countries that uses various object methods
+//An array of objects with countries that uses various object methods
 
 var countries = [
     {
@@ -69,4 +69,5 @@ var countries = [
 
 function numberOfCountries() {
 
+    return Object.keys(countries).length; //returns 8
 }
