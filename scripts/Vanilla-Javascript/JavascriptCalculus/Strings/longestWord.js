@@ -1,18 +1,20 @@
-//A function that returns the longest word in a string
+//A function that returns the longest word in a text
 
-function longestWordLength(string) {
+function longestWord(text) {
 
-    if (string.length == 0) {
-        throw new Error('The string cannot be empty');
+    if (text.length == 0) {
+        throw new Error('The text cannot be empty');
     }
 
-    var splitString = string.trim().split(' ');
+    var splitText = text.trim().split(' ');
 
-    var longest = '';
+    var word = splitText[0];
 
-    for (i = 0; i < splitString.length; i++) {
-        longest = Math.max(splitString[i].length);
+    for (i = 0; i < splitText.length; i++) {
+        if(word.length < splitText[i].length) {
+            word = splitText[i];
+        }
     }
 
-    return longest;
+    return word;
 }

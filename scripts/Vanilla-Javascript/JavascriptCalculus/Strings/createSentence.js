@@ -1,23 +1,23 @@
 ﻿//A function receives a list of words and return a string with all the words, 
 //but are separated through a space, and you have "." at the end
 
-function createdSentence(array) {
+function createdSentence(sentence) {
 
-    if (array.length == 0) {
-        throw new Error("The array is empty");
+    if (sentence.length == 0) {
+        throw new Error("The sentence is empty");
     }
-    if (array.length == 1) {
-        return array[0] + ".";
+    if (sentence.length == 1) {
+        return sentence[0] + ".";
     }
 
     var combine = "";
 
-    for (var i = 0; i < array.length; i++) {
-        if (i < array.length - 1) {
-            combine += array[i] + " ";
+    for (var i = 0; i < sentence.length; i++) {
+        if (i < sentence.length - 1) {
+            combine += sentence[i] + " ";
         }
         else {
-            combine += array[i];
+            combine += sentence[i];
         }
     }
 

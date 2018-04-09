@@ -1,33 +1,33 @@
-//A function that transforms a string in an array
+//A function that transforms a text in an array
 
-//will make the entire string as an array
-function stringToArray(string) {
+//will make the entire text as an array
+function textToList(text) {
 
-    if (string.length == 0) {
-        throw new Error('The string cannot be empty');
+    if (text.length == 0) {
+        throw new Error('The text cannot be empty');
     }
 
-    return string.trim().split();
+    return text.trim().split();
 }
 
 
-//will make each string character as an array element
-function stringToArray(string) {
+//will make each text character as an array element
+function textToList(text) {
 
-    if (string.length == 0) {
-        throw new Error('The string cannot be empty');
+    if (text.length == 0) {
+        throw new Error('The text cannot be empty');
     }
 
-    return string.trim().split('');
+    return text.trim().split('');
 }
 
 
-//will make each string word character as an array element
-function stringToArray(string) {
+//will make each text word as an array element
+function textToList(text) {
 
-    if (string.length == 0) {
-        throw new Error('The string cannot be empty');
+    if (text.length == 0) {
+        throw new Error('The text cannot be empty');
     }
 
-    return string.trim().split(''); //the '' needs a space between
+    return text.trim().split(' '); //the '' needs a space between
 }

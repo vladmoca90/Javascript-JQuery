@@ -2,6 +2,6 @@
 
 function partOfSentence(sentence) {
 
- return sentence.substring(0, 10);
+    return sentence.substring(0, 10);
 
 }
