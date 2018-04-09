@@ -1,22 +1,22 @@
-﻿//Given a list and an the number n, return all the numbers from the list that can be divided by n
+﻿//Given a array and an the number n, return all the numbers from the array that can be divided by n
 
-function allDivisors(list, n) {
+function allDivisors(array, n) {
 
     if (n <= 0) {
         throw new Error("The n must be positive only");
     }
 
-    if (list.length == 0) {
-        return list;
+    if (array.length == 0) {
+        return array;
     }
 
-    var divisorsList = [];
+    var divisorsArray = [];
 
-    for (i = 0; i < list.length; i++) {
-        if (list[i] % n == 0) {
-            divisorsList.push(list[i]);
+    for (i = 0; i < array.length; i++) {
+        if (array[i] % n == 0) {
+            divisorsArray.push(array[i]);
         }
     }
 
-    return divisorsList;
+    return divisorsArray;
 }

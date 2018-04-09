@@ -10,11 +10,11 @@ function sum(array) {
             return array[0];
     }
 
-    var total = array[0];
+    var sum = array[0];
 
     for (i = 0; i < array.length; i++) {
-        total += array[i];
+        sum += array[i];
     }
 
-    return total;
+    return sum;
 }
