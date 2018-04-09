@@ -1,42 +1,42 @@
-﻿//Write the following functions, each of them takes an array as a parameter
-//head([]): returns the first element of the array
-//tail([]): returns the array without the first element
-//last([]): returns the last element of the array 
+﻿//Write the following functions, each of them takes an list as a parameter
+//head([]): returns the first element of the list
+//tail([]): returns the list without the first element
+//last([]): returns the last element of the list 
 
-function head(array) {
+function head(list) {
 
-    if (array.length == 0) {
-        throw new Error("The array is empty");
+    if (list.length == 0) {
+        throw new Error("The list is empty");
     }
-    if (array.length == 1) {
-        return array[0];
+    if (list.length == 1) {
+        return list[0];
     }
 
-    return array[0];
+    return list[0];
 }
 
-function tail(array) {
+function tail(list) {
 
-    if (array.length == 0) {
-        throw new Error("The array is empty");
+    if (list.length == 0) {
+        throw new Error("The list is empty");
     }
-    if (array.length == 1) {
+    if (list.length == 1) {
         return [];
     }
 
-    var removeFirst = array.shift();
+    var removeFirst = list.shift();
 
-    return array;
+    return list;
 }
 
-function last(array) {
+function last(list) {
 
-    if (array.length == 0) {
-        throw new Error("The array is empty");
+    if (list.length == 0) {
+        throw new Error("The list is empty");
     }
-    if (array.length == 1) {
-        return array[0];
+    if (list.length == 1) {
+        return list[0];
     }
 
-    return array.pop();
+    return list.pop();
 }

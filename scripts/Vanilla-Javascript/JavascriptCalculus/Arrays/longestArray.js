@@ -1,9 +1,9 @@
- //A function that compares the length of two arrays and returns the longest one
+ //A function that compares the length of two lists and returns the longest one
 
- function longestArray(x, y) {
+ function longestList(x, y) {
 
      if (x.length == y.length) {
-         throw new Error("The arrays are equal");
+         throw new Error("The lists are equal");
      } else if (x.length > y.length) {
          return x;
      } else {

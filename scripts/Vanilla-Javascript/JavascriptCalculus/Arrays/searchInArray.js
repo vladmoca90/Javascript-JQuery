@@ -1,19 +1,19 @@
-﻿//search the element in an array//
+﻿//search the element in an list//
 
-function search(array, n) {
+function search(list, n) {
     //validations//
-    if (array.length == 0) {
+    if (list.length == 0) {
         return false;
     }
-    if (array.length == 1) {
-        if (n == array[0]) {
+    if (list.length == 1) {
+        if (n == list[0]) {
             return true;
         } else {
             return false;
         }
     }
-    for (var i = 0; i < array.length; i++) {
-        if (array[i] == n) {
+    for (var i = 0; i < list.length; i++) {
+        if (list[i] == n) {
             return true;
         }
     }

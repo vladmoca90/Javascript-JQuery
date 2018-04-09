@@ -1,22 +1,22 @@
-//A function that returns the dublicated element in an array
+//A function that returns the dublicated element in an list
 
 /*
-function commonElem(array) {
+function commonElem(list) {
 
-    if (array.length == 0) {
+    if (list.length == 0) {
         throw new Error('Array cannot be empty');
     }
 
-    if (array.length == 1) {
-        throw new Error('The array has one element only. There no common');
+    if (list.length == 1) {
+        throw new Error('The list has one element only. There no common');
     }
 
     var common;
 
-    for (i = 0; i < array.length; i++) {
-        for (j = i; j < array.length; j++) {
-            if (array[i] !== array[j]) {
-                var common = array[j];
+    for (i = 0; i < list.length; i++) {
+        for (j = i; j < list.length; j++) {
+            if (list[i] !== list[j]) {
+                var common = list[j];
             } else {
                 throw new Error('There is no common element');
             }

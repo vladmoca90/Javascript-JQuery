@@ -1,13 +1,13 @@
 //A function that returns true if all elements have a certain condition
 
-function everyElem(array) {
+function everyElem(list) {
 
-    if(array.length == 0) {
-        throw new Error('The array cannot be empty');
+    if(list.length == 0) {
+        throw new Error('The list cannot be empty');
     }
 
-   for(i=0; i<array.length; i++) {
-       if(array[i] > 10) {
+   for(i=0; i<list.length; i++) {
+       if(list[i] > 10) {
            return false;
        }
    }

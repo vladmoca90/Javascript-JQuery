@@ -1,19 +1,19 @@
-﻿//sum of the elements of an array//
+﻿//sum of the elements of an list//
 
-function sum(array) {
+function sum(list) {
 
-    if (array.length == 0) {
-        throw new Error("The array is empty");
+    if (list.length == 0) {
+        throw new Error("The list is empty");
     }
-    if (array.length == 1) {
-        if (array[0])
-            return array[0];
+    if (list.length == 1) {
+        if (list[0])
+            return list[0];
     }
 
-    var sum = array[0];
+    var sum = list[0];
 
-    for (i = 0; i < array.length; i++) {
-        sum += array[i];
+    for (i = 0; i < list.length; i++) {
+        sum += list[i];
     }
 
     return sum;

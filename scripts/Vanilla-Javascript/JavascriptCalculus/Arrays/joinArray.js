@@ -1,9 +1,9 @@
-//A function that joins the elements of an array into a string
+//A function that joins the elements of an list into a string
 
-function joinArray(array) {
-    if (array.length == 0) {
-        throw new Error('The array cannot be empty');
+function joinList(list) {
+    if (list.length == 0) {
+        throw new Error('The list cannot be empty');
     }
 
-    return array.join();
+    return list.join();
 }

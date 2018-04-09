@@ -1,23 +1,23 @@
-﻿//sum of all even elements in an array//
+﻿//sum of all even elements in an list//
 
-function evenSum(array) {
+function evenSum(list) {
 
-    if (array.length == 0) {
-        throw new Error("The array is empty");
+    if (list.length == 0) {
+        throw new Error("The list is empty");
     }
-    if (array.length == 1) {
-        if (array[0] % 2 == 0) {
-            return array[0];
+    if (list.length == 1) {
+        if (list[0] % 2 == 0) {
+            return list[0];
         } else {
-            throw new Error("The only number in the array is not even");
+            throw new Error("The only number in the list is not even");
         }
     }
 
     var even = 0;
 
-    for (i = 0; i < array.length; i++) {
-        if (array[i] % 2 == 0) {
-            even += array[i];
+    for (i = 0; i < list.length; i++) {
+        if (list[i] % 2 == 0) {
+            even += list[i];
         }
     }
 

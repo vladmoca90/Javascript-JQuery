@@ -1,31 +1,31 @@
-﻿//Given an array, return the reverse of the array
+﻿//Given an list, return the reverse of the list
 
-function reverse(array) {
+function reverse(list) {
 
-    for (i = 0, j = array.length - 1; i < array.length / 2 && j >= array.length / 2; i++, j--) {
-        var a = array[i];
-        var b = array[j];
+    for (i = 0, j = list.length - 1; i < list.length / 2 && j >= list.length / 2; i++, j--) {
+        var a = list[i];
+        var b = list[j];
 
-        array[i] = b;
-        array[j] = a;
+        list[i] = b;
+        list[j] = a;
     }
 
-    return array;
+    return list;
 }
 
-//Return the reverse of an array with 3 elementsfunction inverse(array) {
+//Return the reverse of an list with 3 elementsfunction inverse(list) {
 
-function inverse(array) {
+function inverse(list) {
 
-    var x = array[0];
-    var y = array[1];
-    var z = array[2];
+    var x = list[0];
+    var y = list[1];
+    var z = list[2];
 
-    var reverseArray = [];
+    var reverseList = [];
 
-    reverseArray.push(z);
-    reverseArray.push(y);
-    reverseArray.push(x);
+    reverseList.push(z);
+    reverseList.push(y);
+    reverseList.push(x);
 
-    return reverseArray;
+    return reverseList;
 }

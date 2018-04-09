@@ -1,12 +1,12 @@
-//A function that filters an array
-function filterArray(array) {
+//A function that filters an list
+function filterList(list) {
 
-    if (array.lenth == 0) {
-        throw new Error('The array cannot be empty');
+    if (list.lenth == 0) {
+        throw new Error('The list cannot be empty');
     }
 
-    for (i = 0; i < array.length; i++) {
-        var result = array.filter(i => array.length > 6);
+    for (i = 0; i < list.length; i++) {
+        var result = list.filter(i => list.length > 6);
     }
 
     return result;
