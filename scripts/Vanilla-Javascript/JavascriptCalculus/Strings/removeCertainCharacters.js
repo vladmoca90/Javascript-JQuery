@@ -1,10 +1,10 @@
 //A function that removes a certain number of characters from a string
 
-function removeFromString(string, n) {
+function removeFromText(text, n) {
 
-    if (string.length == 0) {
+    if (text.length == 0) {
         throw new Error('String cannot be empty');
     }
 
-    return string.slice(0, n);
+    return text.slice(0, n);
 }

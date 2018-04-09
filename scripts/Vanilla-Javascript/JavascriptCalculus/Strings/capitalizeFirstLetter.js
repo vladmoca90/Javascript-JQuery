@@ -1,16 +1,16 @@
-//A function that capitalizes each word in a string
+//A function that capitalizes each word in a text
 
-function capitalizeEachElem(string) {
+function capitalizeEachElem(text) {
 
-    if (string.length == 0) {
-        throw new Error('The string cannot be empty');
+    if (text.length == 0) {
+        throw new Error('The text cannot be empty');
     }
 
-    var splitString = string.trim().split(' ');
+    var splitText = text.trim().split(' ');
 
-    for (i = 0; i < splitString.length; i++) {
-        splitString[i].charAt(0).toUpperCase();
+    for (i = 0; i < splitText.length; i++) {
+        splitText[i].charAt(0).toUpperCase();
     }
 
-    return splitString.join(' ');
+    return splitText.join(' ');
 }

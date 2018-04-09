@@ -1,20 +1,20 @@
-//A function that applies substring() to a string
-function substringString(string, a, b) {
+//A function that applies subtext() to a text
+function subText(text, a, b) {
 
-    if (string.length == 0) {
-        throw new Error('The string cannot be empty');
+    if (text.length == 0) {
+        throw new Error('The text cannot be empty');
     }
 
-    return string.substring(a, b);
+    return text.substring(a, b);
 }
 
-//A function that applies substr() to a string
-function substrString(string, a, b) {
+//A function that applies substr() to a text
+function substrText(text, a, b) {
 
-    if (string.length == 0) {
-        throw new Error('The string cannot be empty');
+    if (text.length == 0) {
+        throw new Error('The text cannot be empty');
     }
 
-    return string.substr(a, b);
+    return text.substr(a, b);
 }
 

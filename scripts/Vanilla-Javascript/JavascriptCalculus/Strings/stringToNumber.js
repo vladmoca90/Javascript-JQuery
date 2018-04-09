@@ -1,10 +1,10 @@
 //A function that transforms a string into a number
 
-function stringToNumber(string) {
+function textToNumber(text) {
 
-    if (string.length == 0) {
-        throw new Error('The string cannot be empty');
+    if (text.length == 0) {
+        throw new Error('The text cannot be empty');
     }
 
-    return parseInt(string);
+    return parseInt(text);
 }

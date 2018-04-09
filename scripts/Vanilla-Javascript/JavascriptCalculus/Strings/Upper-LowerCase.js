@@ -1,19 +1,19 @@
-//A function that write a string uppercase
-function upperCaseString(string) {
+//A function that write a text uppercase
+function upperCaseText(text) {
 
-    if (string.length == 0) {
-        throw new Error('String cannot be empty');
+    if (text.length == 0) {
+        throw new Error('Text cannot be empty');
     }
 
-    return string.toUpperCase();
+    return text.toUpperCase();
 }
 
-//A function that write a string lowercase
-function lowerCaseString(string) {
+//A function that write a text lowercase
+function lowerCaseText(text) {
 
-    if (string.length == 0) {
-        throw new Error('String cannot be empty');
+    if (text.length == 0) {
+        throw new Error('Text cannot be empty');
     }
 
-    return string.toLowerCase();
+    return text.toLowerCase();
 }

@@ -1,13 +1,13 @@
 //A function that convers a number into a string an returns true if the length is equal to 2
 
-function numberToString(n) {
+function fromNumberToString(n) {
     if (n <= 0) {
         throw new Error('The number must be positive');
     }
 
-    var toString = n.toString();
+    var transform = n.toString();
 
-    if (toString.length !== 2) {
+    if (transform.length !== 2) {
         return false;
     }
 
