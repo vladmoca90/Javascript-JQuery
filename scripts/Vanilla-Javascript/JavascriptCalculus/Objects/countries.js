@@ -71,3 +71,7 @@ function numberOfCountries() {
 
     return Object.keys(countries).length; //returns 8
 }
+
+function numberOfDifferentLang() {
+
+}
