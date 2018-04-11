@@ -1,6 +1,6 @@
 //A function that capitalizes each word in a text
 
-function capitalizeEachElem(text) {
+function capitalizeFirstLetter(text) {
 
     if (text.length == 0) {
         throw new Error('The text cannot be empty');
@@ -8,9 +8,11 @@ function capitalizeEachElem(text) {
 
     var splitText = text.trim().split(' ');
 
+    var capitalizedLetters = splitText[0].charAt(0).tuUpperCase();
+
     for (i = 0; i < splitText.length; i++) {
-        splitText[i].charAt(0).toUpperCase();
+        capitalizedLetters = splitText[i].toUppercase();
     }
 
-    return splitText.join(' ');
+    return capitalizedLetters.join(' ');
 }
