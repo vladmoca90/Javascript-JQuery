@@ -1,16 +1,13 @@
 //A function that returns a random number between a cartain interval
 
-function randomNumber(n, m) {
+function randomNumber(min, max) {
 
-    if (n == null || m == null) {
-        throw new Error('Both values are null');
-    }
-    if (n > m) {
+    if (min > max) {
         throw new Error('The interval is invalid');
     }
-    if (n == m) {
-        return n;
+    if (min == max) {
+        return min;
     }
 
-    return Math.random() * (m - n);
+    return Math.floor(Math.random() * (max - min)) + min;
 }
