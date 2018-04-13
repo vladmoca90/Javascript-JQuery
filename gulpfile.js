@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var min = require('gulp-minify');
+var min = require('gulp-uglify');
 
 gulp.task('sass', function () {
   return gulp.src('content/**/*.scss')
@@ -8,7 +8,7 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('content/'))
 });
 
-gulp.task('minify', function() {
+gulp.task('uglify', function() {
     return gulp.src('content/**/*.css')
         .pipe(min())
         .pipe(rename({
