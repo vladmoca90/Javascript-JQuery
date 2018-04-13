@@ -1,6 +1,6 @@
 //A function that returns all the numbers divisible by m up to n
 
-function numbersDivisibleWith(n, m) {
+function numbersDivisibleWithOr(n, m) {
 
     var count = 0;
 
