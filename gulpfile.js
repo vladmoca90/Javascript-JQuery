@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var minifyCSS = require('gulp-minify-css');
+var minify = require('gulp-minify');
+var rename = require('gulp-rename');
 
 gulp.task('sass', function () {
   return gulp.src('content/**/*.scss')
@@ -8,9 +9,9 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('content/'))
 });
 
-gulp.task('minify-css', function() {
+gulp.task('minify', function() {
     return gulp.src('content/**/*.css')
-        .pipe(minifyCSS())
+        .pipe(minify())
         .pipe(rename({
             suffix: '.min'
         }))
@@ -18,6 +19,6 @@ gulp.task('minify-css', function() {
 });
 
 // Watch task
-gulp.task('default', function () {
-  return gulp.watch('content/**/*.scss', ['sass']);
+gulp.task('default', ['minify'], function () {
+  return gulp.watch(['content/**/*.scss', 'content/**/*.css'], ['sass', 'minify']);
 });
