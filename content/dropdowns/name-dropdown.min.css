@@ -1,0 +1,20 @@
+.dropdown {
+  border-radius: px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444;
+  margin: 50px auto;
+  max-width: 125px;
+  text-align: center; }
+  .dropdown__button {
+    cursor: pointer;
+    padding: 10px; }
+  .dropdown__list {
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+    .dropdown__list-item {
+      border-top: 1px solid #ccc;
+      padding: 10px; }
