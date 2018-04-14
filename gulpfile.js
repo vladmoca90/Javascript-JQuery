@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var min = require('gulp-uglify');
+var min = require('gulp-uglifycss');
 
 gulp.task('sass', function () {
   return gulp.src('content/**/*.scss')
