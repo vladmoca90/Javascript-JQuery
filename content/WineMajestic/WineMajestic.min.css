@@ -1,0 +1,153 @@
+#content,
+input {
+  width: 100%; }
+
+.comment-container.me,
+#send-container,
+.send-button,
+.review {
+  float: right; }
+
+#content {
+  max-width: 1000px;
+  margin: auto;
+  padding: 24px;
+  overflow: auto; }
+  @media screen and (max-width: 480px) {
+    #content {
+      padding: 18px; } }
+
+.like-button,
+#review-heading,
+.name {
+  font-weight: bold; }
+
+.content-list {
+  list-style-type: none;
+  padding: 0px; }
+
+.like-button {
+  color: #FFFFFF;
+  background: #B61364;
+  border: 0px;
+  border-radius: 3px;
+  padding: 8px 20px;
+  margin-right: 6px;
+  font-size: 11px; }
+  @media screen and (max-width: 480px) {
+    .like-button {
+      padding: 6px 18px;
+      margin-right: 4px; } }
+
+.comment-container {
+  margin-bottom: 24px; }
+  @media screen and (max-width: 480px) {
+    .comment-container {
+      margin-bottom: 18px; } }
+  .comment-container.me {
+    width: 88%;
+    margin-top: 18px; }
+    @media screen and (max-width: 480px) {
+      .comment-container.me {
+        margin-top: 12px; } }
+    .comment-container.me .like-button {
+      color: #B61364;
+      background: #FFFFFF;
+      border: 1px solid #D4B9C5; }
+
+#template {
+  display: none; }
+
+input[type="text"] {
+  padding: 18px;
+  border-radius: 7px;
+  border: 1px solid #EDF1EE;
+  color: #000000;
+  font-size: 14px; }
+  @media screen and (max-width: 480px) {
+    input[type="text"] {
+      padding: 16px; } }
+
+.like-button,
+#review-heading {
+  text-transform: uppercase; }
+
+#send-container {
+  width: 88%;
+  margin-bottom: 48px; }
+  @media screen and (max-width: 480px) {
+    #send-container {
+      margin-bottom: 24px; } }
+  #send-container .send-button {
+    margin-top: 12px;
+    margin-right: 0px; }
+    @media screen and (max-width: 480px) {
+      #send-container .send-button {
+        width: 100%; } }
+
+.send-button,
+.review {
+  padding: 14px 40px; }
+
+.comment-content {
+  margin-top: 12px; }
+  .comment-content .text-shape {
+    width: 0px;
+    height: 0px;
+    margin-left: 21px;
+    border-right: 17px solid transparent;
+    border-bottom: 17px solid #EDF1EE; }
+  .comment-content #review-heading {
+    padding: 6px;
+    width: 28%;
+    text-align: center;
+    margin: -20px auto 18px;
+    font-size: 18px;
+    background: #FFFFFF; }
+    @media screen and (max-width: 480px) {
+      .comment-content #review-heading {
+        text-align: left;
+        margin-top: 24px;
+        padding: 0px;
+        width: 100%;
+        font-size: 16px; } }
+
+.comment-name .name {
+  color: #B61364; }
+
+.comment-name .message-date {
+  margin-left: 10px; }
+  @media screen and (max-width: 480px) {
+    .comment-name .message-date {
+      margin-left: 6px; } }
+
+.text {
+  border-radius: 6px;
+  padding: 20px;
+  background: #EDF1EE;
+  font-size: 14px; }
+  @media screen and (max-width: 480px) {
+    .text {
+      padding: 16px; } }
+
+.text,
+#review-heading {
+  color: #283533; }
+
+.review-comment {
+  border-top: 1px solid #EDF1EE;
+  clear: right;
+  background: #FFFFFF; }
+  .review-comment .review {
+    margin-top: 12px;
+    margin-right: 0px; }
+    @media screen and (max-width: 480px) {
+      .review-comment .review {
+        width: 100%; } }
+
+@media screen and (max-width: 480px) {
+  .button-like-container span,
+  .comment-name,
+  .text,
+  input {
+    font-size: 12px; } }
