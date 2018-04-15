@@ -8,15 +8,6 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('content/'))
 });
 
-gulp.task('minify-css', function() {
-    return gulp.src('content/**/*.css')
-        .pipe(minifyCSS())
-        .pipe(rename({
-            suffix: '.min'
-        }))
-        .pipe(gulp.dest('content/'));
-});
-
 // Watch task
 gulp.task('default', function () {
   return gulp.watch('content/**/*.scss', ['sass']);
