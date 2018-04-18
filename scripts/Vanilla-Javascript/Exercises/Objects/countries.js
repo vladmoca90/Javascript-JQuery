@@ -67,7 +67,20 @@ var countries = [
     },
 ];
 
-function numberOfCountries() {
+function pairsOfCountries() {
 
-    return Object.keys(countries).length; //returns 8
+    var pairs = Object.entries(countries[6]);
+
+    var propArray = [];
+
+    var valuesArray = [];
+
+    for(i=0; i< pairs.length; i++) {
+
+        propArray.push(pairs[i][0]);
+
+        valuesArray.push(pairs[i][1]);
+    }
+
+    return propArray.concat(valuesArray);
 }
