@@ -67,7 +67,13 @@ var countries = [
     },
 ];
 
-function numberOfCountries() {
+function sortValuesOfCountries(countries) {
 
-    return Object.keys(countries).length; //returns 8
+    var sortedNames = [];
+
+    for (i = 0; i < countries.length; i++) {
+        sortedNames.push(Object.values(countries[i].name));
+    }
+
+    return sortedNames.sort();
 }
