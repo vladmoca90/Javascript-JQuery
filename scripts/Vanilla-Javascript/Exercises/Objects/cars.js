@@ -30,7 +30,7 @@ function chooseCarModel(n) {
         throw new Error('The number must be 0, 1, 2 or 3');
     }
 
-    return Object.values(cars[n].model);
+    return Object.values(cars[n].model).join('');
 }
 
 //Returns the the properties
