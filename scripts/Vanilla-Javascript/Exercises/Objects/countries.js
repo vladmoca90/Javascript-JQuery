@@ -67,20 +67,13 @@ var countries = [
     },
 ];
 
-function pairsOfCountries() {
+function sortValuesOfCountries(countries) {
 
-    var pairs = Object.entries(countries[6]);
+    var sortedNames = [];
 
-    var propArray = [];
-
-    var valuesArray = [];
-
-    for(i=0; i< pairs.length; i++) {
-
-        propArray.push(pairs[i][0]);
-
-        valuesArray.push(pairs[i][1]);
+    for (i = 0; i < countries.length; i++) {
+        sortedNames.push(Object.values(countries[i].name));
     }
 
-    return propArray.concat(valuesArray);
+    return sortedNames.sort();
 }
