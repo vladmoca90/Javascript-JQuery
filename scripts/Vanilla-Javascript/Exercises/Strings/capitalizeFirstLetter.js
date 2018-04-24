@@ -12,10 +12,10 @@ function capitalizeFirstLetter(text) {
 
     var splitText = text.trim().split(' ');
 
-    var capitalizedLetters = splitText[0].charAt(0).toUpperCase();
+    var capitalizedLetters = [];
 
     for (i = 0; i < splitText.length; i++) {
-        capitalizedLetters = splitText[i].charAt(0).toUpperCase();
+        capitalizedLetters.push(splitText[i].charAt(0).toUpperCase() + splitText[i].substring(1));
     }
 
     return capitalizedLetters.join(' ');
