@@ -1,24 +1,24 @@
-describe('math-utilities', function () {
+describe('capitalizeFirstLetter(text)', function () {
+    it('throws an error if text is empty', function () {
+        var text = ' ';
 
-    it('throws an error if text empty', function () {
-        var text = '';
-
-        expect(function() {becomeAbbreviated('') }).toThrowError();
+        expect(function() {capitalizeFirstLetter(text)}).toThrowError;
     });
 
-    describe('becomeAbbreviated(text)', function () {
-        it('adds a dot at the end', function () {
+    describe('The text has one word only', function () {
+        it('returns the letter as capital letter', function () {
             var text = 'a';
 
-            expect(becomeAbbreviated('a')).toBe('a.');
+            expect(capitalizeFirstLetter(text)).toBe('A');
         });
     });
 
-    describe('becomeAbbreviated(splitText)', function () {
-        it('abbreviates the entire name', function () {
-            var splitText = 'Vlad Mocanu';
+    describe('The text has an entire sentence', function () {
+        it('returns the letter as capital letter', function () {
+            var text = 'my name is Vlad Mocanu';
 
-            expect(becomeAbbreviated('Vlad Mocanu')).toBe('Vlad M.');
+            expect(capitalizeFirstLetter(text)).toBe('My Name Is Vlad Mocanu');
+
         });
     });
 });

@@ -1,18 +1,22 @@
-//A function that converts a string into abbreviated form
-function becomeAbbreviated(text) {
+//A function that capitalizes each word in a text
+
+function capitalizeFirstLetter(text) {
 
     if (text.length == 0) {
-        throw new Error('Text cannot be empty');
+        throw new Error('The text cannot be empty');
     }
+
     if (text.length == 1) {
-        return text + '.';
+        return text.toUpperCase();
     }
 
     var splitText = text.trim().split(' ');
 
-    if(splitText.length > 1) {
-        return splitText[0] + ' ' + splitText[1].charAt(0) + '.';
+    var capitalizedLetters = [];
+
+    for (i = 0; i < splitText.length; i++) {
+        capitalizedLetters.push(splitText[i].charAt(0).toUpperCase() + splitText[i].substring(1));
     }
 
-    return splitText.join();
+    return capitalizedLetters.join(' ');
 }
