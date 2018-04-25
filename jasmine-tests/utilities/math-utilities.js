@@ -2,8 +2,8 @@
 
 function capitalizeFirstLetter(text) {
 
-    if (text.length == 0) {
-        throw new Error('The text cannot be empty');
+    if (text.trim() == '') {
+        throw new Error('The text cannot be empty or whitespace');
     }
 
     if (text.length == 1) {
