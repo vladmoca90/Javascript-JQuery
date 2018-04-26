@@ -1,6 +1,13 @@
 describe('capitalizeFirstLetter(text)', function () {
     it('throws an error if text is empty or whitespace', function () {
 
+        var text = '';
+
+        expect(function() {capitalizeFirstLetter(text)}).toThrowError;
+    });
+
+    it('throws an error if text is empty or whitespace', function () {
+
         var text = ' ';
 
         expect(function() {capitalizeFirstLetter(text)}).toThrowError;
