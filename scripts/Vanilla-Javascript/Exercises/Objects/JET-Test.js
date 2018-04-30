@@ -5,7 +5,7 @@
 
 function TextUtilities() {
     this.countLetters = function (text, letter) {
-
+        
         var count = 0;
 
         for (var i = 0; i < text.length; i += 1) {
@@ -17,6 +17,11 @@ function TextUtilities() {
         return count;
     }
 }
+
+var textUtils = new TextUtilities();
+
+console.log(textUtils.countLetters('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eanean sodales justo et Enim ornare, a congue lacus commodo.', 'e'));
+//returns 10
 
 function MathUtilities() {
 
@@ -36,3 +41,9 @@ function MathUtilities() {
         return count;
     }
 }
+
+var mathUtils = new MathUtilities();
+
+console.log(mathUtils.countDigit(17272838119191929838299111, 1)); //returns 5
+
+console.log(mathUtils.add(7, 5)); //returns 12
