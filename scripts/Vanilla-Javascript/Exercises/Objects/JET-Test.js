@@ -3,14 +3,22 @@
 //how many number 1s are in the following number 17272838119191929838299111
 //the result of 7 + 5
 
-function TextUtilities() {
+function textUtilities() {
     this.countLetters = function (text, letter) {
-        
+
+        if (text.length == 0) {
+            return 0;
+        }
+
+        if (letter == null || letter.length == 0) {
+            throw new Error('The letter cannot be empty or cannot have a null value');
+        }
+
         var count = 0;
 
-        for (var i = 0; i < text.length; i += 1) {
+        for (var i = 0; i < text.length; i++) {
             if (text[i] === letter) {
-                count += 1;
+                count++;
             }
         }
 
@@ -18,31 +26,34 @@ function TextUtilities() {
     }
 }
 
-var textUtils = new TextUtilities();
+var textUtils = new textUtilities();
 
 console.log(textUtils.countLetters('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eanean sodales justo et Enim ornare, a congue lacus commodo.', 'e'));
 //returns 10
 
-function MathUtilities() {
+function mathUtilities() {
 
     this.add = function (a, b) {
         return a + b;
     }
+
     this.countDigit = function (number, digit) {
 
-        var count = 0;
-
-        for (i = 0; i < number.toString().length; i++) {
-            if (number.toString().charAt(i) == digit) {
-                count++
-            }
+        if (number == null || digit == null) {
+            throw new Error('The number or digit cannot have a null value');
         }
 
-        return count;
+        if (digit < 0 || digit > 9) {
+            throw new Error('The digit cannot be outside the interval of [0, 9]');
+        }
+
+        var textUtils = new textUtilities();
+
+        return textUtils.countLetters(number.toString(), digit.toString());
     }
 }
 
-var mathUtils = new MathUtilities();
+var mathUtils = new mathUtilities();
 
 console.log(mathUtils.countDigit(17272838119191929838299111, 1)); //returns 5
 
