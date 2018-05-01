@@ -4,21 +4,21 @@ describe('textUtilities()', function () {
 
         var textUtils = new textUtilities();
 
-        expect(textUtils.countLetters('', 'e')).toBe(0);
+        expect(textUtils.countLetters(' ', 'e')).toBe(0);
     });
 
     it('throws error if letter is null', function () {
 
         var textUtils = new textUtilities();
 
-        expect(textUtils.countLetters('Vlad')).toThrowError;
+        expect(textUtils.countLetters('Vlad', null)).toThrowError;
     });
 
     it('throws error if letter is empty', function () {
 
         var textUtils = new textUtilities();
 
-        expect(textUtils.countLetters('Vlad', '')).toThrowError;
+        expect(textUtils.countLetters('Vlad', ' ')).toThrowError;
     }); 
 
     it('returns how many times a letter appears if text not empty', function () {
@@ -42,14 +42,14 @@ describe('mathUtilities()', function () {
 
          var textUtils = new textUtilities();
 
-        expect(textUtils.countLetters(1)).toThrowError;
+        expect(textUtils.countLetters(null, 1)).toThrowError;
     });
 
     it('throws an error if the digit is null', function () {
 
          var textUtils = new textUtilities();
 
-        expect(textUtils.countLetters('17272838119191929838299111')).toThrowError;
+        expect(textUtils.countLetters('17272838119191929838299111', null)).toThrowError;
     });
 
     it('throws error is the digit value is negative', function () {
